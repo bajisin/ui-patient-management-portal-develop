@@ -1,0 +1,360 @@
+.table {
+  &__wrapper {
+    position: relative;
+    z-index: 0;
+    > .MuiPaper-root {
+      box-shadow: none !important;
+    }
+    .MuiTableContainer-root {
+      @include primary-overflow-scroll;
+      table {
+        tbody {
+          tr {
+            td {
+              &:first-child {
+                img {
+                  width: fit-content;
+                  height: 30px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    box-shadow: none !important;
+    border-radius: 0px;
+    table {
+      @include basic-font($fs-12, $fw-regular, $text-2);
+      thead,
+      .MuiTableRow-head {
+        border-radius: 0;
+        tr {
+          th {
+            background-color: $tableHead;
+            .Mui-TableHeadCell-Content {
+              .Mui-TableHeadCell-Content-Labels {
+                .Mui-TableHeadCell-Content-Wrapper {
+                  white-space: nowrap;
+                }
+              }
+            }
+            @include basic-font($fs-12, $fw-bold, $text-3);
+            border-bottom: none;
+            white-space: nowrap;
+            background-color: $table-header;
+          }
+        }
+      }
+      tbody {
+        tr {
+          height: 48px;
+          &:nth-child(odd) {
+            background-color: $white;
+            td {
+              background-color: $white;
+            }
+          }
+
+          &:nth-child(even) {
+            background-color: $table-header-odd;
+            td {
+              background-color: $table-header-odd;
+            }
+          }
+          cursor: pointer;
+          td {
+            word-wrap: break-word;
+            white-space: normal;
+            @include basic-font($fs-12, $fw-regular, $secondary-op);
+            border-bottom: none;
+            // white-space: nowrap;
+            padding-top: 0;
+            padding-bottom: 0;
+            vertical-align: middle;
+            background-color: inherit;
+            &:first-child {
+              border-left: 5px solid transparent;
+            }
+          }
+          &:hover {
+            background-color: $trow;
+            td {
+              background-color: $trow;
+            }
+          }
+        }
+      }
+    }
+    &--patients {
+      table {
+        th {
+          padding: 4px;
+          padding-left: 14px;
+          &:first-child {
+            width: 83%;
+            label {
+              margin-right: 0;
+            }
+          }
+          &:last-child {
+            text-align: center;
+          }
+        }
+        td {
+          padding-left: 0.8rem;
+          label {
+            margin-right: 0;
+          }
+          &:last-child {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+.table_section {
+  tbody {
+    tr {
+      .status_badges {
+        .in_progress {
+          .MuiChip-root {
+            border-radius: 3px;
+            background-color: $inprogress-badge;
+            @include basic-font($fs-12, $fw-regular, $inprogress-text);
+            min-width: 77px;
+            min-height: 24px;
+          }
+        }
+        .completed {
+          min-width: 77px;
+          .MuiChip-root {
+            border-radius: 3px;
+            background-color: $success-bright;
+            @include basic-font($fs-12, $fw-regular, $green);
+            min-width: 77px;
+            min-height: 24px;
+          }
+        }
+      }
+    }
+  }
+  &--selectedTests {
+    tr {
+      td {
+        &:first-child {
+          width: 40%;
+        }
+        &:nth-child(2) {
+          width: 10%;
+        }
+        &:nth-child(3) {
+          width: 35%;
+          max-width: 400px;
+        }
+        &:last-child {
+          width: 15%;
+        }
+      }
+    }
+  }
+}
+
+.service_logo {
+  min-height: 13px;
+  min-width: 90px;
+}
+
+.fixedColumn {
+  &__table {
+    width: 100%;
+    display: flex;
+
+    .logo {
+      &__table {
+        width: 10vw;
+        overflow: hidden;
+      }
+    }
+    .data {
+      &__table {
+        table-layout: fixed;
+        overflow-x: auto;
+        @include primary-overflow-scroll;
+      }
+    }
+  }
+}
+.MuiMenu-root {
+  &.MuiModal-root {
+    .MuiMenu-paper {
+      .MuiMenu-list {
+        .MuiButtonBase-root {
+          &.MuiButton-text {
+            color: $primary;
+            text-transform: capitalize;
+          }
+        }
+        .MuiMenuItem-root {
+          .MuiBox-root {
+            .MuiFormControlLabel-root {
+              .MuiSwitch-root {
+                .MuiSwitch-switchBase {
+                  &.Mui-checked {
+                    .MuiSwitch-thumb {
+                      background-color: $primary;
+                    }
+                  }
+                }
+                .MuiSwitch-track {
+                  background-color: $primary-2;
+                }
+              }
+              .MuiFormControlLabel-label {
+                @include basic-font($fs-14, $fw-regular, $text-3);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.table {
+  &__wrapper {
+    &.positioned-search {
+      .icons-separted {
+        position: absolute;
+        z-index: 9;
+        right: 50px;
+        display: flex;
+        .search__wrapper {
+          position: unset;
+        }
+      }
+      .search__wrapper {
+        position: absolute;
+        z-index: 9;
+        right: 50px;
+        top: 5px;
+      }
+    }
+  }
+}
+.orderStatus {
+  &__wrapper {
+    .table__wrapper {
+      @include primary-overflow-scroll;
+      height: auto;
+      max-height: 183px;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+  }
+}
+.tenantTemplate {
+  min-width: 60vw;
+}
+.table__wrapper {
+  .MuiAlert-standard {
+    display: none;
+  }
+  &.boardcastTable {
+    table {
+      tbody {
+        tr {
+          td {
+            &:nth-child(2) {
+              min-width: 250px;
+              max-width: 250px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.add__input {
+  .input-error {
+    .MuiOutlinedInput-input {
+      border: 1px solid $error !important;
+    }
+  }
+}
+.table__wrapper--patients {
+  .order_table {
+    th {
+      padding: 4px;
+      padding-left: 14px;
+      &:first-child {
+        width: 30%;
+        label {
+          margin-right: 0;
+        }
+      }
+      &:last-child {
+        text-align: center;
+      }
+    }
+    &--type {
+      tbody {
+        td {
+          &:last-child {
+            text-align: right;
+          }
+        }
+      }
+    }
+  }
+}
+
+.order_edit--inputs {
+  td {
+    width: 25%;
+    &.action__items {
+      text-align: right;
+    }
+  }
+}
+.columnsSpacing {
+  padding: 5px;
+  width: 33%;
+  vertical-align: top;
+}
+.popupStyle {
+  position: "fixed";
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: "100%";
+  height: "100%";
+  overflow: "auto";
+  background-color: "rgba(0,0,0,0.4)" /* Black with opacity */;
+  display: "flex";
+  justify-content: "center";
+  align-items: "center";
+}
+.modalContentStyle {
+  background-color: "#fefefe";
+  padding: "20px";
+  border-radius: "8px";
+  box-shadow: "0 4px 8px rgba(0,0,0,0.2)";
+}
+.table__wrapper {
+  tbody {
+    tr {
+      &.testcolorgrading {
+        td {
+          background-color: $error-light !important;
+        }
+      }
+    }
+  }
+}
+.table__dropdown{
+  overflow: unset !important;
+}

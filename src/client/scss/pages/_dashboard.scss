@@ -1,0 +1,198 @@
+.dashboard {
+  &__wrapper {
+    .basic__card {
+      background-color: $white;
+    }
+    padding-left: 0;
+    // padding-right: 15px;
+    &.tenantAdmin__dashboard {
+      .reports-grid-order {
+        order: 4;
+      }
+      .notification-grid-order {
+        order: 5;
+      }
+    }
+  }
+}
+
+.activityOverview {
+  &__wrapper {
+    .activity-cards {
+      .overview {
+        &__card {
+          background-color: $primary-3;
+          padding: 8px;
+          border-radius: $borderBasicRadius;
+          @include dflex("", flex-start, center, "");
+          background-image: url("@assets/images/Effects.png");
+          background-position: left;
+          background-size: cover;
+          background-repeat: no-repeat;
+          &--purple {
+            background-color: $primary-3;
+          }
+          &--green {
+            background-color: $green-card;
+          }
+          &--orange {
+            background-color: $orange-card;
+          }
+          &--blue {
+            background-color: $blue-card;
+          }
+          &--grey {
+            background-color: $grey-card;
+          }
+          &--red {
+            background-color: $red-card;
+          }
+          .whiteIcon {
+            &--bg {
+              width: 44px;
+              height: 44px;
+              background-color: $white-op-25;
+              border-radius: 88px;
+              font-size: 24px;
+              position: relative;
+              &::before {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+              }
+              // &.ls-*{
+              //   &::before{
+              //   position: absolute;
+              //   top: 50%;
+              //   left: 50%;
+              //   transform: translate(-50%, -50%);
+              //   width: 44px;
+              //   height: 44px;
+              //   background-color: $white-op-25;
+              //   border-radius: 88px;
+              //   font-size: 24px;
+              // }
+              // }
+            }
+          }
+        }
+      }
+
+      .activity-count {
+        @include basic-font($fs-16, $fw-bold, $white);
+        padding-left: 14px;
+      }
+
+      .activity-title {
+        @include basic-font($fs-12, $fw-bold, $white);
+      }
+    }
+  }
+}
+
+// Total order styles
+.orderStatus {
+  &__wrapper {
+    .order-card {
+      .order_width {
+        width: 90%;
+        span {
+          display: block;
+          text-overflow: ellipsis;
+          overflow: hidden;
+        }
+      }
+      .total {
+        &__card {
+          padding: 8px 16px;
+          margin-top: 7px;
+          border-radius: 4px;
+          border: 1px solid $text-4;
+          background: $grey-bg;
+
+          .total-orders {
+            @include basic-font($fs-24, $fw-regular, $secondary);
+
+            .total-order-title {
+              @include basic-font($fs-14, $fw-regular, $secondary);
+              margin-left: 7px;
+            }
+          }
+          .order-status-chart-wrapper {
+            margin-top: 20px;
+            .totalOrders-chart {
+              border-radius: 0px;
+              z-index: 0;
+              [data-css-1srfcbx] {
+                border-radius: 0px;
+              }
+            }
+          }
+          &--totalCount {
+            margin-top: 24px;
+            margin-bottom: 20px;
+            // margin-left: 10px;
+
+            .MuiGrid-item {
+              padding-left: 0 !important;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+
+              label {
+                font-size: $fs-12;
+                font-weight: $fw-regular;
+                display: flex;
+
+                div {
+                  display: flex;
+                  flex-direction: column-reverse;
+                  align-items: baseline;
+
+                  p {
+                    @include basic-font($fs-14, $fw-bold, $secondary);
+                  }
+
+                  h4 {
+                    text-transform: capitalize;
+                    @include basic-font($fs-10, $fw-regular, $text-2);
+                  }
+                }
+
+                .orders {
+                  width: 3px;
+                  height: 34px;
+                  margin-right: 5px;
+                  margin-top: 2px;
+
+                  &.completed {
+                    background-color: $completed-chart !important;
+                  }
+
+                  &.pending {
+                    background-color: $pending-chart !important;
+                  }
+
+                  &.rejected {
+                    background-color: $rejected-chart !important;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.latest-card-wrapper {
+  .order-card {
+    max-height: calc(100% - 173px);
+    height: 256px;
+    .table__wrapper {
+      overflow-x: auto;
+      margin-top: 8px;
+    }
+  }
+}

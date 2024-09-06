@@ -1,0 +1,84 @@
+describe('template spec', () => {
+  it('passes', () => {
+    cy.visit('http://localhost:8080')
+    /* ==== Generated with Cypress Studio ==== */
+    cy.get('.MuiButton-contained').click().wait(20000);
+    cy.get('.sidebar__wrapper > .MuiDrawer-root > .MuiPaper-root > .mobileViewSidenav > .MuiList-root > :nth-child(3) > a > .MuiButtonBase-root > .MuiListItemText-root > .MuiTypography-root').click();
+    cy.get('.sidebar__wrapper > .MuiDrawer-root > .MuiPaper-root > .mobileViewSidenav > :nth-child(1) > :nth-child(3) > .MuiCollapse-root > .MuiCollapse-wrapper > .MuiCollapse-wrapperInner > .MuiList-root > :nth-child(4) > a > .MuiButtonBase-root > .MuiListItemText-root > .MuiTypography-root').click();
+    cy.get(':nth-child(1) > .css-1j2c8hm-MuiTableCell-root > .d-flex > :nth-child(1)').click();
+    cy.get('#\\:r48\\:').clear('Knox Cubes');
+    cy.get('#\\:r48\\:').type('Knox Cube');
+    cy.get('#\\:r4b\\:').clear('N');
+    cy.get('#\\:r4b\\:').type('YES');
+    cy.get('#\\:r4c\\:').clear('N');
+    cy.get('#\\:r4c\\:').type('YES');
+    cy.get(':nth-child(6) > .MuiAutocomplete-root > .MuiFormControl-root > .MuiInputBase-root > .MuiAutocomplete-endAdornment > .MuiAutocomplete-popupIndicator > [data-testid="ArrowDropDownIcon"]').click();
+    cy.get(':nth-child(6) > .MuiAutocomplete-root > .MuiFormControl-root > .MuiInputBase-root > .MuiAutocomplete-endAdornment > .MuiAutocomplete-popupIndicator > [data-testid="ArrowDropDownIcon"]').click();
+    cy.get('#-option-35').click();
+    cy.get(':nth-child(7) > .MuiAutocomplete-root > .MuiFormControl-root > .MuiInputBase-root > .MuiAutocomplete-endAdornment > .MuiAutocomplete-popupIndicator > [data-testid="ArrowDropDownIcon"]').click();
+    cy.get('#container-tags-option-55').click();
+    cy.get(':nth-child(9) > .MuiAutocomplete-root > .MuiFormControl-root > .MuiInputBase-root > .MuiAutocomplete-endAdornment > .MuiAutocomplete-popupIndicator > [data-testid="ArrowDropDownIcon"]').click();
+    cy.get('#container-tags-option-101').click();
+    cy.get(':nth-child(11) > .MuiAutocomplete-root > .MuiFormControl-root > .MuiInputBase-root > .MuiAutocomplete-endAdornment > .MuiAutocomplete-popupIndicator > [data-testid="ArrowDropDownIcon"]').click();
+    cy.get('#container-tags-option-6').click();
+    cy.get(':nth-child(12) > .MuiAutocomplete-root > .MuiFormControl-root > .MuiInputBase-root > .MuiAutocomplete-endAdornment > .MuiAutocomplete-popupIndicator > [data-testid="ArrowDropDownIcon"]').click();
+    cy.get('#container-tags-option-4').click();
+    cy.get(':nth-child(13) > .MuiAutocomplete-root > .MuiFormControl-root > .MuiInputBase-root > .MuiAutocomplete-endAdornment > .MuiAutocomplete-popupIndicator > [data-testid="ArrowDropDownIcon"] > path').click();
+    cy.get('#container-tags-option-6').click();
+    cy.get(':nth-child(14) > .MuiAutocomplete-root > .MuiFormControl-root > .MuiInputBase-root > .MuiAutocomplete-endAdornment > .MuiAutocomplete-popupIndicator > [data-testid="ArrowDropDownIcon"]').click();
+    cy.get('#container-tags-option-6').click();
+    cy.get(':nth-child(21) > .MuiAutocomplete-root > .MuiFormControl-root > .MuiInputBase-root > .MuiAutocomplete-endAdornment > .MuiAutocomplete-popupIndicator > [data-testid="ArrowDropDownIcon"]').click();
+    cy.get('#container-tags-option-1').click();
+    cy.get('.MuiDialogActions-root > .MuiButtonBase-root').click();
+    cy.get('.PrivateSwitchBase-input').check();
+    cy.get('.modal-buttons-wrapper > .primary-btn').click();
+    cy.get('.success_modal > .MuiButtonBase-root').click();
+    cy.get('.MuiTypography-body1 > .MuiButtonBase-root').click();
+    cy.get('.toggle__buttons--left > .MuiTypography-root').click();
+    // cy.get('#\\:r9c\\:').clear('ad');
+    // cy.get('#\\:r9c\\:').type('add');
+    // cy.get('#\\:r9d\\:').clear('t');
+    // cy.get('#\\:r9d\\:').type('test');
+    // cy.get('#\\:r9e\\:').clear('15');
+    // cy.get('#\\:r9e\\:').type('15');
+    // cy.get('#\\:r9f\\:').clear('4');
+    // cy.get('#\\:r9f\\:').type('41');
+    // cy.get('#\\:r9g\\:').clear('y');
+    // cy.get('#\\:r9g\\:').type('yes');
+    // cy.get(':nth-child(6) > .MuiAutocomplete-root > .MuiFormControl-root > .MuiInputBase-root > .MuiAutocomplete-endAdornment > .MuiButtonBase-root > [data-testid="ArrowDropDownIcon"]').click();
+    // cy.get('#-option-1').click();
+    // cy.get(':nth-child(7) > .MuiAutocomplete-root > .MuiFormControl-root > .MuiInputBase-root > .MuiAutocomplete-endAdornment > .MuiButtonBase-root > [data-testid="ArrowDropDownIcon"]').click();
+    // cy.get('#container-tags-listbox').click();
+    // cy.get(':nth-child(8) > .MuiFormControl-root > .MuiInputBase-root').click();
+    // cy.get(':nth-child(9) > .MuiAutocomplete-root > .MuiFormControl-root > .MuiInputBase-root > .MuiAutocomplete-endAdornment > .MuiButtonBase-root > [data-testid="ArrowDropDownIcon"]').click();
+    // cy.get('#container-tags-option-1').click();
+    // cy.get(':nth-child(11) > .MuiAutocomplete-root > .MuiFormControl-root > .MuiInputBase-root > .MuiAutocomplete-endAdornment > .MuiButtonBase-root > [data-testid="ArrowDropDownIcon"]').click();
+    // cy.get('#container-tags-option-2').click();
+    // cy.get(':nth-child(12) > .MuiAutocomplete-root > .MuiFormControl-root > .MuiInputBase-root > .MuiAutocomplete-endAdornment > .MuiButtonBase-root > [data-testid="ArrowDropDownIcon"]').click();
+    // cy.get('#container-tags-option-1').click();
+    // cy.get(':nth-child(13) > .MuiAutocomplete-root > .MuiFormControl-root > .MuiInputBase-root > .MuiAutocomplete-endAdornment > .MuiButtonBase-root > [data-testid="ArrowDropDownIcon"]').click();
+    // cy.get('#container-tags-option-2').click();
+    // cy.get(':nth-child(14) > .MuiAutocomplete-root > .MuiFormControl-root > .MuiInputBase-root > #container-tags').click();
+    // cy.get('#container-tags-option-2').click();
+    // cy.get('#\\:ra1\\:').clear('12');
+    // cy.get('#\\:ra1\\:').type('12');
+    // cy.get('#\\:ra2\\:').clear('12');
+    // cy.get('#\\:ra2\\:').type('123');
+    // cy.get('#\\:ra3\\:').clear('1');
+    // cy.get('#\\:ra3\\:').type('12d');
+    // cy.get('#\\:ra4\\:').clear('s');
+    // cy.get('#\\:ra4\\:').type('s23');
+    // cy.get('#\\:ra5\\:').clear('a');
+    // cy.get('#\\:ra5\\:').type('asdd');
+    // cy.get('#\\:ra6\\:').clear('12');
+    // cy.get('#\\:ra6\\:').type('124');
+    // cy.get(':nth-child(21) > .MuiAutocomplete-root > .MuiFormControl-root > .MuiInputBase-root > #container-tags').click();
+    // cy.get('#container-tags-option-1').click();
+    // cy.get('#\\:ra4\\:').clear('s23c');
+    // cy.get('#\\:ra4\\:').type('89554');
+    // cy.get('#\\:ra3\\:').clear('12');
+    // cy.get('#\\:ra3\\:').type('1562');
+    // cy.get('.MuiDialogActions-root').click();
+    /* ==== End Cypress Studio ==== */
+  })
+})

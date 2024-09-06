@@ -1,0 +1,719 @@
+.modalClose {
+  position: absolute !important;
+  right: 10px;
+  top: 10px;
+  color: $text-3;
+  border-radius: 25px !important;
+  border: 1px solid $text-4 !important;
+  background-color: $white !important;
+  padding: 2px !important;
+  z-index: 9;
+}
+
+.commonModal {
+  &__wrapper {
+    width: 100%;
+
+    .MuiDialog-paper {
+      max-width: 80%;
+      overflow: hidden;
+      max-height: calc(100% - 20px);
+    }
+
+    &--dialog {
+      margin: 20px;
+      padding: 20px;
+      border: 1px solid $text-op;
+
+      > h2 {
+        position: relative;
+        background-color: $white;
+        padding: 0px;
+        margin-bottom: 15px;
+        line-height: 24px;
+        @include basic-font($fs-20, $fw-medium, $secondary);
+      }
+
+      .MuiDialogContent-root {
+        min-height: auto;
+        max-height: 400px;
+        overflow-y: auto;
+        @include primary-overflow-scroll;
+        padding-left: 0;
+        padding-right: 5px;
+        padding-bottom: 0;
+
+        .formcontrol {
+          &__wrapper {
+            h6 {
+              @include basic-font($fs-16, $fw-medium, $text-2);
+            }
+          }
+        }
+      }
+    }
+
+    &--md {
+      .MuiDialog-container {
+        .MuiDialog-paper {
+          max-width: 55% !important;
+        }
+      }
+    }
+  }
+}
+
+.pac-container {
+  z-index: 9999 !important;
+}
+
+.createPanel {
+  &__wrapper {
+    .MuiDialog-container {
+      .MuiDialog-paper {
+        max-width: 747px;
+
+        .MuiDialogContent-root {
+          .toggle__buttons {
+            &--left {
+              width: 170px;
+            }
+
+            &--right {
+              width: 170px;
+            }
+          }
+        }
+      }
+    }
+
+    .upload__logo {
+      .upload__logo--content {
+        flex-direction: initial;
+        justify-content: center;
+
+        .dragDrop_title {
+          @include basic-font($fs-12, $fw-regular, $text-4);
+          padding-bottom: 12px;
+
+          .clickHere {
+            color: $primary;
+          }
+        }
+
+        .support_files {
+          @include basic-font(10px, $fw-regular, $text-4);
+        }
+      }
+    }
+
+    .select_test {
+      .multiple__select-wrapper {
+        .MuiFormControl-root {
+          max-width: 672px;
+        }
+      }
+
+      .common_checkbox_selection {
+        .permissions--tag {
+          width: 100%;
+        }
+      }
+    }
+
+    .createPanel-content {
+      overflow-y: unset;
+    }
+  }
+}
+
+.success_modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: $white;
+  min-width: 363px;
+  min-height: 283px;
+  text-align: center;
+  @include dflex(column, center, center, "");
+  padding: 31px 27px 27px 27px;
+  &.sm-popup {
+    width: 200px;
+    height: 200px;
+    .deleteRedIcon {
+      width: 48px;
+      height: 48px;
+      margin-bottom: 10px;
+    }
+  }
+  .modal-modal-title {
+    @include title-bold-14;
+    margin-bottom: 15px;
+  }
+
+  .modal-modal-description {
+    @include text-regular-14;
+    margin-bottom: 20px;
+  }
+
+  .modal-buttons-wrapper {
+    .primary-btn {
+      margin-left: 20px;
+      min-width: 128px;
+    }
+
+    .primary-outline-btn {
+      min-width: 128px;
+    }
+  }
+}
+
+.agree-section {
+  @include dflex(row, center, center, nowrap);
+}
+
+.deactivate_modal {
+  .modal-modal-description {
+    margin-bottom: 12px;
+  }
+
+  .agree-statement {
+    margin-bottom: 25px;
+  }
+}
+
+.terms-conditions-dailog {
+  .MuiDialog-container {
+    .MuiDialog-paper {
+      width: 100%;
+    }
+  }
+
+  .terms-conditions-dailog-box {
+    .subtitle_terms_condition {
+      @include title-bold-14;
+      margin-bottom: 20px;
+    }
+
+    .terms_conditions {
+      @include text-regular-14;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.createOrder {
+  &__template {
+    .MuiDialog-container {
+      .MuiDialog-paper {
+        min-width: 768px;
+
+        .formcontrol__wrapper {
+          .add__input {
+            max-width: 314px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.orderTemplates {
+  &__wrapper {
+    .MuiDialog-container {
+      .MuiDialog-paper {
+        min-width: 1063px !important;
+      }
+    }
+  }
+}
+
+.createTest {
+  &__wrapper {
+    .MuiDialog-container {
+      .MuiDialog-paper {
+        max-width: 715px;
+        width: 100%;
+      }
+    }
+
+    .upload__logo {
+      height: auto;
+      margin-bottom: 0% !important;
+
+      .upload__logo--content {
+        flex-direction: initial;
+        justify-content: center;
+
+        .dragDrop_title {
+          @include basic-font($fs-12, $fw-regular, $text-4);
+          padding-bottom: 12px;
+
+          .clickHere {
+            color: $primary;
+          }
+        }
+
+        .support_files {
+          @include basic-font(10px, $fw-regular, $text-4);
+        }
+      }
+    }
+  }
+}
+
+.logout {
+  &__wrapper {
+    .MuiDialog-paper {
+      padding: 20px;
+    }
+
+    .MuiDialogContent-root {
+      text-align: center;
+      padding-top: 0;
+
+      h6 {
+        @include basic-font($fs-14, $fw-medium, $secondary);
+      }
+    }
+
+    .MuiDialogActions-root {
+      padding: 0;
+
+      .MuiStack-root {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        button {
+          width: 50%;
+        }
+      }
+    }
+  }
+}
+
+.toaster {
+  &__wrapper {
+    position: fixed;
+    z-index: 9;
+    width: 400px;
+    max-height: calc(100vh - 125px);
+    top: 70px;
+    right: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    @include primary-overflow-scroll-hidden;
+
+    .login__error-msg {
+      background-color: $white;
+      border-bottom: 0;
+      border-radius: 4px;
+      margin-bottom: 2px;
+      padding: 4px;
+
+      .toaster-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+
+        .toaster-text {
+          margin-left: 16px;
+
+          .maintanence-text {
+            @include title-bold-14;
+          }
+
+          .maintanence-time {
+            @include basic-font($fs-12, $fw-bold, $text-2);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+        }
+
+        .notification-icon {
+          background-color: $primary-op-10;
+          margin: 6px;
+          height: 40px;
+          border-radius: 50px;
+        }
+
+        .cross-icon {
+          margin-right: 5px;
+          color: $text-2;
+          font-size: $fs-16;
+        }
+      }
+    }
+
+    .MuiSnackbar-root {
+      position: unset;
+      margin-bottom: 2px;
+    }
+
+    .MuiPaper-root {
+      background-color: $white;
+
+      .MuiSnackbarContent-message {
+        .toaster-content {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .toaster-text {
+            margin-left: 16px;
+
+            .maintanence-text {
+              @include title-bold-14;
+            }
+
+            .maintanence-time {
+              @include basic-font($fs-12, $fw-bold, $text-2);
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+
+              .calendarIcon {
+                margin-right: 4px;
+              }
+            }
+          }
+
+          .notification-icon {
+            background-color: $primary-op-10;
+            margin: 6px;
+            height: 50px;
+            border-radius: 50px;
+          }
+
+          .cross-icon {
+            margin-bottom: 30px;
+            color: $text-2;
+          }
+        }
+      }
+    }
+  }
+}
+
+.addNew {
+  &__facility {
+    .MuiDialog-container {
+      .MuiDialog-paper {
+        .MuiTypography-h6 {
+          @include title-regular-24;
+        }
+
+        .MuiDialogContent-root {
+          @include primary-overflow-scroll;
+          height: auto;
+          overflow-x: hidden;
+          overflow-y: auto;
+
+          .formcontrol {
+            &__wrapper {
+              > h6 {
+                @include basic-font($fs-16, $fw-medium, $text-2);
+              }
+
+              > .MuiGrid-container {
+                width: 100%;
+                // margin-left: 0;
+
+                .add__select {
+                  .selections {
+                    padding: 10px;
+
+                    &:hover {
+                      background-color: $primary-4 !important;
+                    }
+                  }
+                }
+              }
+
+              .common_checkbox_selection {
+                .permissions--tag {
+                  width: 100%;
+                }
+              }
+
+              .provide_divider {
+                border-bottom: 1px solid $text-4;
+                margin-bottom: 5px;
+              }
+
+              .provide-permissions-title {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+
+                > h6 {
+                  @include basic-font($fs-16, $fw-medium, $text-2);
+                }
+
+                .view_orderReports {
+                  display: flex;
+                  justify-content: flex-start;
+                  white-space: nowrap;
+                }
+              }
+
+              .provide_permission_list {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                justify-items: center;
+                margin: 5px 0px;
+
+                .toggleButtons {
+                  .switch {
+                    top: 6px;
+                    margin-right: 8px;
+
+                    input:checked + .slider {
+                      background-color: $primary !important;
+                      border: 1px solid $primary;
+                    }
+
+                    .slider {
+                      background-color: $text-4;
+                      border: 1px solid $white;
+                      background-color: $text-4;
+                      border: 1px solid $text-4;
+                    }
+
+                    ::before {
+                      background-color: $white !important;
+                      border: 1px solid $white;
+                    }
+
+                    ::after {
+                      background-color: $primary !important;
+                      border: 1px solid $primary;
+                    }
+                  }
+                }
+              }
+
+              .provider_lists {
+                @include primary-overflow-scroll;
+                height: auto;
+                overflow-x: hidden;
+                overflow-y: auto;
+                overflow-y: scroll;
+                max-height: 185px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.MuiPopover-root {
+  .MuiMenu-paper {
+    .MuiList-root {
+      .selections {
+        padding: 10px;
+
+        &:hover {
+          background-color: aliceblue !important;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.MuiTooltip-popper {
+  .MuiTooltip-tooltipPlacementBottom {
+    max-width: 240px;
+    @include basic-font($fs-12, $fw-regular, $white);
+  }
+}
+
+.edit {
+  &__testcompendium {
+    .MuiDialog-container {
+      .MuiDialog-paper {
+        min-width: 1063px;
+
+        .MuiTypography-h6 {
+          @include title-regular-24;
+        }
+
+        .MuiDialogContent-root {
+          .formcontrol {
+            &__wrapper {
+              .MuiTypography-h6 {
+                @include basic-font($fs-16, $fw-regular, $text-2);
+                margin-bottom: 16px;
+              }
+            }
+          }
+        }
+
+        .MuiDialogActions-root {
+          padding-right: 40px;
+        }
+      }
+    }
+  }
+}
+
+.faq-question {
+  @include basic-font($fs-16, $fw-medium, $secondary);
+}
+
+.faq-answer {
+  @include basic-font($fs-14, $fw-regular, $text-2);
+}
+
+.adminsuccess_modal {
+  .MuiModal-backdrop {
+    opacity: 0.2 !important;
+  }
+}
+
+.create-broadcast-publish-modal {
+  .MuiModal-backdrop {
+    opacity: 0.2 !important;
+  }
+
+  .success_modal {
+    .modal-modal-description {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.compendium-inputs {
+  max-height: 300px !important;
+}
+
+.compendium {
+  &__uploadModal {
+    min-height: 300px;
+
+    .customised__browse {
+      height: 115px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      justify-items: center;
+      width: unset;
+    }
+
+    .addCompendium {
+      &__uplaodSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 190px;
+
+        .upload-icon-compendium {
+          color: $primary;
+          height: 35px;
+          width: 37px;
+        }
+
+        .upload-titles {
+          .drag-drop-title {
+            @include basic-font($fs-12, $fw-regular, $text-3);
+            justify-content: flex-start;
+
+            .click-here {
+              color: $primary;
+            }
+          }
+
+          .supported-file {
+            @include basic-font($fs-10, $fw-regular, $text-3);
+          }
+        }
+      }
+    }
+  }
+}
+
+.upload-compendium {
+  float: right;
+}
+
+.order-preview-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .primary-btn {
+    margin-bottom: 10px;
+  }
+}
+
+.addTenantsModal {
+  z-index: 1;
+}
+
+.orderHistory {
+  &__modal {
+    .order-details {
+      display: flex;
+
+      .order-id-date {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        .add__label {
+          max-width: 200px;
+        }
+      }
+    }
+  }
+}
+
+.create_Ordersection {
+  .stepper__accordion {
+    background-color: $white !important;
+    margin-top: 0 !important;
+    .MuiAccordionSummary-root {
+      background-color: $table-header-bg;
+      .MuiAccordionSummary-content {
+        .createOrder__wrapper--header {
+          background-color: unset;
+        }
+      }
+    }
+    .next-btn {
+      margin: 10px 15px;
+      float: inline-end;
+    }
+  }
+}
+
+.modalDialogSm {
+  padding: 24px;
+  border: 1px solid $text-op;
+  .barCodeModal {
+    label {
+      @include basic-font($fs-14, $fw-regular, $text-3);
+    }
+    h5 {
+      @include basic-font($fs-14, $fw-bold, $text-2);
+    }
+    h6 {
+      @include basic-font($fs-14, $fw-medium, $grey-dark);
+    }
+  }
+  .barcodeLabel {
+    svg {
+      width: 200px;
+      height: 90px;
+    }
+  }
+}

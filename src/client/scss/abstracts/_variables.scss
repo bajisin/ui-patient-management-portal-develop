@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,900italic,900,700italic,700,600italic,600,400italic,300italic,300,200italic");
+:root {
+  --primary-font: "Poppins";
+  --root-fz: 16px;
+  --white: #fff;
+  --black: #000;
+  --primary: #9a28a3;
+  --secondary: #230026;
+
+  --green: #009262;
+  --red: #c33025;
+  --orange: #fda375;
+  --yellow: #e48900;
+  --blue: #4fa3d8;
+  --grey: #b0a8b9;
+
+  --table-header: #e3e7ff;
+  --text-op: #9e9e9e;
+
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 600;
+  --fw-dark: 700;
+}
+
+$primaryFont: var(--primary-font);
+$secondary-font: sans-serif;
+$white: var(--white);
+$black: var(--black);
+$primary: var(--primary);
+$primary-2: color-mix(in srgb, var(--primary), $white 20%);
+$primary-3: color-mix(in srgb, var(--primary), $white 40%);
+$primary-4: color-mix(in srgb, var(--primary), $white 60%);
+$secondary: var(--secondary);
+$secondary-dark: color-mix(in srgb, var(--secondary), $white 20%);
+$ascent: var(--ascent);
+$text-1: var(--secondary);
+$text-2: color-mix(in srgb, var(--white), $black 70%);
+$text-3: color-mix(in srgb, var(--white), $black 56%);
+$text-4: color-mix(in srgb, var(--white), $black 38%);
+$text-5: color-mix(in srgb, var(--white), $black 5%);
+$active-blue-op: color-mix(in srgb, var(--ascent), $white 5%);
+$green: var(--green);
+
+$success-bright: color-mix(in srgb, var(--green), $white 80%);
+$warning-dark: var(--orange);
+$warning-bright: color-mix(in srgb, var(--orange), $white 70%);
+$error: var(--red);
+$error-dark: color-mix(in srgb, var(--red), $white 22%);
+$error-light: color-mix(in srgb, var(--red), $white 80%);
+$dark-op-10: color-mix(in srgb, var(--black), transparent 90%);
+$background-primary: color-mix(in srgb, var(--white), $black 2%);
+$grey-bg: color-mix(in srgb, var(--white), $black 3%);
+$inprogress-badge: color-mix(in srgb, var(--yellow), $white 80%);
+$inprogress-text: color-mix(in srgb, var(--yellow), $white 20%);
+
+$ls-login-leftBG: color-mix(in srgb, var(--white), $black 6%);
+$text-op: color-mix(in srgb, var(--text-op), transparent 80%);
+$fw-light: var(--fw-light);
+$fw-regular: var(--fw-regular);
+$fw-medium: var(--fw-medium);
+$fw-bold: var(--fw-bold);
+$fw-dark: var(--fw-dark);
+$grey-dark: color-mix(in srgb, var(--black), $white 25%);
+$primary-op-10: color-mix(in srgb, var(--primary), transparent 90%);
+$input-disable: color-mix(in srgb, var(--white), $dark 5%);
+$table-header: var(--table-header);
+$table-header-odd: var(--table-header);
+$completed-chart: color-mix(in srgb, var(--green), transparent 30%);
+$pending-chart: var(--orange);
+$rejected-chart: color-mix(in srgb, var(--red), transparent 40%);
+$borderBasicRadius: 4px;
+$actionWrapper: color-mix(in srgb, var(--primary), transparent 90%);
+$shadow-effect: 0px 4px 20px 0px $dark-op-10;
+$table-header-bg: var(--table-header);
+$lightGreenCircle: color-mix(in srgb, var(--green), var(--white) 70%);
+$secondary-op: color-mix(in srgb, var(--secondary), transparent 20%);
+$blue-light: color-mix(in srgb, var(--blue), transparent 65%);
+$light-bg: color-mix(in srgb, var(--white), $black 4%);
+$dark-bg-op-80: color-mix(in srgb, var(--black), transparent 20%);
+$trow: color-mix(in srgb, var(--primary), white 85%);
+$primary-op-40: color-mix(in srgb, var(--primary), transparent 60%);
+$primary-op-60: color-mix(in srgb, var(--primary), transparent 40%);
+$errorInfo: color-mix(in srgb, var(--red), transparent 40%);
+$white-op-25: color-mix(in srgb, var(--white), transparent 75%);
+
+$green-card: color-mix(in srgb, var(--green), transparent 30%);
+$orange-card: color-mix(in srgb, var(--orange), transparent 10%);
+$blue-card: color-mix(in srgb, var(--blue), transparent 20%);
+$grey-card: color-mix(in srgb, var(--grey), transparent 20%);
+$red-card: color-mix(in srgb, var(--secondary), $white 40%);
+$default-bg: color-mix(in srgb, var(--white), $black 10%);
+
+$root-fz: var(--root-fz);
+$fs-10: calc(($root-fz) * (10 / 16));
+$fs-12: calc(($root-fz) * (12 / 16));
+$fs-14: calc(($root-fz) * (14 / 16));
+$fs-16: calc(($root-fz) * (16 / 16));
+$fs-20: calc(($root-fz) * (20 / 16));
+$fs-24: calc(($root-fz) * (24 / 16));
+$fs-32: calc(($root-fz) * (32 / 16));
+$fs-64: calc(($root-fz) * (64 / 16));
+
+$tableHead: color-mix(in srgb, var(--black), transparent 30%);
+$text-op-40: color-mix(in srgb, var(--text-op), transparent 40%);
+$primary-op-99: color-mix(in srgb, var(--primary), transparent 99%);

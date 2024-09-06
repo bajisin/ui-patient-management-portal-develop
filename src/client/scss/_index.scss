@@ -1,0 +1,93 @@
+// Note: Import ordering important here ↴
+@import "~bootstrap/scss/bootstrap";
+@import "~react-toastify/dist/ReactToastify.css";
+
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+@import "./extensions";
+@import "./utilities";
+@import "base/fonts";
+
+@import "base/base";
+@import "base/typography";
+@import "./reset";
+@import "base/custome";
+@import "base/fonticons.scss";
+
+@import "components/breakpoints";
+@import "components/buttons";
+@import "components/cards";
+@import "components/dropdown";
+@import "components/form";
+@import "components/header";
+@import "components/modal-popup";
+@import "components/pagination";
+@import "components/sidebar";
+@import "components/tables";
+@import "components/pagination";
+@import "components/date-picker";
+@import "components/tabs";
+@import "components/drawer";
+@import "components/titles";
+@import "components/misc";
+@import "components/lists";
+@import "components/filter";
+@import "components/accordion";
+@import "components/charts";
+
+//pages
+@import "pages/login";
+@import "pages/home";
+@import "pages/profile";
+@import "pages/global";
+@import "pages/dashboard";
+@import "pages/order-config-tab";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.printable-label-wrapper {
+  @media print {
+    @page {
+      size: 50mm 20mm;
+      margin: 1mm;
+    }
+  }
+}
+@media print {
+  .printable-label-wrapper {
+    .barcodeLabel {
+      .barcodeLabel--left {
+        width: 40%;
+      }
+      .barcodeLabel--right {
+        width: 60%;
+      }
+      .printLabelText {
+        text-overflow: ellipsis !important;
+        overflow: hidden !important;
+        white-space: nowrap !important;
+        width: 99%;
+      }
+      svg {
+        width: 90px;
+        height: 30px;
+      }
+      .chip__btn--grey {
+        padding: 3px 7px !important;
+        height: auto;
+      }
+      div,
+      label,
+      h5,
+      h6,
+      p,
+      span {
+        font-size: $fs-10 !important;
+        line-height: 12px !important;
+      }
+    }
+  }
+}

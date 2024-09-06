@@ -1,0 +1,84 @@
+.header__wrapper {
+  &.activeHamburger-menu {
+    ~ .page__wrapper {
+      > nav.sidebar__wrapper {
+        width: 36px;
+        @include smooth-menu-hover();
+      }
+      .bodyContent__wrapper {
+        padding-left: 50px;
+        @include smooth-menu-hover();
+      }
+    }
+  }
+  .MuiAppBar-root {
+    background: $white;
+    box-shadow: 0px 4px 20px 0px $dark-op-10;
+  }
+
+  .logo-icon {
+    width: auto !important;
+    max-height: 40px !important;
+    padding-right: 12px;
+  }
+  .patient-logo {
+    border-right: 1px solid $text-4;
+  }
+
+  .headerRightSection {
+    .profile_name {
+      @include basic-font($fs-12, $fw-bold, $text-1);
+      text-transform: capitalize;
+      text-align: center;
+      .role_name {
+        @include basic-font($fs-12, $fw-medium, $text-3);
+      }
+    }
+
+    .profile-icon-btn {
+      margin: 0 12px;
+    }
+  }
+
+  .menu_wrapper {
+    .menu_items {
+      @include basic-font($fs-12, $fw-bold, $primary);
+      border-bottom: 2px solid $primary;
+      border-radius: 0;
+      padding: 0;
+      min-width: auto;
+      margin-left: 12px;
+      text-transform: capitalize;
+    }
+  }
+}
+
+.header_dropdown {
+  .MuiMenu-paper {
+    min-width: 205px;
+    min-height: 55px;
+  }
+  .myprofile_icon {
+    font-size: $fs-24;
+    color: $error-dark;
+    margin-right: 10px;
+    img {
+      width: 80%;
+      height: 80%;
+    }
+  }
+}
+.header-content {
+  @include dflex(row, space-between, center, nowrap);
+}
+.collapsibleMenu {
+  margin-left: 10px;
+  cursor: pointer;
+}
+.notifyImage {
+  cursor: pointer;
+  img {
+    width: 24px;
+    height: 24px;
+  }
+}

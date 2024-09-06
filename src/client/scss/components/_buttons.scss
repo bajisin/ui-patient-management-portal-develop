@@ -1,0 +1,553 @@
+.login__section {
+  .ls {
+    &__primary {
+      &--btn {
+        text-transform: none;
+        background-color: $primary;
+        @include basic-font($fs-16, $fw-bold, $white);
+
+        padding : {
+          left: 60px;
+          right: 60px;
+          top: 18px;
+          bottom: 18px;
+        }
+
+        &:focus,
+        &:hover,
+        &:active {
+          background-color: $primary;
+        }
+      }
+    }
+
+    &__outlined {
+      &--btn {
+        text-transform: none;
+        @include basic-font($fs-14, $fw-medium, $primary);
+
+        padding : {
+          left: 60px;
+          right: 60px;
+          top: 14px;
+          bottom: 14px;
+        }
+
+        border-color: $primary;
+      }
+    }
+  }
+}
+
+.icons {
+  &__wrapper {
+    width: 73%;
+    margin: 0 auto;
+    gap: 10px;
+
+    .MuiButton-outlined {
+      background-color: $white;
+      padding: 5px;
+      text-transform: none;
+      width: 48%;
+      color: $text-3;
+      font-size: $fs-12;
+      border-color: $text-op;
+
+      &:focus,
+      &:hover,
+      &:active {
+        background-color: $white;
+      }
+    }
+  }
+}
+
+.MuiChip-filled {
+  &.chip {
+    &__btn {
+      cursor: pointer;
+      background-color: $success-bright;
+      padding: 6px 12px !important;
+      height: 25px;
+      border-radius: 3px;
+
+      &--green {
+        background-color: $success-bright !important;
+        color: $green;
+      }
+
+      &--yellow {
+        background-color: $inprogress-badge !important;
+        color: $inprogress-text !important;
+      }
+
+      &--red {
+        background-color: $error-light !important;
+        color: $error-dark !important;
+      }
+
+      &--orange {
+        background-color: $warning-bright !important;
+        color: $warning-dark !important;
+      }
+
+      &--blue {
+        background-color: $blue-light !important;
+        color: $blue-card !important;
+      }
+      &--grey {
+        background-color: $default-bg !important;
+        color: $black !important;
+      }
+
+      .MuiChip-label {
+        padding: 0 !important;
+        font-size: $fs-12;
+        font-weight: $fw-regular;
+        font-family: $primaryFont;
+      }
+    }
+  }
+}
+
+.close-drawer {
+  &.MuiIconButton-root {
+    position: absolute;
+    right: 9px;
+    top: 9px;
+    border: 1px solid $text-4;
+    border-radius: 50%;
+    background-color: $white;
+    width: 28px;
+    height: 28px;
+    padding: 8px;
+
+    &:focus,
+    &:active,
+    &:hover {
+      background-color: $white;
+    }
+  }
+}
+
+.MuiButton-text {
+  &.downloadBtn-text {
+    @include basic-font($fs-12, $fw-bold, $primary);
+    text-transform: capitalize;
+  }
+}
+
+//Toggle-buttons styling
+.toggle {
+  &__buttons {
+    border: 1px solid $text-4;
+    padding: 3px;
+    button {
+      height: 32px;
+      border: 0 !important;
+      text-transform: capitalize;
+    }
+    .Mui-selected {
+      background-color: $primary !important;
+      color: $white !important;
+
+      .grid_name,
+      .list_name {
+        @include basic-font($fs-12, $fw-regular, $white);
+      }
+    }
+
+    &--left {
+      .list_name {
+        @include basic-font($fs-12, $fw-regular, $text-1);
+      }
+    }
+
+    &--right {
+      .grid_name {
+        @include basic-font($fs-12, $fw-regular, $text-1);
+      }
+    }
+  }
+}
+
+.primary-btn {
+  @include primary-btn();
+}
+
+.primary-outline-btn {
+  @include primary-outline-btn();
+}
+
+.MuiButton-root {
+  &.bordered-icon-btn {
+    border: 1px solid $primary;
+    border-radius: 4px;
+    text-align: center;
+    padding: 5px;
+    width: fit-content;
+    min-width: fit-content;
+    color: $primary;
+    text-transform: capitalize;
+    &.active,
+    &:hover,
+    &:focus {
+      color: $primary-2 !important;
+      border-color: $primary-2 !important;
+      background-color: $white;
+    }
+    &.edit {
+      position: relative;
+    }
+  }
+}
+
+.orderTypes {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px 15px;
+  border: 1px solid $text-5;
+  margin-top: 10px !important;
+  p {
+    @include basic-font($fs-12, $fw-regular, $text-3);
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 8px;
+    line-height: 20px;
+    width: 45%;
+    > .stat_dots {
+      margin-right: 4px;
+    }
+  }
+}
+.MuiPickersDay-root:not(.MuiPickersDay-hiddenDaySpacingFiller) ~ .MuiBadge-badge .stat_dots {
+  width: 8px;
+  height: 8px;
+  border-radius: 16px;
+  background-color: $text-4;
+  display: inline-block;
+  &.stats {
+    background-color: $error-dark;
+  }
+
+  &.routine {
+    background-color: $blue-card;
+  }
+
+  &.recurring {
+    background-color: $text-4;
+  }
+  &.oneTime {
+    background-color: $error;
+  }
+}
+.onRowClick {
+  position: absolute !important;
+  right: 300px;
+  top: 0px;
+}
+.customised__browse {
+  margin-top: 20px;
+  height: 38px;
+  width: 100%;
+  border: 1px dashed $text-3;
+  label {
+    width: 40vw;
+    height: inherit;
+    @include dflex(row, space-between, center, nowrap);
+    @include basic-font($fs-14, $fw-medium, $text-2);
+    padding-left: 5px;
+  }
+  .primary-btn {
+    position: relative;
+    border: 1px solid $primary !important;
+    background-color: transparent !important;
+    width: 10vw;
+    height: inherit;
+    cursor: pointer;
+    color: $primary !important;
+    white-space: nowrap;
+    input[type="file"] {
+      opacity: 0;
+      z-index: 0;
+      width: 0;
+      height: 0;
+    }
+  }
+}
+.theme {
+  &__wrapper {
+    width: 100%;
+    &--btn {
+      width: 40px;
+      min-width: 40px !important;
+      height: 40px;
+      border-radius: $borderBasicRadius;
+      background-color: $text-op;
+      border: none;
+      cursor: pointer;
+      margin-left: 0 !important;
+      margin-bottom: 5px;
+      .MuiRadio-root {
+        .MuiTouchRipple-root {
+          svg {
+            visibility: hidden;
+            color: $white;
+          }
+        }
+      }
+      // &.theme-one {
+      //   background-color: $themeOne;
+      // }
+      // &.theme-two {
+      //   background-color: $themeTwo;
+      // }
+      // &.theme-three {
+      //   background-color: $themeThree;
+      // }
+      // &.theme-four {
+      //   background-color: $themeFour;
+      // }
+      &.add {
+        @include dflex(row, center, center, "");
+        svg {
+          width: 24px;
+          height: 24px;
+          color: $primary;
+        }
+      }
+      > span > input.PrivateSwitchBase-input {
+        ~ span > svg {
+          opacity: 0;
+        }
+        &:checked {
+          ~ .MuiTouchRipple-root {
+            background-image: url("@assets/images/svg/checkmark.svg");
+            border-radius: 4px;
+            background-position: 6px center;
+            background-repeat: no-repeat;
+          }
+        }
+      }
+    }
+  }
+}
+
+.template_btn {
+  background-color: $table-header-odd !important;
+  border-radius: 4px !important;
+  padding: 8px 20px !important;
+  text-transform: capitalize !important;
+  @include basic-font($fs-14, $fw-regular, $black);
+  box-shadow: none !important;
+  border: 1px solid $text-4 !important;
+  width: 100%;
+}
+.action {
+  &__wrapper {
+    background-color: $actionWrapper;
+    padding: 24px;
+    width: 100%;
+    justify-content: end;
+  }
+}
+.notifyCount {
+  background-color: $error-dark;
+  border-radius: 20px;
+  @include basic-font($fs-10, $fw-bold, $white);
+  padding: 1px 5px;
+  margin-left: 5px !important;
+  display: inline-block;
+}
+.action__items {
+  display: inline-flex;
+  gap: 20px;
+  button {
+    text-transform: capitalize;
+    &:hover {
+      background-color: transparent;
+    }
+    span {
+      svg {
+        font-size: $fs-16;
+      }
+    }
+  }
+  .primaryTextButton {
+    @include basic-font($fs-12, $fw-bold, $primary);
+  }
+  .errorTextButton {
+    @include basic-font($fs-12, $fw-bold, $error-dark);
+  }
+}
+
+.switch-status {
+  .MuiTypography-root {
+    @include basic-font($fs-12, $fw-regular, $text-3);
+  }
+  margin-right: 15px;
+}
+.collectionDetailsToggle {
+  padding: 10px;
+  .MuiStack-root {
+    .MuiTypography-root {
+      @include basic-font($fs-16, $fw-bold, $secondary);
+    }
+  }
+}
+
+.switch {
+  display: inline-block;
+  height: 20px;
+  position: relative;
+  width: 40px;
+  input {
+    display: none;
+    &:checked {
+      + {
+        .slider {
+          background-color: $green;
+          border: 1px solid $green;
+          &::before {
+            background-color: $white;
+            transform: translateX(20px);
+          }
+        }
+      }
+    }
+  }
+  .slider {
+    background-color: $white;
+    border: 1px solid $text-4;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: 0.4s;
+    &::before {
+      background-color: $text-4;
+      bottom: 2px;
+      content: "";
+      height: 14px;
+      left: 2px;
+      position: absolute;
+      transition: 0.4s;
+      width: 14px;
+    }
+    &.round {
+      border-radius: 50px;
+      &::before {
+        border-radius: 50%;
+      }
+    }
+  }
+}
+.switch {
+  &.theme-switch {
+    input {
+      display: none;
+      &:checked {
+        + {
+          .slider {
+            background-color: $primary;
+            border: 1px solid $primary;
+          }
+        }
+      }
+    }
+  }
+}
+.pdfButton {
+  &__wrapper {
+    .MuiIconButton-root {
+      svg {
+        color: $primary !important;
+      }
+    }
+  }
+}
+
+.closeToasts {
+  img {
+    width: 20px;
+    filter: brightness(6);
+    margin-right: 5px;
+  }
+}
+.positioned--text {
+  position: absolute !important;
+  right: 0;
+  background-color: transparent !important;
+  &:hover {
+    background-color: transparent !important;
+  }
+}
+.upload--order {
+  top: 9px;
+  right: 20px;
+}
+.reject-btn {
+  @include primary-outline-btn;
+  color: $error-dark !important;
+  border-color: $error-dark !important;
+}
+.customized {
+  &__toggle {
+    width: 100%;
+    button {
+      width: 50%;
+    }
+  }
+}
+.primary-text {
+  @include basic-font($fs-12, $fw-regular, $primary);
+}
+.viewTextBtn {
+  @include basic-font($fs-12, $fw-regular, $primary);
+  &:focus,
+  &:hover {
+    background-color: transparent;
+  }
+}
+.deleteSquareIcon {
+  color: $error-dark;
+}
+.toggle-buttons-compendium {
+  .toggle__buttons {
+    float: right;
+    margin-top: -30px;
+  }
+  .subtitle-compendium {
+    padding: 24px 0 16px 0;
+  }
+}
+.edit__patient--btn {
+  position: absolute !important;
+  right: 100px;
+  top: -7px;
+}
+.toggleSwitchControl {
+  position: absolute;
+  right: 60px;
+  p {
+    padding-left: 45px;
+  }
+}
+.browseBtn__wrapper {
+  .customised__browse {
+    height: 48px;
+    label {
+      padding-left: 8px;
+      padding-right: 8px;
+      height: 100%;
+      button {
+        height: 34px;
+      }
+    }
+  }
+}

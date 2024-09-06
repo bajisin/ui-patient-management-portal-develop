@@ -1,0 +1,6 @@
+{
+  "domain": "lifescan.us.auth0.com",
+  "clientId": "ee1IGU262my0UyNrp3zzgnBzw9zB8mgw",
+  "audience": "https://lifescan.us.auth0.com/api/v2/",
+  "logo": "https://samplestorageq01.blob.core.windows.net/lifescan/logo.png"
+}

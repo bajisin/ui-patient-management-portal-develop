@@ -1,0 +1,182 @@
+.myProfile {
+  &__wrapper {
+    width: 100%;
+    h2,
+    h5,
+    label,
+    p,
+    b {
+      width: 100%;
+    }
+
+    h2 {
+      @include basic-font($fs-24, $fw-bold, $text-1);
+    }
+
+    h5 {
+      @include basic-font($fs-14, $fw-bold, $text-1);
+    }
+
+    label {
+      text-transform: uppercase;
+    }
+
+    p,
+    label {
+      @include basic-font($fs-12, $fw-medium, $text-3);
+    }
+
+    b {
+      @include basic-font($fs-12, $fw-bold, $text-2);
+    }
+
+    .details-section {
+      .profile-details {
+        @include dflex(row, start, center, "");
+        .profile-wrap {
+          @include dflex(row, start, center, nowrap);
+          .profile-icon {
+            margin-right: 20px;
+          }
+        }
+
+        .edit-icon {
+          border: 1px solid $primary;
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+  .personal-information {
+    @include secondary-card;
+  }
+  .address-details {
+    @include secondary-card;
+  }
+}
+
+.profile-details {
+  @include dflex(row, start, center, nowrap);
+  img {
+    margin-right: 20px;
+  }
+}
+
+.admin {
+  &__profile {
+    &.myProfile__wrapper {
+      h2 {
+        text-transform: capitalize;
+      }
+      .details-section {
+        padding: 16px !important;
+        .profile-details {
+          justify-content: space-between;
+          .edit-icon {
+            padding: 5px 7px;
+            img {
+              margin-right: 0;
+            }
+          }
+          @include secondary-card;
+          border-color: $text-op !important;
+        }
+        .personal-information {
+          @include secondary-card;
+          border-color: $text-op !important;
+        }
+        .address-details {
+          @include secondary-card;
+          border-color: $text-op !important;
+        }
+        .other-admin-list {
+          @include secondary-card;
+          border-color: $text-op !important;
+          .title__wrapper {
+            h5 {
+              width: min-content;
+            }
+            @include dflex(row, space-between, center, wrap);
+            label {
+              width: min-content;
+              @include basic-font($fs-14, $fw-regular, $text-3);
+              text-transform: capitalize;
+            }
+            button {
+              font-size: $fs-14;
+              font-weight: $fw-bold;
+              text-transform: capitalize;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.adminList {
+  &--grid {
+    @include primary-overflow-scroll;
+    height: auto;
+    margin-top: 10px;
+    .gridList {
+      &__wrapper {
+        &--cardDetails {
+          border: 1px solid $text-op;
+          box-shadow: none !important;
+          .profile-details {
+            margin-bottom: 15px;
+            background-color: $white;
+            box-shadow: none !important;
+          }
+          + {
+            .gridList {
+              &__wrapper {
+                &--cardDetails {
+                  &:last-child {
+                    margin-bottom: 2px;
+                  }
+                  margin-top: 10px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.tntAdmin {
+  &__profile {
+    .details-section {
+      .tntprofile {
+        &__grid {
+          &--item {
+            max-width: 100%;
+            flex-basis: 100%;
+            .personal-information,
+            .address-details {
+              width: 49%;
+              display: inline-block;
+              margin-bottom: 0 !important;
+            }
+            .address-details {
+              margin-left: 2%;
+              margin-top: 16px;
+              margin-bottom: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.adminList-scroll {
+  @include primary-overflow-scroll;
+  height: auto;
+  max-height: 405px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 10px;
+  margin-top: 10px;
+}

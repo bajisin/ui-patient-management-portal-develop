@@ -1,0 +1,193 @@
+.login {
+  &__wrapper {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    @include primary-overflow-scroll;
+    .MuiGrid-item {
+      &:first-child {
+        background-color: $ls-login-leftBG;
+        height: 100%;
+      }
+    }
+    &--left {
+      background-color: $ls-login-leftBG;
+      height: 100%;
+      position: relative;
+      padding: {
+        top: 20px;
+        bottom: 32px;
+        left: 70px;
+        right: 70px;
+      }
+      background-image: url("@assets/images/ls_svg/login_bg.svg");
+      background-size: 50vw;
+      background-repeat: no-repeat;
+      background-position: center center;
+      .swipeable__wrapper {
+        position: relative;
+        top: calc(100vh - 230px);
+        .MuiTypography-h4 {
+          @include basic-font(24px, 600, $primary);
+          line-height: 36px;
+          text-align: center;
+        }
+        .MuiTypography-p {
+          @include basic-font(16px, 500, $text-3);
+          line-height: 28px;
+          text-align: center;
+          padding: 0 100px;
+        }
+      }
+      .logo {
+        width: fit-content;
+        height: 35px;
+        max-width: 250px;
+      }
+    }
+    &--right {
+      .logout__wrapper {
+        display: flex;
+        flex-direction: column;
+        &--header {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+        }
+      }
+      .login {
+        &__section {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          height: calc(100% - 60px);
+          justify-content: center;
+          text-align: center;
+          padding-left: 105px;
+          padding-right: 105px;
+          h4 {
+            @include basic-font($fs-14, $fw-bold, $secondary);
+            text-transform: uppercase;
+            margin-bottom: 20px;
+          }
+          img {
+            &.logo {
+              margin-bottom: 16px;
+              width: fit-content;
+              height: 35px;
+              max-width: 250px;
+            }
+          }
+          label {
+            @include basic-font($fs-12, $fw-bold, $black);
+          }
+          .ls__primary--btn {
+            margin-top: 48px;
+            margin-bottom: 48px;
+          }
+          .ls__outlined--btn {
+            margin-top: 27px;
+          }
+          .MuiDivider-root {
+            &::before,
+            &::after {
+              width: 115px;
+              border-color: $text-op;
+              position: initial;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.login__nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  .MuiListItem-root {
+    width: auto;
+    text-align: right;
+    padding: 0px;
+    .MuiListItemButton-root {
+      text-align: right;
+      .MuiListItemText-primary {
+        @include basic-font($fs-12, $fw-bold, $primary);
+      }
+      &:hover {
+        background-color: transparent;
+      }
+    }
+  }
+}
+
+.login__stepper {
+  .MuiMobileStepper-dots {
+    .MuiMobileStepper-dot {
+      border-radius: 25px;
+      width: 30px;
+      height: 4px;
+      &.MuiMobileStepper-dotActive {
+        background-color: $primary;
+      }
+    }
+  }
+}
+
+.body__height {
+  height: calc(100vh - 100px) !important;
+}
+
+.login {
+  &__error-msg {
+    background-color: $table-header-bg;
+    border-bottom: 1px solid $text-op;
+    width: 100%;
+    text-align: center;
+    > p {
+      @include title-bold-16;
+      line-height: 30px;
+      width: 100%;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      padding: 10px;
+      .info-icon {
+        padding-right: 6px;
+      }
+      > span {
+        @include title-regular-16;
+        padding-left: 8px;
+        width: fit-content;
+        line-break: anywhere;
+      }
+    }
+  }
+  &__error--toastes {
+    > p {
+      b {
+        @include title-bold-14;
+        white-space: nowrap;
+      }
+    }
+  }
+}
+
+.close-all {
+  background-color: $table-header-bg;
+  border-bottom: 0;
+  width: 100%;
+  @include dflex(row, center, center, nowrap);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  img {
+    width: 20px;
+    filter: brightness(6);
+    margin-right: 5px;
+  }
+}

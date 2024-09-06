@@ -1,0 +1,44 @@
+{
+	"root": true,
+	"env": {
+		"browser": true, // Enables browser globals like window and document
+		"amd": true, // Enables require() and define() as global variables as per the amd spec.
+		"node": true, // Enables Node.js global variables and Node.js scoping.
+		"es2021": true //Enables syntax of ECMAScript 2021 modules
+	},
+	"parser": "@babel/eslint-parser",
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"ecmaVersion": "latest",
+		"sourceType": "module"
+	},
+	"settings": {
+		"react": {
+			"version": "detect" // Automatically detect the react version
+		}
+	},
+	"plugins": ["react", "react-hooks", "prettier"],
+	"rules": {
+		"arrow-body-style": "off",
+		"import/first": "error",
+		"no-console": "warn",
+		"prefer-arrow-callback": "off",
+		"react/jsx-uses-react": "error",
+		"react/jsx-uses-vars": "error",
+		"react/prop-types": 0,
+		"react/react-in-jsx-scope": "off",
+		"react-hooks/exhaustive-deps": "warn",
+		"react-hooks/rules-of-hooks": "error",
+		"prettier/prettier": "error"
+	},
+	"extends": [
+		"standard",
+		"eslint:recommended",
+		"plugin:react/recommended",
+		"plugin:react-hooks/recommended",
+		"plugin:prettier/recommended", // Make this the last element so prettier config overrides other formatting rules
+		"plugin:cypress/recommended"
+	]
+}

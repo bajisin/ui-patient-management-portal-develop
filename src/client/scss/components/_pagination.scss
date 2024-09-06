@@ -1,0 +1,48 @@
+.pagination {
+  &__wrapper {
+    .MuiPagination-root {
+      display: flex;
+      justify-content: end;
+      margin-top: 20px;
+      .MuiPagination-ul {
+        li {
+          .MuiPaginationItem-root {
+            .MuiSvgIcon-root {
+              border-radius: 4px;
+              border: 1px solid $text-4;
+              width: 32px;
+              height: 32px;
+
+              &:hover {
+                background-color: $primary;
+                border-radius: 4px;
+                color: $white;
+              }
+            }
+
+            &.Mui-selected {
+              background-color: $primary;
+              color: $white;
+              border-radius: 4px;
+            }
+
+            &:hover {
+              border-radius: 4px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.MuiTablePagination-root {
+  .MuiToolbar-root {
+    .MuiTablePagination-selectLabel {
+      display: none;
+    }
+    .MuiInputBase-root {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,56 @@
+.rdrDateDisplayWrapper {
+  display: none;
+}
+
+.rdrDefinedRangesWrapper {
+  display: none;
+}
+.custome__tooltip {
+  width: 100px;
+}
+.fullWidthDivider {
+  width: 100%;
+  height: 1px;
+  display: block;
+  background-color: $text-op;
+  margin-top: 20px !important;
+  margin-bottom: 10px !important;
+}
+.previewSignoff {
+  &--content {
+    justify-content: space-between;
+    align-items: end;
+    .previewSignoff--btn {
+      display: flex;
+      justify-content: end;
+    }
+  }
+}
+
+.barcodeBlock {
+  > svg {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+  }
+}
+
+.requiredInfo__text {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  p {
+    width: 100%;
+  }
+}
+.requiredInfo__btns {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center !important;
+  margin-top: 10px;
+  .primary-outline-btn {
+    flex: auto;
+    margin-left: 26px;
+  }
+}

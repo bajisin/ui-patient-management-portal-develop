@@ -1,0 +1,538 @@
+@media screen and (max-width: 1200px) {
+  .login {
+    &__section {
+      .icons {
+        &__wrapper {
+          .MuiButton-outlined {
+            padding: 5px 10px;
+            width: 54%;
+          }
+        }
+      }
+      .ls__primary--btn {
+        white-space: nowrap;
+      }
+    }
+  }
+}
+
+@include devices(desktop-lg) {
+  .login {
+    &__wrapper {
+      &--left {
+        .swipeable__wrapper {
+          top: calc(100vh - 192px) !important;
+        }
+      }
+    }
+  }
+}
+
+@include devices(desktop-md) {
+  .login {
+    &__wrapper {
+      place-content: baseline;
+      &--left {
+        .swipeable__wrapper {
+          top: calc(100vh - 192px) !important;
+        }
+      }
+      &--right {
+        .login__section {
+          .icons__wrapper {
+            .MuiButton-outlined {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include devices(tablet-landscape) {
+  .login {
+    &__wrapper {
+      &--right {
+        .login__section {
+          padding-left: 60px;
+          .icons__wrapper {
+            width: 100%;
+            .MuiButton-outlined {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+  .sidebar {
+    &__wrapper {
+      .lab-manage-text {
+        > span {
+          text-overflow: ellipsis;
+          overflow: hidden;
+          white-space: nowrap;
+        }
+        // white-space: break-spaces;
+      }
+    }
+  }
+}
+// search filter responsive
+@include devices(tablet-landscape) {
+  .search__wrapper {
+    width: 25vw !important;
+  }
+  .filter_wrapper {
+    .MuiDialog-container {
+      > .MuiPaper-root {
+        right: 95px;
+      }
+    }
+  }
+  .admin__wrapper {
+    .bodyContent__wrapper {
+      .content__wrapper {
+        .header__wrapper--content {
+          .header__wrapper--bottom {
+            .switch-status {
+              margin: 8px 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .createOrder {
+    &__template {
+      .MuiDialog-container {
+        .MuiDialog-paper {
+          min-width: 960px !important;
+        }
+      }
+    }
+  }
+  .edit__testcompendium {
+    .MuiDialog-container {
+      .MuiDialog-paper {
+        min-width: 860px !important;
+      }
+    }
+  }
+}
+
+//Add patient page
+@include devices(tablet-landscape) {
+  .stepProcess__wrapper {
+    width: calc(100% - 300px) !important;
+    .add-patient-titles {
+      white-space: break-spaces;
+    }
+  }
+  //qr-code
+  .createOrder__wrapper--content {
+    .text-image--qrCode .imageWrapper {
+      float: inline-end;
+    }
+  }
+}
+
+//dashboard page
+
+@include devices(tablet-landscape) {
+  .dashboard {
+    &__wrapper {
+      .media-dashboard-card {
+        padding-left: 0 !important;
+      }
+    }
+  }
+}
+
+@include devices(mobile) {
+  .login__nav {
+    justify-content: center;
+  }
+  .login__wrapper--left {
+    display: none;
+  }
+  .content__wrapper--header {
+    &.basic__card {
+      flex-direction: column;
+    }
+    .stepProcess__wrapper {
+      width: 100%;
+    }
+  }
+  .createOrderSteps,
+  .patientMngmtSteps {
+    .createOrder__steps {
+      justify-content: center;
+    }
+    .login__wrapper--left {
+      display: none;
+    }
+    .content__wrapper--header {
+      &.basic__card {
+        flex-direction: column;
+      }
+      .stepProcess__wrapper {
+        width: 100%;
+      }
+      .content__wrapper--headerBtns {
+        display: flex;
+      }
+    }
+
+    .createOrderSteps,
+    .patientMngmtSteps {
+      .createOrder__steps {
+        justify-content: center;
+      }
+      .stepProcess__wrapper--steps {
+        .MuiListItem-root {
+          max-width: 85px;
+        }
+      }
+    }
+  }
+
+  .filter_wrapper {
+    .MuiDialog-container {
+      > .MuiPaper-root {
+        min-width: 50vw !important;
+        right: 230px;
+      }
+    }
+  }
+  .upload__logo--successful {
+    img {
+      max-height: 90px !important;
+    }
+  }
+  .commonModal__wrapper {
+    .MuiDialog-paper {
+      max-height: calc(100% - 6px) !important;
+    }
+  }
+  .header__wrapper--bottom {
+    flex-wrap: nowrap !important;
+  }
+  .addNew__facility {
+    .MuiDialog-container {
+      .common_checkbox_selection {
+        .permissions--tag {
+          width: 100%;
+          max-width: 100% !important;
+        }
+      }
+    }
+  }
+  .sidebar__wrapper {
+    .MuiDrawer-paper {
+      .MuiList-root {
+        li {
+          a {
+            .MuiListItemButton-root {
+              .MuiListItemIcon-root {
+                span {
+                  margin-right: 5px !important;
+                }
+              }
+              .MuiListItemText-root {
+                width: 100% !important;
+                .MuiListItemText-primary {
+                  width: 90% !important;
+                  overflow: hidden;
+                  white-space: nowrap;
+                  text-overflow: ellipsis;
+                }
+              }
+            }
+          }
+          width: 100% !important;
+          margin-right: 0 !important;
+        }
+      }
+    }
+  }
+  .buttons__wrapper {
+    button {
+      padding: 5px !important;
+      font-size: $fs-12 !important;
+    }
+  }
+}
+
+@include devices(xs-device) {
+  .admin__wrapper {
+    .bodyContent__wrapper {
+      padding-left: 0 !important;
+    }
+  }
+  .mobileViewSidenav {
+    height: 100%;
+    ul {
+      height: inherit;
+      padding-top: 0;
+      li {
+        width: 100%;
+        display: block;
+        padding: 0;
+        &:hover,
+        &:focus {
+          a {
+            .MuiListItemText-root {
+              margin-top: 0;
+              margin-bottom: 0;
+              .MuiTypography-root {
+                @include basic-font($fs-12, $fw-bold, $primary);
+              }
+            }
+          }
+        }
+        a {
+          width: inherit;
+          .MuiListItemButton-root {
+            .MuiListItemIcon-root {
+              min-width: auto;
+              padding-right: 10px;
+            }
+            .MuiListItemText-root {
+              .MuiTypography-root {
+                @include basic-font($fs-12, $fw-regular, $text-3);
+              }
+            }
+          }
+        }
+      }
+      ul {
+        li {
+          padding: 0 8px;
+          margin-top: 3px;
+          margin-bottom: 3px;
+        }
+      }
+    }
+  }
+  .content__wrapper {
+    .header__wrapper--content {
+      .header__wrapper--top {
+        .header__wrapper--title {
+          h5 {
+            font-size: $fs-16 !important;
+          }
+        }
+        flex-direction: column;
+        .header__wrapper--actions {
+          margin-top: 5px;
+          // .primary-btn{
+          //   height: auto;
+          //   padding: 5px !important;
+          //   font-size: $fs-10 !important;
+          // }
+        }
+      }
+    }
+    .content__wrapper--header {
+      h4 {
+        font-size: $fs-16 !important;
+      }
+      div {
+        display: flex;
+        button {
+          padding: 5px !important;
+          font-size: 10px !important;
+        }
+      }
+    }
+  }
+  .activityOverview__wrapper,
+  .tenantSnapshots__wrapper,
+  .reportsOverview__wrapper {
+    .basic__card {
+      .title__wrapper {
+        flex-direction: column;
+      }
+    }
+  }
+  .notification__section {
+    .title__wrapper {
+      display: block;
+    }
+  }
+  .orderStatus__wrapper {
+    &.latest-card-wrapper {
+      .basic__card {
+        &.order-card {
+          .title__wrapper {
+            flex-direction: column;
+            white-space: wrap !important;
+          }
+        }
+      }
+    }
+  }
+  .notification__page-wrapper {
+    .title__wrapper {
+      display: block;
+      .title__wrapper--left {
+        width: 100% !important;
+      }
+      .title__wrapper--right {
+        width: 100% !important;
+        .MuiGrid-container {
+          .MuiGrid-item {
+            padding-right: 0 !important;
+            .dateRangePicker {
+              width: 150px !important;
+              float: left !important;
+            }
+            .search__wrapper {
+              margin-top: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .common_checkbox_selection {
+    .permissions--tag {
+      max-width: 100% !important;
+    }
+  }
+  .upload__logo--successful {
+    img {
+      max-width: 50% !important;
+    }
+  }
+  .search__wrapper {
+    .searchIconBtn {
+      .ls-icon-search {
+        font-size: $fs-12 !important;
+      }
+    }
+  }
+  .content__wrapper {
+    &--clientDetails {
+      .header__wrapper--top {
+        .header__wrapper--title {
+          flex-wrap: nowrap;
+        }
+      }
+      .header__wrapper--bottom {
+        display: inline-block;
+        .switch-status {
+          padding-left: 16px !important;
+          margin-right: 0 !important;
+        }
+      }
+    }
+    &--view {
+      .list__header {
+        h5 {
+          font-size: $fs-14 !important;
+        }
+      }
+    }
+  }
+  .stepProcess__wrapper {
+    &--steps {
+      .arrowIndicator,
+      .add-patient-titles,
+      .stepper--titles {
+        display: none !important;
+      }
+    }
+  }
+  .tabs_sections {
+    .MuiTabs-scroller {
+      overflow: auto !important;
+    }
+  }
+  .basic__drawer {
+    width: 85vw !important;
+    .basic__drawer--header {
+      .drawer--title {
+        flex-wrap: nowrap;
+        .profilePic {
+          width: 7vw;
+          height: 4.6vh;
+          > {
+            h6 {
+              font-size: $fs-12 !important;
+            }
+          }
+        }
+        .profileData {
+          &.profileDataPatient {
+            .MuiStack-root {
+              flex-direction: column !important;
+              gap: 5px;
+            }
+          }
+        }
+      }
+    }
+    .common__layout--drawer {
+      .tab__wrapper {
+        &.rightDrawers-tab {
+          .MuiTabs-flexContainer {
+            .title {
+              width: unset !important;
+              overflow: unset !important;
+              text-overflow: unset !important;
+              white-space: unset !important;
+              position: unset !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  .collectionDetailsToggle {
+    .switch input:checked + .slider::before {
+      transform: translateX(10px);
+    }
+  }
+  .createOrderSteps {
+    .content__wrapper--header {
+      flex-direction: column;
+    }
+    .stepProcess__wrapper {
+      width: 100%;
+      .createOrder__steps {
+        justify-content: center;
+      }
+    }
+  }
+  .basic__card {
+    &.calendar_wrapper {
+      .MuiDateCalendar-root {
+        width: 190px;
+        max-height: 270px;
+        .MuiPickersCalendarHeader-root {
+          padding-left: 8px;
+          padding-right: 8px;
+          .MuiPickersCalendarHeader-labelContainer {
+            font-size: $fs-10;
+          }
+        }
+        .MuiDayCalendar-monthContainer {
+          .MuiDayCalendar-weekContainer {
+            .MuiPickersDay-root {
+              width: 24px;
+              height: 24px;
+              &.Mui-selected {
+                width: 24px;
+                height: 24px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

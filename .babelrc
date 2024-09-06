@@ -1,0 +1,32 @@
+{
+	"presets": [
+		["@babel/preset-env", { "targets" : { "node": "current" } }],
+		"@babel/preset-react"
+	],
+	"plugins": [
+		"@babel/plugin-proposal-class-properties",
+		"@babel/plugin-proposal-object-rest-spread",
+		"istanbul",
+		"@babel/plugin-syntax-dynamic-import",
+		[
+			"module-resolver",
+			{
+			  "root": [
+				"./src"
+			  ],
+			  "alias": {
+				"@config": "./config",
+				"@api": "./config/api-config",
+				"@components": "./src/client/components",
+				"@pages": "./src/client/pages",
+				"@redux": "./src/client/redux",
+				"@routes": "./src/client/routes",
+				"@assets": "./src/client/assets",
+				"@helpers": "./src/client/_helpers",
+				"@utils": "./src/client/utils",
+				"@translations": "./src/client/translations"
+			  }
+			}
+		]
+	]
+}

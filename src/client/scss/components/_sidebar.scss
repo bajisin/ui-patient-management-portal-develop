@@ -1,0 +1,127 @@
+.sidebar {
+  &__wrapper {
+    position: fixed;
+    height: calc(100vh - 160px);
+    top: 90px;
+    overflow-x: hidden;
+    @include smooth-menu-hover();
+    .MuiDrawer-root {
+      height: 100%;
+    }
+    .MuiDrawer-paper {
+      position: inherit;
+      border-radius: 10px;
+      border: 0;
+      height: 100%;
+      @include primary-overflow-scroll-hidden;
+      box-shadow: $shadow-effect;
+      overflow-y: auto;
+      .MuiList-root {
+        li {
+          padding: 0;
+          display: block;
+          width: calc(100% - 15px);
+          margin-right: 15px;
+          margin-bottom: 5px;
+          text-align: left;
+          overflow: hidden;
+          &:hover,
+          &:focus {
+            a {
+              .MuiListItemText-primary {
+                @include basic-font($fs-12, $fw-bold, $primary);
+              }
+            }
+          }
+          a {
+            white-space: nowrap;
+            .MuiListItemText-primary {
+              @include basic-font($fs-12, $fw-regular, $text-3);
+            }
+
+            .MuiListItemButton-root {
+              border-left: 4px solid transparent;
+              &:hover {
+                border-left: 4px solid $primary;
+                background-color: $primary-op-10;
+                width: 100%;
+                border-radius: 0px 5px 5px 0px;
+              }
+              &.Mui-selected {
+                background-color: $primary-op-10;
+                border-left: 4px solid $primary;
+                width: 100%;
+                border-radius: 0px 5px 5px 0px;
+                .MuiListItemText-primary {
+                  color: $primary !important;
+                  font-weight: $fw-bold !important;
+                }
+              }
+              padding: 5px !important;
+              .MuiListItemIcon-root {
+                min-width: fit-content;
+                span {
+                  min-width: fit-content !important;
+                  margin-right: 10px;
+                  font-size: $fs-16;
+                }
+              }
+            }
+          }
+
+          .MuiCollapse-root {
+            background-color: $white;
+            width: 100%;
+            padding-left: 10%;
+            &.collapsable__list {
+              > .MuiCollapse-wrapper {
+                .MuiCollapse-wrapperInner {
+                  ul {
+                    border-left: 1px solid $text-op;
+                    li {
+                      &.MuiListItem-root {
+                        margin-right: 5%;
+                        border-radius: 8px;
+                        position: relative;
+                        &::before {
+                          content: "";
+                          position: absolute;
+                          left: 0;
+                          top: 24%;
+                          transform: rotate(110deg);
+                          width: 6%;
+                          height: 14px;
+                          border-right: 1px solid $text-op;
+                          border-top: 0;
+                          border-left: 0;
+                          border-radius: 50%;
+                        }
+                      }
+                      .MuiButtonBase-root {
+                        border-radius: 6px !important;
+
+                        &.Mui-selected {
+                          border-left: 4px solid transparent;
+                        }
+                        &:hover {
+                          border-left: 4px solid transparent;
+                        }
+                      }
+                      a {
+                        position: relative;
+                        left: 10px;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          .MuiButtonBase-root > svg {
+            color: $text-2;
+          }
+        }
+      }
+    }
+  }
+}

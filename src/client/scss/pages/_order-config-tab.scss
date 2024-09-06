@@ -1,0 +1,83 @@
+.child {
+  &__order_config_tab {
+    .panel_test {
+      padding-left: 24px !important;
+      .section_title {
+        padding-left: 16px;
+        @include basic-font($fs-14, $fw-regular, $secondary);
+        margin-bottom: -10px;
+      }
+      .panel-card {
+        .MuiList-root {
+          padding-top: 0;
+          padding-bottom: 0;
+          width: 100%;
+          max-width: 485px;
+          .MuiListItem-root {
+            border: 0.8px solid $text-5;
+          }
+        }
+        .search__wrapper {
+          .MuiPaper-root {
+            box-shadow: none;
+            border-radius: none;
+          }
+        }
+      }
+    }
+    .individual_test {
+      .section_title {
+        padding-left: 16px;
+        @include basic-font($fs-14, $fw-regular, $secondary);
+        margin-bottom: -10px;
+      }
+      .individual-card {
+        .MuiList-root {
+          padding-top: 0;
+          padding-bottom: 0;
+          width: 100%;
+          max-width: 485px;
+          .MuiListItem-root {
+            border: 0.8px solid $text-5;
+          }
+        }
+        .search__wrapper {
+          .MuiPaper-root {
+            box-shadow: none;
+            border-radius: none;
+          }
+        }
+      }
+    }
+  }
+}
+.multiple__select-wrapper {
+  .MuiFormControl-root {
+    max-width: 475px;
+    .MuiSelect-select {
+      .MuiStack-root {
+        .MuiChip-root {
+          border-radius: 4px;
+          background-color: unset;
+          border: 1px solid $text-4;
+        }
+      }
+    }
+  }
+}
+
+.order {
+  &__template {
+    padding: 16px 24px;
+  }
+}
+
+.child-order-tab-selected {
+  .title__wrapper {
+    align-items: center;
+  }
+  .permissions--tag {
+    max-width: 38vw;
+    width: 100%;
+  }
+}

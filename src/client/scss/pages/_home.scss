@@ -1,0 +1,47 @@
+.home {
+  &__wrapper {
+    .basic {
+      &__card {
+        background-color: $white;
+      }
+    }
+    padding: 24px;
+    height: calc(100vh - 64px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+    @include primary-overflow-scroll;
+    &--right {
+      .notification_wrapper {
+        // min-height: 474px;
+        // margin-top: 20px;
+        height: auto;
+        margin-top: 0;
+        .notification__section {
+          margin-bottom: 0 !important;
+        }
+      }
+    }
+    .calendar {
+      &_datepicker {
+        .title {
+          &__wrapper {
+            padding: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.noDataAvailable {
+  @include dflex(column, center, center, wrap);
+  h4 {
+    @include basic-font($fs-24, $fw-bold, $text-1);
+  }
+  p {
+    width: 25vw;
+    text-align: center;
+    @include basic-font($fs-14, $fw-medium, $text-2);
+  }
+}

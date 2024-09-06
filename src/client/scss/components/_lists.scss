@@ -1,0 +1,223 @@
+.permissions {
+  &__list {
+    width: 100%;
+    @include primary-overflow-scroll;
+    height: auto;
+    max-height: 150px;
+    overflow-y: auto;
+  }
+}
+
+.stepProcess {
+  &__wrapper {
+    width: calc(100% - 380px);
+
+    &--steps {
+      width: 100%;
+      padding: 0 !important;
+      margin: 0 !important;
+      display: flex;
+      position: relative;
+
+      .MuiListItem-root {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        width: auto;
+        max-width: 140px;
+        border: 8px solid transparent;
+        .MuiListItemAvatar-root {
+          min-width: 32px;
+          padding: 0px;
+          .MuiAvatar-circular {
+            width: 32px;
+            height: 32px;
+            .MuiTypography-root {
+              @include basic-font($fs-12, $fw-regular, $text-3);
+            }
+          }
+        }
+
+        &.arrowIndicator {
+          justify-content: start;
+          padding-top: 15px;
+          min-width: fit-content !important;
+          .arrow-style {
+            padding: 3px;
+          }
+        }
+
+        .MuiListItemText-root {
+          padding: 0px;
+
+          .MuiTypography-root {
+            text-align: center;
+          }
+        }
+      }
+
+      .stepCompleted {
+        .MuiListItemAvatar-root {
+          .MuiAvatar-circular {
+            background-color: $lightGreenCircle;
+            border: 1px solid $lightGreenCircle;
+
+            svg {
+              color: $green;
+            }
+          }
+        }
+
+        .MuiListItemText-root {
+          .MuiTypography-root {
+            @include basic-font($fs-12, $fw-regular, $secondary);
+          }
+        }
+      }
+
+      .stepDefault {
+        &.active-scroll-spy {
+          background-color: $primary-op-10;
+          border-radius: 5px;
+          .MuiListItemAvatar-root {
+            .MuiAvatar-circular {
+              background-color: $primary !important ;
+              border: 1px solid $primary !important ;
+              .MuiTypography-root {
+                @include basic-font($fs-12, $fw-bold, $white);
+              }
+            }
+          }
+
+          .MuiListItemText-root {
+            .MuiTypography-root {
+              @include basic-font($fs-12, $fw-bold, $primary);
+            }
+          }
+        }
+      }
+      .stepDefault {
+        .MuiListItemText-root {
+          .MuiTypography-root {
+            @include basic-font($fs-12, $fw-regular, $text-3);
+          }
+        }
+        .MuiListItemAvatar-root {
+          .MuiAvatar-circular {
+            background-color: $white;
+            border: 1px solid $text-3;
+            .MuiTypography-root {
+              @include basic-font($fs-12, $fw-bold, $text-3);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.features__table {
+  min-height: 200px;
+  overflow-y: auto;
+  cursor: pointer;
+  max-height: calc(100vh - 400px);
+  @include primary-overflow-scroll;
+
+  th {
+    &:last-child {
+      width: 40%;
+    }
+  }
+
+  .permissions--tag {
+    width: 100%;
+    max-width: 35vw;
+    .MuiFormControl-root {
+      .MuiInputBase-root {
+        padding-top: 2px;
+        padding-bottom: 3px;
+        padding-left: 5px;
+        padding-right: 30px;
+        min-height: 40px;
+
+        .MuiAutocomplete-input {
+          padding: 0 !important;
+        }
+      }
+    }
+
+    .MuiChip-root {
+      height: 30px;
+
+      .MuiSvgIcon-root {
+        opacity: 0;
+      }
+
+      background-image: url("@assets/images/svg/crossbtn.svg");
+      background-repeat: no-repeat;
+      background-position: 90% center;
+      background-size: 16px;
+      border-radius: 4px;
+      background-color: transparent;
+      border: 1px solid $text-op;
+    }
+  }
+}
+
+.patientMngmt {
+  &--stepper {
+    .createOrder {
+      &__wrapper {
+        &--content {
+          h6 {
+            @include basic-font($fs-16, $fw-bold, $secondary);
+            b {
+              @include basic-font($fs-12, $fw-bold, $secondary);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.createOrder {
+  &__steps {
+    display: flex;
+    justify-content: end;
+  }
+}
+
+// .active-scroll-spy {
+//   background-color: $primary-op-10;
+//   border-radius: 5px;
+//   padding: 10px;
+// }
+
+.content {
+  &__new_patient {
+    @include primary-overflow-scroll;
+    height: auto;
+    min-height: calc(100vh - 200px);
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}
+.errorMsg {
+  &__wrapper {
+    max-height: 300px;
+    overflow-y: auto;
+    @include primary-overflow-scroll;
+  }
+}
+.testListSearch {
+  &__wrapper {
+    .list__header--height {
+      .search__wrapper {
+        right: 16px;
+        top: 10px;
+      }
+    }
+  }
+}

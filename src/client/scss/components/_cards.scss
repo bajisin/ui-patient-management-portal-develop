@@ -1,0 +1,285 @@
+.basic {
+  &__card {
+    .MuiCardContent-root {
+      padding: 0 !important;
+    }
+    @include basic-card();
+    padding: 15px;
+  }
+}
+.mini {
+  &__card {
+    .MuiCardContent-root {
+      padding: 0 !important;
+    }
+    padding: 12px;
+    @include mini-card();
+  }
+}
+.gridList {
+  &__wrapper {
+    &--card {
+      width: 100%;
+      padding: 12px !important;
+      border-radius: 4px !important;
+      box-shadow: unset !important;
+      border: 1px solid $text-op;
+      background-color: $grey-bg !important;
+      display: inline-block;
+      position: relative;
+      &:hover {
+        &::after {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 0;
+          background-color: $error-dark;
+          height: 6px;
+          width: 100%;
+          border-top-left-radius: 6px;
+          border-top-right-radius: 6px;
+        }
+      }
+      .MuiCard-root {
+        background-color: transparent;
+        box-shadow: none;
+      }
+      .downloadBtn-text {
+        padding: 0;
+        &:hover {
+          background-color: transparent;
+        }
+        svg {
+          color: $text-1;
+          width: 14px;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+  &__header {
+    background-color: $white;
+    padding: 12px;
+    border-radius: 4px;
+    img {
+      height: 18px;
+    }
+    .MuiStack-root {
+      p {
+        @include title-regular-12;
+      }
+      span {
+        @include title-regular-12;
+        color: $text-2 !important;
+        padding-left: 5px;
+      }
+    }
+    .profile--title {
+      @include basic-font($fs-14, $fw-medium, $text-2);
+      width: 78%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      p {
+        @include title-regular-12;
+        img {
+          height: 12px;
+        }
+        span {
+          @include title-regular-12;
+          color: $secondary !important;
+          padding-left: 5px;
+        }
+      }
+    }
+  }
+  &__itemsCount {
+    width: 100%;
+    display: inline-block;
+    margin-top: 10px !important;
+    p {
+      margin-top: 4px;
+      margin-bottom: 4px;
+      @include basic-font($fs-12, $fw-regular, $text-3);
+      b {
+        @include basic-font($fs-12, $fw-bold, $secondary);
+      }
+    }
+  }
+}
+
+.basic {
+  &__drawer {
+    &--headerTop {
+      background-color: $white;
+      padding: 12px;
+      border-radius: 4px;
+      img {
+        height: 18px;
+      }
+    }
+  }
+}
+.header {
+  &__wrapper {
+    &--top {
+      width: 100%;
+      padding: 16px;
+      display: flex;
+      justify-content: space-between;
+    }
+    &--logo {
+      max-width: 75px;
+      width: 75px;
+      max-height: 50px;
+      height: 50px;
+      border: 1px solid $text-op;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      img {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        object-fit: contain;
+        padding-left: 4px;
+        padding-right: 4px;
+      }
+      margin-right: 10px !important;
+    }
+    &--title {
+      h5 {
+        @include basic-font($fs-20, $fw-bold, $secondary);
+        text-transform: capitalize !important;
+      }
+      @include dflex(row, start, center, wrap);
+      float: left;
+    }
+    &--actions {
+      align-items: center;
+      float: right;
+      .bordered-icon-btn {
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 40px;
+        width: 40px;
+      }
+      .primary-btn {
+        height: 40px;
+      }
+    }
+    &--bottom {
+      @include dflex(row, space-between, center, wrap);
+      .MuiList-root {
+        @include dflex(row, start, center, wrap);
+        padding: 0;
+        .MuiListItem-root {
+          width: min-content;
+          white-space: nowrap;
+          padding: 0;
+          margin-top: 8px;
+          margin-bottom: 8px;
+          padding-left: 16px;
+          padding-right: 16px;
+          .MuiListItemIcon-root {
+            min-width: min-content;
+            padding-right: 10px;
+            @include basic-font($fs-12, $fw-regular, $text-3);
+            span {
+              margin-right: 5px;
+              font-size: $fs-16;
+            }
+            .secondaryIcon {
+              &.me-1 {
+                height: 16px;
+              }
+            }
+          }
+          .MuiListItemText-root {
+            .MuiTypography-root {
+              @include basic-font($fs-12, $fw-bold, $text-2);
+            }
+          }
+          + {
+            .MuiListItem-root {
+              border-left: 1px solid $text-op;
+            }
+          }
+          .view-details__right-drawer {
+            @include basic-font($fs-12, $fw-regular, $primary);
+          }
+        }
+      }
+    }
+  }
+}
+.createOrder {
+  &__wrapper {
+    border: 1px solid $text-op;
+    border-radius: $borderBasicRadius;
+    &--header {
+      background-color: $table-header-bg;
+      padding: 12px 20px;
+      h6 {
+        @include basic-font($fs-16, $fw-bold, $black);
+        line-height: 16px;
+        b {
+          @include basic-font($fs-14, $fw-regular, $text-3);
+          margin-right: 10px;
+        }
+      }
+    }
+    &--content {
+      padding: 15px;
+      .toggleButtonGroup {
+        width: 100%;
+        button {
+          width: 50%;
+          height: 38px;
+          text-transform: unset;
+          @include basic-font($fs-14, $fw-regular, $text-2);
+          &.Mui-selected {
+            @include basic-font($fs-14, $fw-bold, $white);
+            background-color: $primary;
+          }
+        }
+      }
+      .secondary {
+        &__card {
+          @include secondary-card;
+          border-color: $text-op !important;
+          padding: 0 !important;
+          p {
+            padding: 10px;
+          }
+          .autoCompleteTest {
+            .MuiAutocomplete-inputRoot {
+              padding: 2px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.lightBlueHeader {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding: 0px 10px;
+  background-color: $table-header;
+}
+
+.tenant-content {
+  box-shadow: 0px 4px 20px 0px $dark-op-10 !important;
+}
+
+.gridList {
+  &__wrapper--cardDetails {
+    &:hover {
+      &::after {
+        background-color: unset;
+      }
+    }
+  }
+}

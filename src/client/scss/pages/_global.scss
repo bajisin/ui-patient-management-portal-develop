@@ -1,0 +1,761 @@
+.notification {
+  &__section {
+    .section_title {
+      color: $secondary;
+      display: flex;
+      align-items: center;
+    }
+
+    .notification_list {
+      @include primary-overflow-scroll;
+      height: auto;
+      max-height: 250px;
+      overflow-y: auto;
+      padding-right: 10px;
+
+      .list_item {
+        display: flex;
+        align-items: baseline;
+        padding: 0;
+        position: relative;
+
+        &::before {
+          content: "";
+          border-radius: 8px;
+          background-color: $primary;
+          height: 8px;
+          width: 8px;
+          position: absolute;
+          left: 0;
+          top: 15px;
+        }
+
+        .MuiListItemText-root {
+          margin-left: 15px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+
+        .MuiListItemText-primary {
+          margin-bottom: 5px;
+          @include basic-font($fs-12, 400, $text-2);
+        }
+
+        .list_wrap {
+          @include dflex("", space-between, self-end, "");
+
+          .list_date {
+            @include basic-font($fs-12, 400, $text-3);
+            margin-top: 0px;
+          }
+
+          .view_details {
+            @include basic-font($fs-12, 400, $primary);
+          }
+        }
+
+        + {
+          .list_item {
+            border-top: 1px solid $text-op;
+          }
+        }
+      }
+    }
+  }
+}
+
+.content {
+  &__wrapper {
+    width: 100%;
+    height: calc(100vh - 160px);
+    overflow-y: auto;
+    padding-right: 10px;
+    overflow-x: hidden;
+    padding-left: 24px;
+    @include primary-overflow-scroll;
+
+    &--view {
+      width: 100% !important;
+      background-color: $white;
+      border-radius: 4px;
+      margin-top: 0 !important;
+    }
+  }
+}
+
+.content {
+  &__wrapper {
+    &--header {
+      @include dflex(row, space-between, center, nowrap);
+      margin-bottom: 15px !important;
+
+      h4 {
+        @include basic-font($fs-20, $fw-bold, $secondary);
+
+        span {
+          width: 100%;
+          display: inherit;
+          @include basic-font($fs-12, $fw-medium, $text-3);
+        }
+      }
+    }
+  }
+}
+
+.upload {
+  &__logo {
+    width: 100%;
+    height: 100%;
+    border: 1px dashed $text-4;
+    border-radius: 4px;
+    margin-bottom: 15px !important;
+
+    &--content {
+      height: 100%;
+      position: relative;
+
+      input[type="file"] {
+        position: absolute;
+        background: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+      }
+
+      h6 {
+        @include basic-font($fs-14, $fw-bold, $secondary);
+        margin-top: 20px;
+        margin-bottom: 12px;
+      }
+
+      p {
+        @include basic-font($fs-12, $fw-regular, $text-2);
+      }
+
+      @include dflex(column, center, center, nowrap);
+    }
+
+    &--successful {
+      @include dflex(column, center, center, nowrap);
+      height: 100%;
+      width: 100%;
+      text-align: center;
+      position: relative;
+
+      img {
+        margin: auto;
+        max-width: 90%;
+        max-height: 130px;
+      }
+
+      .bordered-icon {
+        border: 1px solid $primary;
+        border-radius: 4px;
+        text-align: center;
+        padding: 5px;
+        width: fit-content;
+        min-width: fit-content;
+
+        &.edit {
+          position: absolute;
+          top: 5px;
+          right: 5px;
+        }
+      }
+    }
+  }
+
+  &--successful {
+    @include dflex(column, center, center, nowrap);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    position: relative;
+
+    img {
+      margin: auto;
+    }
+
+    .bordered-icon {
+      border: 1px solid $primary;
+      border-radius: 4px;
+      text-align: center;
+      padding: 5px;
+      width: fit-content;
+      min-width: fit-content;
+
+      &.edit {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+      }
+    }
+  }
+}
+
+.search {
+  &__wrapper {
+    width: 20vw;
+    padding: 0px;
+    box-shadow: none !important;
+    border: 1px solid $text-op;
+    border-radius: 5px !important;
+    position: relative;
+    .MuiInputBase-root {
+      flex-grow: 1;
+      width: 83%;
+      max-width: 25vw;
+      padding: 4px 6px;
+    }
+    .MuiIconButton-root {
+      padding: 0;
+    }
+    .MuiIconButton-root {
+      &.searchIconBtn {
+        position: absolute;
+        right: 5px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
+}
+
+.breadcrumb {
+  &__wrapper {
+    width: 100%;
+
+    .MuiBreadcrumbs-ol {
+      .MuiBreadcrumbs-li {
+        a {
+          text-decoration: none;
+          @include basic-font($fs-14, $fw-medium, $secondary);
+
+          &:hover {
+            text-decoration: underline;
+            cursor: pointer;
+          }
+        }
+
+        p {
+          @include basic-font($fs-14, $fw-bold, $primary);
+
+          &:hover {
+            cursor: context-menu;
+          }
+        }
+
+        .view-details {
+          &__right-drawer {
+            text-decoration: unset !important;
+            // color: $primary !important;
+            @include basic-font($fs-14, $fw-medium, $primary);
+          }
+        }
+      }
+
+      .MuiBreadcrumbs-separator {
+        svg {
+          color: $text-3;
+        }
+      }
+    }
+  }
+}
+
+.chip {
+  &__wrapper {
+    width: 100%;
+
+    label {
+      width: calc(100% - 12px);
+      padding: 2px;
+      margin: 2px 6px;
+      background-color: $text-op;
+      border-radius: $borderBasicRadius;
+      border: 1px solid $text-op;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      @include basic-font($fs-12, $fw-bold, $secondary);
+
+      span {
+        font-weight: $fw-regular !important;
+      }
+    }
+  }
+}
+
+.notification {
+  &__page-wrapper {
+    .title__wrapper {
+      &--right {
+        .notification_date {
+          min-width: 200px;
+        }
+
+        .search__wrapper {
+          width: 100%;
+          min-width: 100%;
+          max-width: 100%;
+          // margin-right: 15px;
+        }
+
+        .search_component {
+          height: 37px;
+        }
+        .notification__datepicker{
+          &--customrange{
+            position: absolute;
+            top: 60px;
+            z-index: 1;
+            .datetimepicker-control{
+              background-color: $white;
+            }
+          }
+        }
+      }
+    }
+
+    .content__wrapper {
+      height: calc(100vh - 250px);
+    }
+
+    .notification-cards {
+      @include primary-card;
+      margin-top: 14px;
+      padding: 16px;
+      margin-bottom: 16px;
+      @include smooth-menu-hover();
+      .patient-added {
+        @include title-bold-14;
+      }
+
+      .patient-description {
+        @include title-regular-12;
+        padding: 4px 0;
+      }
+
+      .patient-details {
+        @include dflex(row, space-between, center, "");
+
+        p {
+          @include title-bold-12;
+        }
+
+        span {
+          @include basic-font($fs-14, $fw-bold, $primary);
+        }
+      }
+
+      &:hover {
+        border-left: 4px solid $primary;
+        box-shadow: 0px 4px 20px 0px $dark-op-10;
+        @include smooth-menu-hover();
+      }
+    }
+  }
+}
+.notification-cards {
+  position: relative;
+}
+
+.order-button {
+  position: absolute !important;
+  top: 5px;
+  left: 77%;
+}
+
+.lab_content {
+  .content__wrapper--view {
+    .icons-separted {
+      display: flex;
+    }
+  }
+}
+
+.viewIcon,
+.downloadIcon {
+  color: $primary !important;
+}
+
+hr {
+  border-color: $text-op;
+  opacity: 0.8;
+}
+
+.underlined-title {
+  @include basic-font($fs-14, $fw-regular, $text-2);
+}
+
+.DraftEditor-root {
+  min-height: 150px;
+  max-height: 250px;
+  overflow-y: auto;
+  @include primary-overflow-scroll;
+  @include basic-font($fs-12, $fw-light, $secondary);
+}
+
+.custome {
+  &__calendar {
+    &--wrapper {
+      z-index: 999;
+      position: absolute;
+      top: 45px;
+      border: 1px solid $text-op;
+      border-radius: 4px;
+
+      .rdrPprevButton,
+      .rdrNextButton {
+        background-color: transparent;
+      }
+
+      .rdrPprevButton {
+        i {
+          border-color: transparent $primary transparent transparent;
+        }
+      }
+
+      .rdrNextButton {
+        i {
+          border-color: transparent transparent transparent $primary;
+        }
+      }
+
+      .rdrSelected,
+      .rdrInRange,
+      .rdrStartEdge,
+      .rdrEndEdge {
+        background-color: $primary;
+        border-color: $primary;
+      }
+
+      .rdrDayHovered {
+        &:hover {
+          border-color: $primary;
+
+          .rdrDayStartPreview,
+          .rdrDayEndPreview {
+            color: $primary;
+          }
+        }
+      }
+
+      .rdrDayStartPreview {
+        &.rdrDayEndPreview {
+          color: $primary !important;
+        }
+      }
+
+      .rdrDayToday .rdrDayNumber span:after {
+        background-color: $primary;
+      }
+    }
+  }
+}
+
+.loader-wrapper {
+  background-color: $text-op;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.iframe-element {
+  width: 100%;
+  min-height: calc(80vh - 200px);
+}
+
+.faq-wrapper {
+  border-bottom: 1px solid $text-op;
+  padding: 10px 0;
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+}
+
+.error--bright {
+  color: $error-dark;
+}
+
+.tooltipText {
+  z-index: 9;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  max-width: 240px;
+  height: auto;
+  background-color: $dark-bg-op-80;
+  border-radius: 4px;
+  padding: 5px;
+
+  p {
+    @include basic-font($fs-12, $fw-regular, $white);
+  }
+}
+
+.info--note {
+  &:hover {
+    ~ .tooltipText {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
+
+.addNewPatient {
+  &__wrapper {
+    @include dflex(column, center, center, wrap);
+    width: 100%;
+    padding: 3% 25%;
+    text-align: center;
+  }
+}
+
+.vertical--divider {
+  height: 100% !important;
+  width: 1px;
+  background-color: $text-op;
+  position: absolute;
+  right: -12px;
+  display: none;
+}
+
+.background-unset {
+  background-color: transparent !important;
+}
+
+.subHead {
+  @include basic-font($fs-14, $fw-regular, $secondary);
+}
+
+.text-image {
+  div {
+    align-items: start;
+
+    img {
+      width: auto;
+      height: 90px;
+      max-height: 90px;
+    }
+  }
+
+  &--qrCode {
+    .dflex {
+      h6 {
+        width: 97%;
+        margin-right: 3%;
+      }
+    }
+
+    .imageWrapper {
+      width: 140px;
+      max-width: 140px;
+      height: 140px;
+      max-height: 140px;
+      border-radius: $borderBasicRadius;
+      border: 1px solid $text-op;
+      img {
+        width: 100%;
+      }
+      .qrcodeBtn {
+        padding: 5px !important;
+        font-size: $fs-12 !important;
+      }
+      .qrCode {
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        margin: auto;
+        padding: 10px;
+      }
+    }
+  }
+}
+
+.pre-line {
+  white-space: break-spaces;
+}
+
+.user-search-input {
+  justify-content: end;
+}
+
+.search__wrapper {
+  .MuiIconButton-root {
+    &:hover,
+    &:focus {
+      background-color: unset;
+    }
+  }
+}
+
+.primaryIcon {
+  color: $primary;
+  &:hover {
+    color: $primary-2 !important;
+  }
+}
+
+.secondaryIcon {
+  color: $text-3;
+}
+
+.whiteIcon {
+  color: $white;
+}
+
+.deleteRedIcon {
+  color: $error-dark;
+}
+
+.delete-insurance-guarentor {
+  float: right;
+}
+
+.whiteSpace-nowrap {
+  white-space: nowrap;
+}
+
+.orderDetails__wrapper {
+  .note-msg {
+    // background-color: $note-background;
+    border-bottom: 0;
+    border-radius: 4px;
+    margin-bottom: 2px;
+    border: 1px solid $warning-dark;
+
+    .toaster-content {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      border-radius: 4px;
+
+      .toaster-text {
+        .maintanence-text {
+          @include basic-font($fs-12, $fw-bold, $black);
+          display: flex;
+
+          .edit-text {
+            @include basic-font($fs-12, $fw-bold, $primary);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+        }
+      }
+
+      .notification-icon {
+        height: 40px;
+        border-radius: 50px;
+      }
+
+      .cross-icon {
+        margin-right: 5px;
+        color: $text-2;
+        font-size: $fs-16;
+      }
+    }
+  }
+}
+
+.sccessRequest {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: $white;
+  border: 2px solid $black;
+  box-shadow: 0 0 0 24px $black;
+  padding: 4px;
+}
+.check-now {
+  padding: 6px 24px !important;
+  white-space: nowrap;
+}
+.name_cover {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.button-upload {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-transform: none;
+}
+.imageCrop {
+  &__wrapper {
+    width: 100%;
+    height: 100%;
+    @include dflex(column, center, center, nowrap);
+    img {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      max-width: 100%;
+      max-height: 140px;
+    }
+    button {
+      margin: 5px 0px;
+    }
+  }
+}
+.theme__wrapper {
+  &--add {
+    z-index: 2;
+  }
+}
+.success--medium {
+  color: $green;
+}
+.create__order-tests-table {
+  .search__wrapper {
+    ~ .MuiPaper-root {
+      max-width: 20vw;
+      ul {
+        width: 100%;
+        max-height: 100px;
+        overflow: auto;
+        @include primary-overflow-scroll;
+        li {
+          white-space: initial;
+        }
+      }
+    }
+  }
+}
+
+.previewProfilePic {
+  .playerProfilePic_home_tile {
+    max-width: 275px;
+  }
+}
+
+.printLogo {
+  width: 140px;
+  height: auto;
+}
+.table_section {
+  &--selectedTests {
+    tr {
+      td {
+        .search {
+          &__wrapper {
+            .MuiInputBase-root {
+              width: 65%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

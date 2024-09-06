@@ -1,0 +1,4 @@
+{
+  "/lsl/userService/createUser": "/users",
+  "/lsl/userService/getUsers": "/users"
+}

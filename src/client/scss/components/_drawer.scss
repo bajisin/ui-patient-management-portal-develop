@@ -1,0 +1,198 @@
+.basic {
+  &__drawer {
+    border: 2px solid $text-op;
+    border-radius: 3px;
+    width: 600px;
+    height: 100%;
+    max-height: 100vh;
+    overflow-y: auto;
+    @include primary-overflow-scroll;
+    padding: 28px;
+    margin: 20px;
+    .logo {
+      height: 18px;
+    }
+  }
+}
+
+.basic {
+  &__drawer {
+    &--header {
+      .drawer {
+        &--title {
+          position: relative;
+          @include dflex(row, start, center, wrap);
+          .profileDataPatient {
+            width: calc(100% - 5vw);
+            .edit-button {
+              font-size: $fs-12 !important;
+              line-height: $fs-14;
+              padding: 5px !important;
+            }
+          }
+          .profileDataAdmin {
+            width: 100%;
+          }
+          .profileData {
+            h5 {
+              @include basic-font($fs-16, $fw-bold, $black);
+              width: 50%;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+            }
+            img {
+              height: 18px;
+            }
+            .MuiStack-root {
+              margin-top: 10px;
+              .MuiTypography-p {
+                align-items: center;
+                display: flex;
+                > .MuiTypography-span {
+                  font-family: "LSIconicFont";
+                  font-weight: $fw-medium;
+                  margin-right: 5px;
+                }
+                @include basic-font($fs-12, $fw-medium, $text-3);
+                .MuiTypography-span {
+                  &:nth-child(2) {
+                    margin-left: 5px;
+                    @include basic-text();
+                  }
+                }
+                + {
+                  .MuiTypography-p {
+                    border-left: 1px solid $text-op;
+                    padding-left: 10px;
+                  }
+                }
+              }
+            }
+          }
+          .MuiStack-root {
+            margin-top: 12px;
+          }
+        }
+      }
+
+      .text-details {
+        border-bottom: 1px solid $text-4;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        margin-bottom: 24px;
+        @include dflex(row, space-between, center, nowrap);
+      }
+      h6 {
+        &.title {
+          @include basic-font($fs-12, $fw-regular, $text-2);
+          text-transform: uppercase;
+          b {
+            margin-left: 10px;
+            @include basic-font($fs-12, $fw-bold, $secondary);
+          }
+        }
+      }
+      .test-performed {
+        ol {
+          display: inline-block;
+          width: 100%;
+          padding-left: 0;
+          list-style-type: decimal;
+          list-style-position: inside;
+          li {
+            width: 49%;
+            float: left;
+            &:nth-child(odd) {
+              margin-right: 2%;
+            }
+            @include basic-font($fs-12, $fw-regular, $text-3);
+          }
+        }
+      }
+    }
+  }
+}
+.pdf {
+  &__wrapper {
+    .MuiGrid-item {
+      .mini__card {
+        box-shadow: 0px 3px 12px 0px $dark-op-10;
+        .MuiCardContent-root {
+          display: flex;
+          align-items: flex-start;
+          > .MuiTypography-span {
+            &.ls-pdf {
+              font-size: $fs-16 !important;
+              font-family: "LSIconicFont" !important;
+              margin-right: 4px;
+            }
+          }
+          img {
+            margin-right: 5px;
+          }
+          .MuiTypography-label {
+            @include basic-text();
+            line-height: 14px;
+          }
+          .MuiTypography-span {
+            @include sub-text();
+          }
+        }
+        .MuiStack-root {
+          justify-content: end;
+          margin-top: 0;
+          .MuiIconButton-root {
+            padding: 0;
+            svg {
+              color: $active-blue-op;
+              width: 16px;
+            }
+            &:active,
+            &:hover,
+            &:focus {
+              background-color: transparent;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.profilePic {
+  width: 4vw;
+  height: 4vw;
+  background-color: $table-header-bg;
+  border-radius: 120px;
+  @include dflex(row, center, center, nowrap);
+  margin-right: 10px !important;
+  > {
+    h6 {
+      @include basic-font(1.75vw, $fw-medium, $secondary);
+      text-transform: uppercase;
+    }
+  }
+  &.profilePicHeader {
+    width: 2.2vw;
+    height: 2.2vw;
+    margin-right: 5px !important;
+    margin-left: 5px !important;
+    h6 {
+      font-size: 1vw !important;
+    }
+  }
+}
+
+.view-details {
+  &__right-drawer {
+    text-decoration: unset !important;
+    @include basic-font($fs-16, $fw-bold, $primary);
+  }
+}
+.orderDetailsTitle {
+  .edit-button {
+    // position: absolute;
+    // right: 100px;
+    // top: -8px;
+  }
+}

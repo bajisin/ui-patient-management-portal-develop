@@ -1,0 +1,9 @@
+coverage
+dist
+node_modules
+.babelrc
+.eslintrc
+.gitignore
+.prettierignore
+.prettierrc
+package-lock.json

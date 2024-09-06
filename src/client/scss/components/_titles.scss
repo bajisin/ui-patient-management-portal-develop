@@ -1,0 +1,119 @@
+.title {
+  &__wrapper {
+    @include dflex("", space-between, start, "");
+    white-space: nowrap;
+    &--left {
+      h5 {
+        @include title-bold-14;
+      }
+
+      .overview_text {
+        @include title-regular-12;
+      }
+    }
+
+    &--right {
+      .title_right {
+        @include basic-font($fs-12, $fw-bold, $primary);
+      }
+      .MuiButton-outlined {
+        border-radius: 4px;
+        border: 1px solid $primary;
+        color: $primary;
+        &:hover {
+          background-color: $primary-2 !important;
+          color: $white;
+        }
+      }
+      .MuiButton-contained {
+        background-color: $primary !important;
+        text-transform: capitalize;
+        @include basic-font($fs-14, $fw-bold, $white);
+        &:hover {
+          background-color: $primary-2 !important;
+        }
+      }
+    }
+  }
+}
+
+.order-report-title {
+  border-bottom: 1px solid $text-op;
+  .icons-separted {
+    display: flex;
+    .advance__filter-wrapper {
+      margin-right: 17px;
+    }
+  }
+}
+
+.icons-separted {
+  display: flex;
+  .advance__filter-wrapper {
+    margin-right: 16px;
+    padding: 2px;
+    font-size: $fs-32;
+    line-height: $fs-32;
+    color: $secondary;
+    background-color: transparent;
+    border: 1px solid $text-op;
+    border-radius: $borderBasicRadius;
+    cursor: pointer;
+    &:hover {
+      border-color: $primary;
+      color: $primary;
+    }
+  }
+  .search_component {
+    height: 38px;
+  }
+}
+.checked {
+  &--label {
+    @include basic-font($fs-14, $fw-regular, $secondary);
+    .MuiCheckbox-root {
+      padding: 0;
+    }
+  }
+}
+
+.add-patient-titles {
+  white-space: nowrap;
+}
+.insurance__guarantor,
+.createOrder__wrapper--content {
+  .tab__wrapper {
+    .tabs_sections {
+      .MuiTabs-scroller {
+        .MuiTabs-flexContainer {
+          align-items: center;
+        }
+      }
+    }
+  }
+}
+.order__patient--name {
+  width: 60%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.mini__card--title {
+  width: 73%;
+  padding-right: 8px;
+  p {
+    word-break: break-all;
+  }
+}
+.uploaded__file {
+  word-break: break-all;
+  .viewIcon {
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  .errorTextButton {
+    margin-left: 10px;
+    padding: 0;
+    min-width: auto;
+  }
+}

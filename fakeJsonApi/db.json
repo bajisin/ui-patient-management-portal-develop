@@ -1,0 +1,4225 @@
+{
+  "users": [
+    {
+      "firstName": "Super",
+      "lastName": "Admin",
+      "emailAddress": "superadmin_ls@gmail.com",
+      "phoneNumber": "6749988770",
+      "streetAddress": "68749",
+      "zipCode": "675839",
+      "city": "Seattle",
+      "state": "WA",
+      "country": "USA",
+      "id": 1,
+      "role": "super admin"
+    },
+    {
+      "id": 2,
+      "firstName": "Jagadee",
+      "lastName": "K",
+      "emailAddress": "knljagadeeswari@gmail.com",
+      "role": "tenant admin"
+    },
+    {
+      "id": 3,
+      "firstName": "Ann",
+      "lastName": "Smith",
+      "emailAddress": "ann@codingthesmartway.com"
+    },
+    {
+      "id": 4,
+      "firstName": "Karthik",
+      "lastName": "Pamidimarri",
+      "emailAddress": "karthikpamidimari@gmail.com",
+      "role": "Super Admin"
+    },
+    {
+      "id": 5,
+      "firstName": "Karthik",
+      "lastName": "Pamidimarri",
+      "emailAddress": "mvvkarthikp@gmail.com",
+      "role": "Super Admin"
+    },
+    {
+      "id": 6,
+      "firstName": "Patient",
+      "lastName": "User",
+      "emailAddress": "patient_ls@gmail.com",
+      "role": "Patient"
+    },
+    {
+      "firstName": "Lakshmi",
+      "middleName": "",
+      "lastName": "Koduru",
+      "emailAddress": "knlj2816@gmail.com",
+      "phoneNumber": "6749988770",
+      "alternatePhoneNumber": "",
+      "streetAddress": "9-2-4/91",
+      "zipCode": "675839",
+      "city": "San Diego",
+      "state": "CA",
+      "country": "USA",
+      "id": 7,
+      "role": "super admin"
+    },
+    {
+      "id": 8,
+      "firstName": "srenitha",
+      "lastName": "devarakonda",
+      "emailAddress": "srenitha.devarakonda@gmail.com",
+      "role": "Super Admin"
+    },
+    {
+      "id": 9,
+      "firstName": "Farhina",
+      "lastName": "Azmi",
+      "emailAddress": "mdfarheena786@gmail.com",
+      "role": "Super Admin"
+    },
+    {
+      "id": 10,
+      "firstName": "Komal",
+      "lastName": "GUNAKI",
+      "emailAddress": "dummikomal1@gmail.com",
+      "role": "Super Admin"
+    },
+    {
+      "id": 11,
+      "firstName": "Venu",
+      "lastName": "Gopal",
+      "emailAddress": "vvgyadav16@gmail.com",
+      "role": "Super Admin"
+    },
+    {
+      "firstName": "Naga",
+      "middleName": "",
+      "lastName": "k",
+      "emailAddress": "knljagadeeswari2@gmail.com",
+      "phoneNumber": "6749988723",
+      "alternatePhoneNumber": "",
+      "streetAddress": "68749",
+      "zipCode": "456432",
+      "city": "El Paso",
+      "state": "TX",
+      "country": "USA",
+      "role": "Super Admin",
+      "id": 11
+    },
+    {
+      "firstName": "Tenant",
+      "lastName": "Admin",
+      "emailAddress": "tenantadmin_ls@gmail.com",
+      "phoneNumber": "6798353469",
+      "streetAddress": "2/39-1, cristeen park",
+      "zipCode": "56839",
+      "city": "Indianapolis",
+      "state": "IN",
+      "country": "USA",
+      "id": 12,
+      "role": "tenant admin"
+    },
+    {
+      "firstName": "Rohini",
+      "middleName": "",
+      "lastName": "L",
+      "emailAddress": "test1@test.test",
+      "phoneNumber": "6749988723",
+      "alternatePhoneNumber": "",
+      "streetAddress": "68749",
+      "zipCode": "675839",
+      "city": "Austin",
+      "state": "TX",
+      "country": "USA",
+      "role": "super admin",
+      "id": 13
+    },
+    {
+      "userRole": {
+        "id": "2"
+      },
+      "labId": "ID1234",
+      "labName": "Lifescan",
+      "firstName": "Jagadeeswari",
+      "middleName": "",
+      "lastName": "Koduru",
+      "emailAddress": "test@gmail.com",
+      "phoneNumber": "8764562341",
+      "alternatePhoneNumber": "",
+      "joiningDate": "2023-07-21T09:59:42.447Z",
+      "streetAddress": "5-7-9",
+      "zipCode": "56734",
+      "city": "San Diego",
+      "state": "CA",
+      "country": "USA",
+      "id": 14
+    },
+    {
+      "0": "I",
+      "1": "n",
+      "2": "d",
+      "3": "i",
+      "4": "a",
+      "5": "n",
+      "6": "a",
+      "7": "p",
+      "8": "o",
+      "9": "l",
+      "10": "i",
+      "11": "s",
+      "12": ",",
+      "13": " ",
+      "14": "I",
+      "15": "N",
+      "16": ",",
+      "17": " ",
+      "18": "U",
+      "19": "S",
+      "20": "A",
+      "role": "Client Admin",
+      "labId": "Lab 2",
+      "facilityId": "Facility 1",
+      "firstName": "test",
+      "middleName": "",
+      "lastName": "A",
+      "emailAddress": "testuser@gmail.com",
+      "phoneNumber": "9837573245",
+      "alternatePhoneNumber": "",
+      "joiningDate": "07-24-2023",
+      "streetAddress": "2-5-3",
+      "zipCode": "47539",
+      "id": 15
+    },
+    {
+      "role": "Client Admin",
+      "labId": "Lab 1",
+      "facilityId": "Facility 1",
+      "firstName": "John",
+      "middleName": "",
+      "lastName": "Doe",
+      "emailAddress": "john@gmail.com",
+      "phoneNumber": "9584739538",
+      "alternatePhoneNumber": "",
+      "joiningDate": "11-16-2023",
+      "streetAddress": "38-9/2",
+      "zipCode": "57483",
+      "city": "Indianapolis",
+      "state": "IN",
+      "country": "USA",
+      "id": 16
+    },
+    {
+      "role": "Provider",
+      "associatedTo": "Client Admin 2",
+      "firstName": "Dolly",
+      "middleName": "",
+      "lastName": "Dia",
+      "emailAddress": "dolly@gmail.com",
+      "phoneNumber": "9837285022",
+      "alternatePhoneNumber": "",
+      "joiningDate": "09-13-2023",
+      "streetAddress": "4-09-34",
+      "zipCode": "85749",
+      "city": "Twentynine Palms",
+      "state": "CA 92277",
+      "country": "USA",
+      "id": 17
+    },
+    {
+      "id": 18
+    },
+    {
+      "0": "I",
+      "1": "n",
+      "2": "d",
+      "3": "i",
+      "4": "a",
+      "5": "n",
+      "6": "a",
+      "7": "p",
+      "8": "o",
+      "9": "l",
+      "10": "i",
+      "11": "s",
+      "12": ",",
+      "13": " ",
+      "14": "I",
+      "15": "N",
+      "16": ",",
+      "17": " ",
+      "18": "U",
+      "19": "S",
+      "20": "A",
+      "role": "Client Admin",
+      "labId": "Lab 2",
+      "facilityId": "Facility 1",
+      "firstName": "test",
+      "middleName": "",
+      "lastName": "t",
+      "emailAddress": "testuser@gmail.com",
+      "phoneNumber": "9837573245",
+      "alternatePhoneNumber": "",
+      "joiningDate": "12-01-2023",
+      "streetAddress": "2-5-3",
+      "zipCode": "47539",
+      "id": 19
+    }
+  ],
+  "activeSessions": [
+    {
+      "id": 1,
+      "userId": 3
+    }
+  ],
+  "orders": [
+    {
+      "tenantName": "GHI Medical Center",
+      "tenantLogo": "logo url path",
+      "testsList": [
+        {
+          "testId": 1234,
+          "testName": "Iron Blood Test"
+        },
+        {
+          "testId": 1234,
+          "testName": "Iron Blood Test"
+        },
+        {
+          "testId": 1234,
+          "testName": "Iron Blood Test"
+        },
+        {
+          "testId": 1234,
+          "testName": "Iron Blood Test"
+        }
+      ],
+      "orderDate": "01-01-2023",
+      "createdAt": "2023-07-03T10:00:00Z",
+      "orderId": "ORD001",
+      "orderTypeDto": {
+        "id": 1,
+        "name": "STAT"
+      },
+      "reports": [
+        {
+          "id": 123,
+          "fileName": "sample",
+          "filePath": "file url path",
+          "fileType": "application/pdf",
+          "createdAt": "2023-07-03T10:05:00Z"
+        }
+      ],
+      "orderStatusDto": {
+        "id": 1,
+        "name": "Completed"
+      },
+      "tenantEmail": "test1@test.test",
+      "tenantPhoneNumber": "1234567890",
+      "orderDescription": "sample text"
+    },
+    {
+      "tenantName": "GHI Medical Center",
+      "tenantLogo": "logo url path",
+      "testsList": [
+        {
+          "testId": 1234,
+          "testName": "Iron Blood Test"
+        },
+        {
+          "testId": 1234,
+          "testName": "Iron Blood Test"
+        },
+        {
+          "testId": 1234,
+          "testName": "Iron Blood Test"
+        },
+        {
+          "testId": 1234,
+          "testName": "Iron Blood Test"
+        }
+      ],
+      "orderDate": "02-02-2023",
+      "createdAt": "2023-07-03T11:00:00Z",
+      "orderId": "ORD002",
+      "orderTypeDto": {
+        "id": 2,
+        "name": "Routine"
+      },
+      "reports": [],
+      "orderStatusDto": {
+        "id": 2,
+        "name": "In Progress"
+      },
+      "tenantEmail": "test2@test.test",
+      "tenantPhoneNumber": "9876543210",
+      "orderDescription": "sample text"
+    },
+    {
+      "tenantName": "GHI Medical Center",
+      "tenantLogo": "logo url path",
+      "testsList": [
+        {
+          "testId": 1234,
+          "testName": "Iron Blood Test"
+        },
+        {
+          "testId": 1234,
+          "testName": "Iron Blood Test"
+        },
+        {
+          "testId": 1234,
+          "testName": "Iron Blood Test"
+        },
+        {
+          "testId": 1234,
+          "testName": "Iron Blood Test"
+        }
+      ],
+      "orderDate": "03-03-2023",
+      "createdAt": "2023-07-03T12:00:00Z",
+      "orderId": "ORD003",
+      "orderTypeDto": {
+        "id": 3,
+        "name": "Reccuring"
+      },
+      "reports": [
+        {
+          "id": 789,
+          "fileName": "sample",
+          "filePath": "file url path",
+          "fileType": "application/pdf",
+          "createdAt": "2023-07-03T12:05:00Z"
+        }
+      ],
+      "orderStatusDto": {
+        "id": 1,
+        "name": "Completed"
+      },
+      "tenantEmail": "test3@test.test",
+      "tenantPhoneNumber": "5555555555",
+      "orderDescription": "sample text"
+    },
+    {
+      "tenantName": "GHI Medical Center",
+      "tenantLogo": "logo url path",
+      "testsList": [
+        {
+          "testId": 1234,
+          "testName": "Iron Blood Test"
+        },
+        {
+          "testId": 1234,
+          "testName": "Iron Blood Test"
+        },
+        {
+          "testId": 1234,
+          "testName": "Iron Blood Test"
+        },
+        {
+          "testId": 1234,
+          "testName": "Iron Blood Test"
+        }
+      ],
+      "orderDate": "04-04-2023",
+      "createdAt": "2023-07-03T13:00:00Z",
+      "orderId": "ORD004",
+      "orderTypeDto": {
+        "id": 1,
+        "name": "STAT"
+      },
+      "reports": [],
+      "orderStatusDto": {
+        "id": 2,
+        "name": "In Progress"
+      },
+      "tenantEmail": "test4@test.test",
+      "tenantPhoneNumber": "9999999999",
+      "orderDescription": "sample text"
+    },
+    {
+      "tenantName": "GHI Medical Center",
+      "tenantLogo": "logo url path",
+      "testsList": [
+        {
+          "testId": 1234,
+          "testName": "Iron Blood Test"
+        },
+        {
+          "testId": 1234,
+          "testName": "Iron Blood Test"
+        },
+        {
+          "testId": 1234,
+          "testName": "Iron Blood Test"
+        },
+        {
+          "testId": 1234,
+          "testName": "Iron Blood Test"
+        }
+      ],
+      "orderDate": "05-05-2023",
+      "createdAt": "2023-07-03T14:00:00Z",
+      "orderId": "ORD005",
+      "orderTypeDto": {
+        "id": 2,
+        "name": "Routine"
+      },
+      "reports": [
+        {
+          "id": 131415,
+          "fileName": "sample",
+          "filePath": "file url path",
+          "fileType": "application/pdf",
+          "createdAt": "2023-07-03T14:05:00Z"
+        }
+      ],
+      "orderStatusDto": {
+        "id": 1,
+        "name": "Completed"
+      },
+      "tenantEmail": "test5@test.test",
+      "tenantPhoneNumber": "1111111111",
+      "orderDescription": "sample text"
+    },
+    {
+      "tenantName": "GHI Medical Center",
+      "tenantLogo": "logo url path",
+      "testsList": [
+        {
+          "testId": 1234,
+          "testName": "Iron Blood Test"
+        },
+        {
+          "testId": 1234,
+          "testName": "Iron Blood Test"
+        },
+        {
+          "testId": 1234,
+          "testName": "Iron Blood Test"
+        },
+        {
+          "testId": 1234,
+          "testName": "Iron Blood Test"
+        }
+      ],
+      "orderDate": "06-06-2023",
+      "createdAt": "2023-07-03T15:00:00Z",
+      "orderId": "ORD006",
+      "orderTypeDto": {
+        "id": 3,
+        "name": "Reccuring"
+      },
+      "reports": [
+        {
+          "id": 161718,
+          "fileName": "sample",
+          "filePath": "file url path",
+          "fileType": "application/pdf",
+          "createdAt": "2023-07-03T15:05:00Z"
+        }
+      ],
+      "orderStatusDto": {
+        "id": 1,
+        "name": "Completed"
+      },
+      "tenantEmail": "test6@test.test",
+      "tenantPhoneNumber": "2222222222",
+      "orderDescription": "sample text"
+    },
+    {
+      "tenantName": "GHI Medical Center",
+      "tenantLogo": "logo url path",
+      "testsList": [
+        {
+          "testId": 1234,
+          "testName": "Iron Blood Test"
+        },
+        {
+          "testId": 1234,
+          "testName": "Iron Blood Test"
+        },
+        {
+          "testId": 1234,
+          "testName": "Iron Blood Test"
+        },
+        {
+          "testId": 1234,
+          "testName": "Iron Blood Test"
+        }
+      ],
+      "orderDate": "07-07-2023",
+      "createdAt": "2023-07-03T16:00:00Z",
+      "orderId": "ORD007",
+      "orderTypeDto": {
+        "id": 1,
+        "name": "STAT"
+      },
+      "reports": [
+        {
+          "id": 192021,
+          "fileName": "sample",
+          "filePath": "file url path",
+          "fileType": "application/pdf",
+          "createdAt": "2023-07-03T16:05:00Z"
+        }
+      ],
+      "orderStatusDto": {
+        "id": 1,
+        "name": "Completed"
+      },
+      "tenantEmail": "test7@test.test",
+      "tenantPhoneNumber": "3333333333",
+      "orderDescription": "sample text"
+    }
+  ],
+  "notifications": [
+    {
+      "title": "sample title",
+      "message": "Your test results from Lifescan laboratories by Dr. Albert are available",
+      "createdAt": "timestamp",
+      "category": {
+        "id": 1,
+        "name": "general notification"
+      }
+    },
+    {
+      "title": "sample title",
+      "message": "sample message",
+      "createdAt": "timestamp",
+      "category": {
+        "id": 1,
+        "name": "general notification"
+      }
+    },
+    {
+      "title": "sample title",
+      "message": "sample message",
+      "createdAt": "timestamp",
+      "category": {
+        "id": 2,
+        "name": "report notification"
+      }
+    }
+  ],
+  "facilities": [
+    {
+      "Name": "City Hospital",
+      "ID": "HOSP-001",
+      "EmailAddress": "cityhospital@example.com",
+      "PhoneNumber": "(123) 456-7890",
+      "ContractDuration": "24 months",
+      "Client": "Healthcare InsuranceCorp",
+      "Provider": "Healthcare Services Group",
+      "Patient": "John Doe",
+      "Status": "Active"
+    },
+    {
+      "Name": "Sunnyvale Medical Center",
+      "ID": "HOSP-002",
+      "EmailAddress": "info@sunnyvalemedical.com",
+      "PhoneNumber": "(234) 567-8901",
+      "ContractDuration": "18 months",
+      "Client": "MedCare Solutions",
+      "Provider": "Medical Professionals United",
+      "Patient": "Jane Smith",
+      "Status": "Active"
+    },
+    {
+      "Name": "Community Clinic",
+      "ID": "HOSP-003",
+      "EmailAddress": "contact@communityclinic.org",
+      "PhoneNumber": "(345) 678-9012",
+      "ContractDuration": "12 months",
+      "Client": "Public Health Agency",
+      "Provider": "Community Health Services",
+      "Patient": "Michael Johnson",
+      "Status": "Inactive"
+    },
+    {
+      "Name": "Hilltop Nursing Home",
+      "ID": "HOSP-004",
+      "EmailAddress": "hilltopnursing@example.com",
+      "PhoneNumber": "(456) 789-0123",
+      "ContractDuration": "6 months",
+      "Client": "SeniorCare Insurance",
+      "Provider": "Elderly Care Associates",
+      "Patient": "Maria Garcia",
+      "Status": "Active"
+    },
+    {
+      "Name": "Greenfield Rehab Center",
+      "ID": "HOSP-005",
+      "EmailAddress": "info@greenfieldrehab.com",
+      "PhoneNumber": "(567) 890-1234",
+      "ContractDuration": "9 months",
+      "Client": "Rehabilitation Services Inc",
+      "Provider": "Physical Therapy Experts",
+      "Patient": "Robert Lee",
+      "Status": "Active"
+    },
+    {
+      "Name": "Central General Hospital",
+      "ID": "HOSP-006",
+      "EmailAddress": "info@centralhospital.com",
+      "PhoneNumber": "(678) 901-2345",
+      "ContractDuration": "12 months",
+      "Client": "HealthCare United",
+      "Provider": "Health Services Corporation",
+      "Patient": "Sarah Johnson",
+      "Status": "Active"
+    },
+    {
+      "Name": "Northwest Pediatrics Clinic",
+      "ID": "HOSP-007",
+      "EmailAddress": "contact@nwpediatrics.com",
+      "PhoneNumber": "(789) 012-3456",
+      "ContractDuration": "18 months",
+      "Client": "Pediatric Care Alliance",
+      "Provider": "Children's Medical Group",
+      "Patient": "Emily Williams",
+      "Status": "Active"
+    },
+    {
+      "Name": "Sunset Assisted Living",
+      "ID": "HOSP-008",
+      "EmailAddress": "sunsetliving@example.com",
+      "PhoneNumber": "(901) 234-5678",
+      "ContractDuration": "24 months",
+      "Client": "Senior Life Insurance",
+      "Provider": "Elder Care Solutions",
+      "Patient": "Thomas Anderson",
+      "Status": "Active"
+    },
+    {
+      "Name": "Coastal Rehab Center",
+      "ID": "HOSP-009",
+      "EmailAddress": "coastalrehab@gmail.com",
+      "PhoneNumber": "(234) 567-8901",
+      "ContractDuration": "9 months",
+      "Client": "TherapyCare Services",
+      "Provider": "Physical Wellness Specialists",
+      "Patient": "Jessica Lee",
+      "Status": "Inactive"
+    },
+    {
+      "Name": "Pinecrest Mental Health Institute",
+      "ID": "HOSP-010",
+      "EmailAddress": "info@pinecrestmental.com",
+      "PhoneNumber": "(345) 678-9012",
+      "ContractDuration": "6 months",
+      "Client": "Mental Health Foundation",
+      "Provider": "Psychological Services Group",
+      "Patient": "David Miller",
+      "Status": "Active"
+    }
+  ],
+  "tenant": [
+    {
+      "serviceProvider": "ABC Services",
+      "testName": [
+        {
+          "description": "Albumin"
+        },
+        {
+          "description": "Bilirubin"
+        },
+        {
+          "description": "Direct Protein"
+        },
+        {
+          "description": "Direct Protein"
+        }
+      ],
+      "date": "2023-06-25",
+      "orderId": "ORD001",
+      "orderType": "Standard",
+      "providerName": "John Doe",
+      "reports": "blood_report.pdf",
+      "status": "In Progress",
+      "phone": "+91 9857357332"
+    },
+    {
+      "serviceProvider": "XYZ Diagnostics",
+      "testName": [
+        {
+          "description": "Albumin"
+        },
+        {
+          "description": "Bilirubin"
+        },
+        {
+          "description": "Direct Protein"
+        },
+        {
+          "description": "Direct Protein"
+        }
+      ],
+      "date": "2023-06-26",
+      "orderId": "ORD002",
+      "orderType": "Express",
+      "providerName": "Jane Smith",
+      "reports": "mri_report.pdf",
+      "status": "In Progress",
+      "phone": "+91 9857357332"
+    },
+    {
+      "serviceProvider": "PQR Health Clinic",
+      "testName": [
+        {
+          "description": "Albumin"
+        },
+        {
+          "description": "Bilirubin"
+        },
+        {
+          "description": "Direct Protein"
+        },
+        {
+          "description": "Direct Protein"
+        }
+      ],
+      "date": "2023-06-27",
+      "orderId": "ORD003",
+      "orderType": "Standard",
+      "providerName": "Michael Johnson",
+      "reports": "xray_report.pdf",
+      "status": "Completed",
+      "phone": "+91 9857357332"
+    },
+    {
+      "serviceProvider": "DEF Lab Services",
+      "testName": [
+        {
+          "description": "Albumin"
+        },
+        {
+          "description": "Bilirubin"
+        },
+        {
+          "description": "Direct Protein"
+        },
+        {
+          "description": "Direct Protein"
+        }
+      ],
+      "date": "2023-06-28",
+      "orderId": "ORD004",
+      "orderType": "Standard",
+      "providerName": "Emily Wilson",
+      "reports": "urinalysis_report.pdf",
+      "status": "Completed",
+      "phone": "+91 9857357332"
+    },
+    {
+      "serviceProvider": "HI Medical Center",
+      "testName": [
+        {
+          "description": "Albumin"
+        },
+        {
+          "description": "Bilirubin"
+        },
+        {
+          "description": "Direct Protein"
+        },
+        {
+          "description": "Direct Protein"
+        }
+      ],
+      "date": "2023-06-29",
+      "orderId": "ORD005",
+      "orderType": "Express",
+      "providerName": "David Anderson",
+      "reports": "ctscan_report.pdf",
+      "status": "Completed",
+      "phone": "+91 9857357332"
+    },
+    {
+      "serviceProvider": "ABC Services",
+      "testName": [
+        {
+          "description": "Albumin"
+        },
+        {
+          "description": "Bilirubin"
+        },
+        {
+          "description": "Direct Protein"
+        },
+        {
+          "description": "Direct Protein"
+        }
+      ],
+      "date": "2023-06-30",
+      "orderId": "ORD006",
+      "orderType": "Standard",
+      "providerName": "Sarah Thompson",
+      "reports": "ekg_report.pdf",
+      "status": "Completed",
+      "phone": "+91 9857357332"
+    }
+  ],
+  "tenants": [
+    {
+      "tenantName": "GHI Medical Center 1",
+      "firstName": "lakshmi",
+      "lastName": "L",
+      "emailAddress": "test1@test.test",
+      "phoneNumber": "1111111111",
+      "streetAddress": "84, radient karel",
+      "zipCode": "24650",
+      "country": "",
+      "state": "",
+      "city": "",
+      "contractStart": "07-18-2023",
+      "contractEnd": "07-25-2023",
+      "id": 1
+    },
+    {
+      "tenantLogo": "s3url2",
+      "tenantName": "GHI Medical Center 2",
+      "tenantId": "RH123456772",
+      "id": 2,
+      "emailAddress": "test2@test.test",
+      "phoneNumber": "2222222222",
+      "client": 122,
+      "provider": 122,
+      "patient": 122,
+      "statusDto": {
+        "statusId": 3,
+        "statusName": "Pending"
+      },
+      "contractStart": "02-01-2023",
+      "contractEnd": "01-31-2024"
+    },
+    {
+      "tenantLogo": "s3url3",
+      "tenantName": "GHI Medical Center 3",
+      "tenantId": "RH123456773",
+      "id": 3,
+      "emailAddress": "test3@test.test",
+      "phoneNumber": "3333333333",
+      "client": 123,
+      "provider": 123,
+      "patient": 123,
+      "statusDto": {
+        "statusId": 1,
+        "statusName": "Active"
+      },
+      "contractStart": "03-01-2023",
+      "contractEnd": "02-28-2024"
+    },
+    {
+      "tenantLogo": "s3url4",
+      "tenantName": "GHI Medical Center 4",
+      "tenantId": "RH123456774",
+      "id": 4,
+      "emailAddress": "test4@test.test",
+      "phoneNumber": "4444444444",
+      "client": 124,
+      "provider": 124,
+      "patient": 124,
+      "statusDto": {
+        "statusId": 1,
+        "statusName": "Active"
+      },
+      "contractStart": "04-01-2023",
+      "contractEnd": "03-31-2024"
+    },
+    {
+      "tenantLogo": "s3url5",
+      "tenantName": "GHI Medical Center 5",
+      "tenantId": "RH123456775",
+      "id": 5,
+      "emailAddress": "test5@test.test",
+      "phoneNumber": "5555555555",
+      "client": 125,
+      "provider": 125,
+      "patient": 125,
+      "statusDto": {
+        "statusId": 2,
+        "statusName": "Inactive"
+      },
+      "contractStart": "05-01-2023",
+      "contractEnd": "04-30-2024"
+    },
+    {
+      "tenantLogo": "s3url6",
+      "tenantName": "GHI Medical Center 6",
+      "tenantId": "RH123456776",
+      "id": 6,
+      "emailAddress": "test6@test.test",
+      "phoneNumber": "6666666666",
+      "client": 126,
+      "provider": 126,
+      "patient": 126,
+      "statusDto": {
+        "statusId": 3,
+        "statusName": "Pending"
+      },
+      "contractStart": "06-01-2023",
+      "contractEnd": "05-31-2024"
+    },
+    {
+      "tenantLogo": "s3url7",
+      "tenantName": "GHI Medical Center 7",
+      "tenantId": "RH123456777",
+      "id": 7,
+      "emailAddress": "test7@test.test",
+      "phoneNumber": "7777777777",
+      "client": 127,
+      "provider": 127,
+      "patient": 127,
+      "statusDto": {
+        "statusId": 1,
+        "statusName": "Active"
+      },
+      "contractStart": "07-01-2023",
+      "contractEnd": "06-30-2024"
+    },
+    {
+      "tenantLogo": "s3url8",
+      "tenantName": "GHI Medical Center 8",
+      "tenantId": "RH123456778",
+      "id": 8,
+      "emailAddress": "test8@test.test",
+      "phoneNumber": "8888888888",
+      "client": 128,
+      "provider": 128,
+      "patient": 128,
+      "statusDto": {
+        "statusId": 2,
+        "statusName": "Inactive"
+      },
+      "contractStart": "08-01-2023",
+      "contractEnd": "07-31-2024"
+    },
+    {
+      "tenantLogo": "s3url9",
+      "tenantName": "GHI Medical Center 9",
+      "tenantId": "RH123456779",
+      "id": 9,
+      "emailAddress": "test9@test.test",
+      "phoneNumber": "9999999999",
+      "client": 129,
+      "provider": 129,
+      "patient": 129,
+      "statusDto": {
+        "statusId": 1,
+        "statusName": "Active"
+      },
+      "contractStart": "09-01-2023",
+      "contractEnd": "08-31-2024"
+    },
+    {
+      "tenantLogo": "s3url10",
+      "tenantName": "GHI Medical Center 10",
+      "tenantId": "RH123456780",
+      "id": 10,
+      "emailAddress": "test10@test.test",
+      "phoneNumber": "1010101010",
+      "client": 130,
+      "provider": 130,
+      "patient": 130,
+      "statusDto": {
+        "statusId": 3,
+        "statusName": "Pending"
+      },
+      "contractStart": "10-01-2023",
+      "contractEnd": "09-30-2024"
+    },
+    {
+      "tenantName": "LSL",
+      "firstName": "Naga",
+      "middleName": "",
+      "lastName": "K",
+      "emailAddress": "test1@test.com",
+      "phoneNumber": "6749988770",
+      "alternatePhoneNumber": "",
+      "contractStart": "07-18-2023",
+      "contractEnd": "07-18-2023",
+      "streetAddress": "68749",
+      "zipCode": "675839",
+      "city": "El Paso",
+      "state": "TX",
+      "country": "USA",
+      "id": 11
+    },
+    {
+      "tenantName": "Lifescan",
+      "firstName": "Rohan",
+      "middleName": "",
+      "lastName": "K",
+      "emailAddress": "test1@test.test",
+      "phoneNumber": "6749988771",
+      "alternatePhoneNumber": "",
+      "streetAddress": "68749",
+      "zipCode": "675839",
+      "country": "USA",
+      "state": "IN",
+      "city": "Indianapolis",
+      "contractStart": "07-18-2023",
+      "contractEnd": "07-18-2023",
+      "id": 12
+    },
+    {
+      "tenantName": "LSL",
+      "firstName": "lakshmi",
+      "middleName": "",
+      "lastName": "k",
+      "emailAddress": "test1@test.test",
+      "phoneNumber": "6749988723",
+      "alternatePhoneNumber": "",
+      "streetAddress": "68749",
+      "zipCode": "456432",
+      "contractStart": "07-19-2023",
+      "contractEnd": "07-19-2023",
+      "city": "Yuma",
+      "id": 13
+    }
+  ],
+  "tenantUser": [
+    {
+      "id": "RH1234",
+      "firstName": "srenitha",
+      "middleName": "dummy1",
+      "lastName": "dummy1",
+      "email": "dummy1@dummy.com",
+      "phoneNumber": "1111111111",
+      "dateOfJoin": "01-01-2023",
+      "roleDto": {
+        "id": 1,
+        "roleName": "Client Admin"
+      },
+      "statusDto": {
+        "id": 1,
+        "statusName": "Active"
+      }
+    },
+    {
+      "id": "RH5678",
+      "firstName": "dummy2",
+      "middleName": "dummy2",
+      "lastName": "dummy2",
+      "email": "dummy2@dummy.com",
+      "phoneNumber": "2222222222",
+      "dateOfJoin": "02-02-2023",
+      "roleDto": {
+        "id": 2,
+        "roleName": "Client User"
+      },
+      "statusDto": {
+        "id": 2,
+        "statusName": "Inactive"
+      }
+    },
+    {
+      "id": "RH9012",
+      "firstName": "dummy3",
+      "middleName": "dummy3",
+      "lastName": "dummy3",
+      "email": "dummy3@dummy.com",
+      "phoneNumber": "3333333333",
+      "dateOfJoin": "03-03-2023",
+      "roleDto": {
+        "id": 3,
+        "roleName": "Admin"
+      },
+      "statusDto": {
+        "id": 1,
+        "statusName": "Active"
+      }
+    },
+    {
+      "id": "RH3456",
+      "firstName": "dummy4",
+      "middleName": "dummy4",
+      "lastName": "dummy4",
+      "email": "dummy4@dummy.com",
+      "phoneNumber": "4444444444",
+      "dateOfJoin": "04-04-2023",
+      "roleDto": {
+        "id": 2,
+        "roleName": "Client User"
+      },
+      "statusDto": {
+        "id": 2,
+        "statusName": "Inactive"
+      }
+    },
+    {
+      "id": "RH7890",
+      "firstName": "dummy5",
+      "middleName": "dummy5",
+      "lastName": "dummy5",
+      "email": "dummy5@dummy.com",
+      "phoneNumber": "5555555555",
+      "dateOfJoin": "05-05-2023",
+      "roleDto": {
+        "id": 1,
+        "roleName": "Client Admin"
+      },
+      "statusDto": {
+        "id": 1,
+        "statusName": "Active"
+      }
+    },
+    {
+      "id": "RH2345",
+      "firstName": "dummy6",
+      "middleName": "dummy6",
+      "lastName": "dummy6",
+      "email": "dummy6@dummy.com",
+      "phoneNumber": "6666666666",
+      "dateOfJoin": "06-06-2023",
+      "roleDto": {
+        "id": 3,
+        "roleName": "Admin"
+      },
+      "statusDto": {
+        "id": 2,
+        "statusName": "Inactive"
+      }
+    },
+    {
+      "id": "RH6789",
+      "firstName": "dummy7",
+      "middleName": "dummy7",
+      "lastName": "dummy7",
+      "email": "dummy7@dummy.com",
+      "phoneNumber": "7777777777",
+      "dateOfJoin": "07-07-2023",
+      "roleDto": {
+        "id": 2,
+        "roleName": "Client User"
+      },
+      "statusDto": {
+        "id": 1,
+        "statusName": "Active"
+      }
+    },
+    {
+      "id": "RH0123",
+      "firstName": "dummy8",
+      "middleName": "dummy8",
+      "lastName": "dummy8",
+      "email": "dummy8@dummy.com",
+      "phoneNumber": "8888888888",
+      "dateOfJoin": "08-08-2023",
+      "roleDto": {
+        "id": 1,
+        "roleName": "Client Admin"
+      },
+      "statusDto": {
+        "id": 2,
+        "statusName": "Inactive"
+      }
+    },
+    {
+      "id": "RH4567",
+      "firstName": "dummy9",
+      "middleName": "dummy9",
+      "lastName": "dummy9",
+      "email": "dummy9@dummy.com",
+      "phoneNumber": "9999999999",
+      "dateOfJoin": "09-09-2023",
+      "roleDto": {
+        "id": 3,
+        "roleName": "Admin"
+      },
+      "statusDto": {
+        "id": 1,
+        "statusName": "Active"
+      }
+    },
+    {
+      "id": "RH8901",
+      "firstName": "dummy10",
+      "middleName": "dummy10",
+      "lastName": "dummy10",
+      "email": "dummy10@dummy.com",
+      "phoneNumber": "1010101010",
+      "dateOfJoin": "10-10-2023",
+      "roleDto": {
+        "id": 2,
+        "roleName": "Client User"
+      },
+      "statusDto": {
+        "id": 2,
+        "statusName": "Inactive"
+      }
+    }
+  ],
+  "tenantPatientDetails": {
+    "count": 123,
+    "data": [
+      {
+        "firstName": "dummy1",
+        "middleName": "dummy1",
+        "lastName": "dummy1",
+        "patientUserId": "RH12345",
+        "email": "dummy1@test.test",
+        "phoneNumber": "1111111111",
+        "address": "dummy1 address",
+        "associatedWith": {
+          "id": "RH12345",
+          "name": "Name",
+          "roleDto": {
+            "id": 1,
+            "name": "Client Admin"
+          }
+        },
+        "testCount": "12"
+      },
+      {
+        "firstName": "dummy2",
+        "middleName": "dummy2",
+        "lastName": "dummy2",
+        "patientUserId": "RH12345",
+        "email": "dummy2@test.test",
+        "phoneNumber": "2222222222",
+        "address": "dummy2 address",
+        "associatedWith": {
+          "id": "RH12345",
+          "name": "Name",
+          "roleDto": {
+            "id": 1,
+            "name": "Client Admin"
+          }
+        },
+        "testCount": "12"
+      },
+      {
+        "firstName": "dummy3",
+        "middleName": "dummy3",
+        "lastName": "dummy3",
+        "patientUserId": "RH12345",
+        "email": "dummy3@test.test",
+        "phoneNumber": "3333333333",
+        "address": "dummy3 address",
+        "associatedWith": {
+          "id": "RH12345",
+          "name": "Name",
+          "roleDto": {
+            "id": 1,
+            "name": "Client Admin"
+          }
+        },
+        "testCount": "12"
+      },
+      {
+        "firstName": "dummy4",
+        "middleName": "dummy4",
+        "lastName": "dummy4",
+        "patientUserId": "RH12345",
+        "email": "dummy4@test.test",
+        "phoneNumber": "4444444444",
+        "address": "dummy4 address",
+        "associatedWith": {
+          "id": "RH12345",
+          "name": "Name",
+          "roleDto": {
+            "id": 1,
+            "name": "Client Admin"
+          }
+        },
+        "testCount": "12"
+      },
+      {
+        "firstName": "dummy5",
+        "middleName": "dummy5",
+        "lastName": "dummy5",
+        "patientUserId": "RH12345",
+        "email": "dummy5@test.test",
+        "phoneNumber": "5555555555",
+        "address": "dummy5 address",
+        "associatedWith": {
+          "id": "RH12345",
+          "name": "Name",
+          "roleDto": {
+            "id": 1,
+            "name": "Client Admin"
+          }
+        },
+        "testCount": "12"
+      },
+      {
+        "firstName": "dummy6",
+        "middleName": "dummy6",
+        "lastName": "dummy6",
+        "patientUserId": "RH12345",
+        "email": "dummy6@test.test",
+        "phoneNumber": "6666666666",
+        "address": "dummy6 address",
+        "associatedWith": {
+          "id": "RH12345",
+          "name": "Name",
+          "roleDto": {
+            "id": 1,
+            "name": "Client Admin"
+          }
+        },
+        "testCount": "12"
+      },
+      {
+        "firstName": "dummy7",
+        "middleName": "dummy7",
+        "lastName": "dummy7",
+        "patientUserId": "RH12345",
+        "email": "dummy7@test.test",
+        "phoneNumber": "7777777777",
+        "address": "dummy7 address",
+        "associatedWith": {
+          "id": "RH12345",
+          "name": "Name",
+          "roleDto": {
+            "id": 1,
+            "name": "Client Admin"
+          }
+        },
+        "testCount": "12"
+      },
+      {
+        "firstName": "dummy8",
+        "middleName": "dummy8",
+        "lastName": "dummy8",
+        "patientUserId": "RH12345",
+        "email": "dummy8@test.test",
+        "phoneNumber": "8888888888",
+        "address": "dummy8 address",
+        "associatedWith": {
+          "id": "RH12345",
+          "name": "Name",
+          "roleDto": {
+            "id": 1,
+            "name": "Client Admin"
+          }
+        },
+        "testCount": "12"
+      },
+      {
+        "firstName": "dummy9",
+        "middleName": "dummy9",
+        "lastName": "dummy9",
+        "patientUserId": "RH12345",
+        "email": "dummy9@test.test",
+        "phoneNumber": "9999999999",
+        "address": "dummy9 address",
+        "associatedWith": {
+          "id": "RH12345",
+          "name": "Name",
+          "roleDto": {
+            "id": 1,
+            "name": "Client Admin"
+          }
+        },
+        "testCount": "12"
+      },
+      {
+        "firstName": "dummy10",
+        "middleName": "dummy10",
+        "lastName": "dummy10",
+        "patientUserId": "RH12345",
+        "email": "dummy10@test.test",
+        "phoneNumber": "1010101010",
+        "address": "dummy10 address",
+        "associatedWith": {
+          "id": "RH12345",
+          "name": "Name",
+          "roleDto": {
+            "id": 1,
+            "name": "Client Admin"
+          }
+        },
+        "testCount": "12"
+      }
+    ]
+  },
+  "tenantOrderDetails": {
+    "count": 120,
+    "data": [
+      {
+        "orderId": "OR12345",
+        "firstName": "dummy1",
+        "middleName": "dummy1",
+        "lastName": "dummy1",
+        "patientId": "RH12345",
+        "orderTypeDto": {
+          "id": 1,
+          "name": "Stat Order"
+        },
+        "testTypeDto": {
+          "id": 1,
+          "name": "Panel"
+        },
+        "orderDate": "2023-07-03T10:00:00Z",
+        "patientEmail": "dummy1@test.test",
+        "patientPhoneNumber": "1111111111",
+        "patientAddress": "dummy1 address",
+        "orderMappedClientDto": {
+          "id": "RH12345",
+          "name": "Dummy Client 1"
+        },
+        "orderMappedProviderDto": {
+          "id": "RH12345",
+          "name": "Dummy Provider 1"
+        },
+        "testCount": "90",
+        "reports": [
+          {
+            "fileName": "report1",
+            "filePath": "s3 url 1"
+          }
+        ],
+        "orderStatusDto": {
+          "id": 1,
+          "name": "Completed"
+        }
+      },
+      {
+        "orderId": "OR67890",
+        "firstName": "dummy2",
+        "middleName": "dummy2",
+        "lastName": "dummy2",
+        "patientId": "RH67890",
+        "orderTypeDto": {
+          "id": 2,
+          "name": "Regular Order"
+        },
+        "testTypeDto": {
+          "id": 2,
+          "name": "Individual"
+        },
+        "orderDate": "2023-07-03T12:00:00Z",
+        "patientEmail": "dummy2@test.test",
+        "patientPhoneNumber": "2222222222",
+        "patientAddress": "dummy2 address",
+        "orderMappedClientDto": {
+          "id": "RH67890",
+          "name": "Dummy Client 2"
+        },
+        "orderMappedProviderDto": {
+          "id": "RH67890",
+          "name": "Dummy Provider 2"
+        },
+        "testCount": "80",
+        "reports": [
+          {
+            "fileName": "report2",
+            "filePath": "s3 url 2"
+          }
+        ],
+        "orderStatusDto": {
+          "id": 2,
+          "name": "Pending"
+        }
+      },
+      {
+        "orderId": "OR23456",
+        "firstName": "dummy3",
+        "middleName": "dummy3",
+        "lastName": "dummy3",
+        "patientId": "RH23456",
+        "orderTypeDto": {
+          "id": 1,
+          "name": "Stat Order"
+        },
+        "testTypeDto": {
+          "id": 1,
+          "name": "Panel"
+        },
+        "orderDate": "2023-07-03T14:00:00Z",
+        "patientEmail": "dummy3@test.test",
+        "patientPhoneNumber": "3333333333",
+        "patientAddress": "dummy3 address",
+        "orderMappedClientDto": {
+          "id": "RH23456",
+          "name": "Dummy Client 3"
+        },
+        "orderMappedProviderDto": {
+          "id": "RH23456",
+          "name": "Dummy Provider 3"
+        },
+        "testCount": "70",
+        "reports": [
+          {
+            "fileName": "report3",
+            "filePath": "s3 url 3"
+          }
+        ],
+        "orderStatusDto": {
+          "id": 1,
+          "name": "Completed"
+        }
+      },
+      {
+        "orderId": "OR78901",
+        "firstName": "dummy4",
+        "middleName": "dummy4",
+        "lastName": "dummy4",
+        "patientId": "RH78901",
+        "orderTypeDto": {
+          "id": 2,
+          "name": "Regular Order"
+        },
+        "testTypeDto": {
+          "id": 2,
+          "name": "Individual"
+        },
+        "orderDate": "2023-07-03T16:00:00Z",
+        "patientEmail": "dummy4@test.test",
+        "patientPhoneNumber": "4444444444",
+        "patientAddress": "dummy4 address",
+        "orderMappedClientDto": {
+          "id": "RH78901",
+          "name": "Dummy Client 4"
+        },
+        "orderMappedProviderDto": {
+          "id": "RH78901",
+          "name": "Dummy Provider 4"
+        },
+        "testCount": "60",
+        "reports": [
+          {
+            "fileName": "report4",
+            "filePath": "s3 url 4"
+          }
+        ],
+        "orderStatusDto": {
+          "id": 2,
+          "name": "Pending"
+        }
+      },
+      {
+        "orderId": "OR34567",
+        "firstName": "dummy5",
+        "middleName": "dummy5",
+        "lastName": "dummy5",
+        "patientId": "RH34567",
+        "orderTypeDto": {
+          "id": 1,
+          "name": "Stat Order"
+        },
+        "testTypeDto": {
+          "id": 1,
+          "name": "Panel"
+        },
+        "orderDate": "2023-07-03T18:00:00Z",
+        "patientEmail": "dummy5@test.test",
+        "patientPhoneNumber": "5555555555",
+        "patientAddress": "dummy5 address",
+        "orderMappedClientDto": {
+          "id": "RH34567",
+          "name": "Dummy Client 5"
+        },
+        "orderMappedProviderDto": {
+          "id": "RH34567",
+          "name": "Dummy Provider 5"
+        },
+        "testCount": "50",
+        "reports": [
+          {
+            "fileName": "report5",
+            "filePath": "s3 url 5"
+          }
+        ],
+        "orderStatusDto": {
+          "id": 1,
+          "name": "Completed"
+        }
+      },
+      {
+        "orderId": "OR89012",
+        "firstName": "dummy6",
+        "middleName": "dummy6",
+        "lastName": "dummy6",
+        "patientId": "RH89012",
+        "orderTypeDto": {
+          "id": 2,
+          "name": "Regular Order"
+        },
+        "testTypeDto": {
+          "id": 2,
+          "name": "Individual"
+        },
+        "orderDate": "2023-07-03T20:00:00Z",
+        "patientEmail": "dummy6@test.test",
+        "patientPhoneNumber": "6666666666",
+        "patientAddress": "dummy6 address",
+        "orderMappedClientDto": {
+          "id": "RH89012",
+          "name": "Dummy Client 6"
+        },
+        "orderMappedProviderDto": {
+          "id": "RH89012",
+          "name": "Dummy Provider 6"
+        },
+        "testCount": "40",
+        "reports": [
+          {
+            "fileName": "report6",
+            "filePath": "s3 url 6"
+          }
+        ],
+        "orderStatusDto": {
+          "id": 2,
+          "name": "Pending"
+        }
+      },
+      {
+        "orderId": "OR45678",
+        "firstName": "dummy7",
+        "middleName": "dummy7",
+        "lastName": "dummy7",
+        "patientId": "RH45678",
+        "orderTypeDto": {
+          "id": 1,
+          "name": "Stat Order"
+        },
+        "testTypeDto": {
+          "id": 1,
+          "name": "Panel"
+        },
+        "orderDate": "2023-07-03T22:00:00Z",
+        "patientEmail": "dummy7@test.test",
+        "patientPhoneNumber": "7777777777",
+        "patientAddress": "dummy7 address",
+        "orderMappedClientDto": {
+          "id": "RH45678",
+          "name": "Dummy Client 7"
+        },
+        "orderMappedProviderDto": {
+          "id": "RH45678",
+          "name": "Dummy Provider 7"
+        },
+        "testCount": "30",
+        "reports": [
+          {
+            "fileName": "report7",
+            "filePath": "s3 url 7"
+          }
+        ],
+        "orderStatusDto": {
+          "id": 1,
+          "name": "Completed"
+        }
+      },
+      {
+        "orderId": "OR90123",
+        "firstName": "dummy8",
+        "middleName": "dummy8",
+        "lastName": "dummy8",
+        "patientId": "RH90123",
+        "orderTypeDto": {
+          "id": 2,
+          "name": "Regular Order"
+        },
+        "testTypeDto": {
+          "id": 2,
+          "name": "Individual"
+        },
+        "orderDate": "2023-07-04T00:00:00Z",
+        "patientEmail": "dummy8@test.test",
+        "patientPhoneNumber": "8888888888",
+        "patientAddress": "dummy8 address",
+        "orderMappedClientDto": {
+          "id": "RH90123",
+          "name": "Dummy Client 8"
+        },
+        "orderMappedProviderDto": {
+          "id": "RH90123",
+          "name": "Dummy Provider 8"
+        },
+        "testCount": "20",
+        "reports": [
+          {
+            "fileName": "report8",
+            "filePath": "s3 url 8"
+          }
+        ],
+        "orderStatusDto": {
+          "id": 2,
+          "name": "Pending"
+        }
+      },
+      {
+        "orderId": "OR56789",
+        "firstName": "dummy9",
+        "middleName": "dummy9",
+        "lastName": "dummy9",
+        "patientId": "RH56789",
+        "orderTypeDto": {
+          "id": 1,
+          "name": "Stat Order"
+        },
+        "testTypeDto": {
+          "id": 1,
+          "name": "Panel"
+        },
+        "orderDate": "2023-07-04T02:00:00Z",
+        "patientEmail": "dummy9@test.test",
+        "patientPhoneNumber": "9999999999",
+        "patientAddress": "dummy9 address",
+        "orderMappedClientDto": {
+          "id": "RH56789",
+          "name": "Dummy Client 9"
+        },
+        "orderMappedProviderDto": {
+          "id": "RH56789",
+          "name": "Dummy Provider 9"
+        },
+        "testCount": "10",
+        "reports": [
+          {
+            "fileName": "report9",
+            "filePath": "s3 url 9"
+          }
+        ],
+        "orderStatusDto": {
+          "id": 1,
+          "name": "Completed"
+        }
+      },
+      {
+        "orderId": "OR23456",
+        "firstName": "dummy10",
+        "middleName": "dummy10",
+        "lastName": "dummy10",
+        "patientId": "RH23456",
+        "orderTypeDto": {
+          "id": 2,
+          "name": "Regular Order"
+        },
+        "testTypeDto": {
+          "id": 2,
+          "name": "Individual"
+        },
+        "orderDate": "2023-07-04T04:00:00Z",
+        "patientEmail": "dummy10@test.test",
+        "patientPhoneNumber": "1010101010",
+        "patientAddress": "dummy10 address",
+        "orderMappedClientDto": {
+          "id": "RH23456",
+          "name": "Dummy Client 10"
+        },
+        "orderMappedProviderDto": {
+          "id": "RH23456",
+          "name": "Dummy Provider 10"
+        },
+        "testCount": "5",
+        "reports": [
+          {
+            "fileName": "report10",
+            "filePath": "s3 url 10"
+          }
+        ],
+        "orderStatusDto": {
+          "id": 2,
+          "name": "Pending"
+        }
+      }
+    ]
+  },
+  "tenantConfigurationTemplate": {
+    "data": [
+      {
+        "templateName": "Template 1",
+        "templateId": 12,
+        "createdByDto": {
+          "id": "1234",
+          "name": "Ashmit Patel"
+        },
+        "createAt": "2023-07-01T10:30:00Z"
+      },
+      {
+        "templateName": "Template 2",
+        "templateId": 13,
+        "createdByDto": {
+          "id": "5678",
+          "name": "John Doe"
+        },
+        "createAt": "2023-07-02T15:45:00Z"
+      },
+      {
+        "templateName": "Template 3",
+        "templateId": 14,
+        "createdByDto": {
+          "id": "9012",
+          "name": "Jane Smith"
+        },
+        "createAt": "2023-07-03T09:15:00Z"
+      },
+      {
+        "templateName": "Template 4",
+        "templateId": 15,
+        "createdByDto": {
+          "id": "3456",
+          "name": "Michael Johnson"
+        },
+        "createAt": "2023-07-04T14:20:00Z"
+      },
+      {
+        "templateName": "Template 5",
+        "templateId": 16,
+        "createdByDto": {
+          "id": "7890",
+          "name": "Emily Wilson"
+        },
+        "createAt": "2023-07-05T11:10:00Z"
+      },
+      {
+        "templateName": "Template 6",
+        "templateId": 17,
+        "createdByDto": {
+          "id": "2345",
+          "name": "David Brown"
+        },
+        "createAt": "2023-07-06T16:30:00Z"
+      },
+      {
+        "templateName": "Template 7",
+        "templateId": 18,
+        "createdByDto": {
+          "id": "6789",
+          "name": "Emma Thompson"
+        },
+        "createAt": "2023-07-07T08:45:00Z"
+      },
+      {
+        "templateName": "Template 8",
+        "templateId": 19,
+        "createdByDto": {
+          "id": "0123",
+          "name": "William Davis"
+        },
+        "createAt": "2023-07-08T13:55:00Z"
+      },
+      {
+        "templateName": "Template 9",
+        "templateId": 20,
+        "createdByDto": {
+          "id": "4567",
+          "name": "Olivia Johnson"
+        },
+        "createAt": "2023-07-09T10:05:00Z"
+      },
+      {
+        "templateName": "Template 10",
+        "templateId": 21,
+        "createdByDto": {
+          "id": "8901",
+          "name": "James Smith"
+        },
+        "createAt": "2023-07-10T15:15:00Z"
+      }
+    ]
+  },
+  "tenantConfigurationTestList": {
+    "data": [
+      {
+        "testTypeDto": {
+          "id": 1,
+          "name": "Panel"
+        },
+        "testPanelDto": {
+          "id": 1,
+          "name": "UDRUG"
+        },
+        "description": "Lorem Ipsum 1",
+        "status": "active",
+        "tests": [
+          {
+            "id": 1,
+            "name": "PCP"
+          },
+          {
+            "id": 2,
+            "name": "Test 2"
+          }
+        ],
+        "diagnosticsCodes": ["R74.8", "R94.5", "R63.5"]
+      },
+      {
+        "testTypeDto": {
+          "id": 2,
+          "name": "Panel"
+        },
+        "testPanelDto": {
+          "id": 2,
+          "name": "XYZ"
+        },
+        "description": "Lorem Ipsum 2",
+        "status": "active",
+        "tests": [
+          {
+            "id": 3,
+            "name": "Test 3"
+          },
+          {
+            "id": 4,
+            "name": "Test 4"
+          }
+        ],
+        "diagnosticsCodes": ["R12.3", "R56.7", "R89.0"]
+      },
+      {
+        "testTypeDto": {
+          "id": 3,
+          "name": "Panel"
+        },
+        "testPanelDto": {
+          "id": 3,
+          "name": "ABC"
+        },
+        "description": "Lorem Ipsum 3",
+        "status": "active",
+        "tests": [
+          {
+            "id": 5,
+            "name": "Test 5"
+          },
+          {
+            "id": 6,
+            "name": "Test 6"
+          }
+        ],
+        "diagnosticsCodes": ["R45.6", "R78.9", "R01.2"]
+      },
+      {
+        "testTypeDto": {
+          "id": 4,
+          "name": "Panel"
+        },
+        "testPanelDto": {
+          "id": 4,
+          "name": "LMNO"
+        },
+        "description": "Lorem Ipsum 4",
+        "status": "active",
+        "tests": [
+          {
+            "id": 7,
+            "name": "Test 7"
+          },
+          {
+            "id": 8,
+            "name": "Test 8"
+          }
+        ],
+        "diagnosticsCodes": ["R34.5", "R67.8", "R90.1"]
+      },
+      {
+        "testTypeDto": {
+          "id": 5,
+          "name": "Panel"
+        },
+        "testPanelDto": {
+          "id": 5,
+          "name": "PQRS"
+        },
+        "description": "Lorem Ipsum 5",
+        "status": "active",
+        "tests": [
+          {
+            "id": 9,
+            "name": "Test 9"
+          },
+          {
+            "id": 10,
+            "name": "Test 10"
+          }
+        ],
+        "diagnosticsCodes": ["R23.4", "R56.7", "R89.0"]
+      },
+      {
+        "testTypeDto": {
+          "id": 6,
+          "name": "Panel"
+        },
+        "testPanelDto": {
+          "id": 6,
+          "name": "WXYZ"
+        },
+        "description": "Lorem Ipsum 6",
+        "status": "active",
+        "tests": [
+          {
+            "id": 11,
+            "name": "Test 11"
+          },
+          {
+            "id": 12,
+            "name": "Test 12"
+          }
+        ],
+        "diagnosticsCodes": ["R12.3", "R45.6", "R78.9"]
+      },
+      {
+        "testTypeDto": {
+          "id": 7,
+          "name": "Panel"
+        },
+        "testPanelDto": {
+          "id": 7,
+          "name": "UVWX"
+        },
+        "description": "Lorem Ipsum 7",
+        "status": "active",
+        "tests": [
+          {
+            "id": 13,
+            "name": "Test 13"
+          },
+          {
+            "id": 14,
+            "name": "Test 14"
+          }
+        ],
+        "diagnosticsCodes": ["R56.7", "R89.0", "R01.2"]
+      },
+      {
+        "testTypeDto": {
+          "id": 8,
+          "name": "Panel"
+        },
+        "testPanelDto": {
+          "id": 8,
+          "name": "LMNO"
+        },
+        "description": "Lorem Ipsum 8",
+        "status": "active",
+        "tests": [
+          {
+            "id": 15,
+            "name": "Test 15"
+          },
+          {
+            "id": 16,
+            "name": "Test 16"
+          }
+        ],
+        "diagnosticsCodes": ["R34.5", "R67.8", "R90.1"]
+      },
+      {
+        "testTypeDto": {
+          "id": 9,
+          "name": "Panel"
+        },
+        "testPanelDto": {
+          "id": 9,
+          "name": "IJKL"
+        },
+        "description": "Lorem Ipsum 9",
+        "status": "active",
+        "tests": [
+          {
+            "id": 17,
+            "name": "Test 17"
+          },
+          {
+            "id": 18,
+            "name": "Test 18"
+          }
+        ],
+        "diagnosticsCodes": ["R23.4", "R56.7", "R78.9"]
+      },
+      {
+        "testTypeDto": {
+          "id": 10,
+          "name": "Panel"
+        },
+        "testPanelDto": {
+          "id": 10,
+          "name": "MNOP"
+        },
+        "description": "Lorem Ipsum 10",
+        "status": "active",
+        "tests": [
+          {
+            "id": 19,
+            "name": "Test 19"
+          },
+          {
+            "id": 20,
+            "name": "Test 20"
+          }
+        ],
+        "diagnosticsCodes": ["R12.3", "R45.6", "R78.9"]
+      }
+    ]
+  },
+  "tenantFeatures": {
+    "data": [
+      {
+        "moduleName": "User Management",
+        "features": [
+          {
+            "id": 1,
+            "name": "Creation of Client Admin",
+            "apply": true
+          },
+          {
+            "id": 2,
+            "name": "Creation of Providers",
+            "apply": true
+          },
+          {
+            "id": 3,
+            "name": "View and update personal detailssss",
+            "apply": true
+          }
+        ],
+        "checkboxStatus": true
+      },
+      {
+        "moduleName": "Order Managements",
+        "features": [
+          {
+            "id": 4,
+            "name": "Creation of Orders",
+            "apply": true
+          },
+          {
+            "id": 5,
+            "name": "View Orders",
+            "apply": true
+          },
+          {
+            "id": 6,
+            "name": "Update Orders",
+            "apply": true
+          },
+          {
+            "id": 7,
+            "name": "Add Test Compendium",
+            "apply": false
+          },
+          {
+            "id": 8,
+            "name": "Add Payer Compendium",
+            "apply": true
+          }
+        ],
+        "checkboxStatus": false
+      },
+      {
+        "moduleName": "Test Results Management",
+        "features": [
+          {
+            "id": 9,
+            "name": "View Test Results",
+            "apply": false
+          }
+        ],
+        "checkboxStatus": true
+      }
+    ]
+  },
+  "TenantSettings": {
+    "name": "John Doe",
+    "address": "123 Main Street, City, Country",
+    "email": "johndoe@example.com",
+    "color": "#000000",
+    "toggleState": false
+  },
+  "boardCastAll": [
+    {
+      "id": 1,
+      "title": "Lorem Ipsum 1",
+      "message": "Lorem Ipsum 1",
+      "roles": [
+        {
+          "id": 1,
+          "name": "Tenant Admin"
+        }
+      ],
+      "dateFrom": "07-01-2023",
+      "timeFrom": "10:00",
+      "dateTo": "07-01-2023",
+      "timeTo": "12:00"
+    },
+    {
+      "id": 2,
+      "title": "Lorem Ipsum 2",
+      "message": "Lorem Ipsum 2",
+      "roles": [
+        {
+          "id": 2,
+          "name": "Tenant Admin"
+        }
+      ],
+      "dateFrom": "07-02-2023",
+      "timeFrom": "14:00",
+      "dateTo": "07-02-2023",
+      "timeTo": "16:00"
+    },
+    {
+      "id": 3,
+      "title": "Lorem Ipsum 3",
+      "message": "Lorem Ipsum 3",
+      "roles": [
+        {
+          "id": 1,
+          "name": "Tenant Admin"
+        }
+      ],
+      "dateFrom": "07-03-2023",
+      "timeFrom": "08:00",
+      "dateTo": "07-03-2023",
+      "timeTo": "10:00"
+    },
+    {
+      "id": 4,
+      "title": "Lorem Ipsum 4",
+      "message": "Lorem Ipsum 4",
+      "roles": [
+        {
+          "id": 1,
+          "name": "Tenant Admin"
+        }
+      ],
+      "dateFrom": "07-04-2023",
+      "timeFrom": "12:00",
+      "dateTo": "07-04-2023",
+      "timeTo": "14:00"
+    },
+    {
+      "id": 5,
+      "title": "Lorem Ipsum 5",
+      "message": "Lorem Ipsum 5",
+      "roles": [
+        {
+          "id": 1,
+          "name": "Tenant Admin"
+        }
+      ],
+      "dateFrom": "07-05-2023",
+      "timeFrom": "16:00",
+      "dateTo": "07-05-2023",
+      "timeTo": "18:00"
+    },
+    {
+      "id": 6,
+      "title": "Lorem Ipsum 6",
+      "message": "Lorem Ipsum 6",
+      "roles": [
+        {
+          "id": 1,
+          "name": "Tenant Admin"
+        }
+      ],
+      "dateFrom": "07-06-2023",
+      "timeFrom": "10:00",
+      "dateTo": "07-06-2023",
+      "timeTo": "12:00"
+    },
+    {
+      "id": 7,
+      "title": "Lorem Ipsum 7",
+      "message": "Lorem Ipsum 7",
+      "roles": [
+        {
+          "id": 1,
+          "name": "Tenant Admin"
+        }
+      ],
+      "dateFrom": "07-07-2023",
+      "timeFrom": "14:00",
+      "dateTo": "07-07-2023",
+      "timeTo": "16:00"
+    },
+    {
+      "id": 8,
+      "title": "Lorem Ipsum 8",
+      "message": "Lorem Ipsum 8",
+      "roles": [
+        {
+          "id": 1,
+          "name": "Tenant Admin"
+        }
+      ],
+      "dateFrom": "07-08-2023",
+      "timeFrom": "08:00",
+      "dateTo": "07-08-2023",
+      "timeTo": "10:00"
+    },
+    {
+      "id": 9,
+      "title": "Lorem Ipsum 9",
+      "message": "Lorem Ipsum 9",
+      "roles": [
+        {
+          "id": 1,
+          "name": "Tenant Admin"
+        }
+      ],
+      "dateFrom": "07-09-2023",
+      "timeFrom": "12:00",
+      "dateTo": "07-09-2023",
+      "timeTo": "14:00"
+    },
+    {
+      "id": 10,
+      "title": "Lorem Ipsum 10",
+      "message": "Lorem Ipsum 10",
+      "roles": [
+        {
+          "id": 1,
+          "name": "Tenant Admin"
+        }
+      ],
+      "dateFrom": "07-10-2023",
+      "timeFrom": "16:00",
+      "dateTo": "07-10-2023",
+      "timeTo": "18:00"
+    },
+    {
+      "listOfTenantIds": ["Oliver Hansen", "Van Henry"],
+      "applyToAllPatientsFlag": "Yes",
+      "broadCastType": "PostLogin",
+      "dateFrom": "07-14-2023",
+      "timeFrom": "15:45",
+      "dateTo": "07-31-2023",
+      "timeTo": "00:00",
+      "title": "Los Angeles",
+      "description": "",
+      "id": 11
+    },
+    {
+      "listOfTenantIds": ["Van Henry"],
+      "applyToAllPatientsFlag": "No",
+      "broadCastType": "PostLogin",
+      "dateFrom": "07-09-2023",
+      "timeFrom": "16:30",
+      "dateTo": "07-15-2023",
+      "timeTo": "18:00",
+      "title": "Los Angeles",
+      "description": "",
+      "id": 12
+    },
+    {
+      "listOfTenantIds": ["Van Henry"],
+      "applyToAllPatientsFlag": "Yes",
+      "broadCastType": "PostLogin",
+      "dateFrom": "07-18-2023",
+      "timeFrom": "20:15",
+      "dateTo": "07-29-2023",
+      "timeTo": "20:44",
+      "title": "Texas",
+      "description": "",
+      "id": 14
+    },
+    {
+      "listOfTenantIds": ["Oliver Hansen", "Van Henry"],
+      "applyToAllPatientsFlag": "Yes",
+      "broadCastType": "PostLogin",
+      "dateFrom": "07-19-2023",
+      "timeFrom": "05:30",
+      "dateTo": "07-31-2023",
+      "timeTo": "11:45",
+      "title": "ABC",
+      "description": "",
+      "id": 15
+    },
+    {
+      "listOfTenantIds": ["Oliver Hansen", "Van Henry"],
+      "applyToAllPatientsFlag": "Yes",
+      "broadCastType": "PostLogin",
+      "dateFrom": "07-19-2023",
+      "timeFrom": "05:30",
+      "dateTo": "07-31-2023",
+      "timeTo": "11:45",
+      "title": "ABC",
+      "description": "",
+      "id": 16
+    }
+  ],
+  "orderReports": [
+    {
+      "tenantName": "tenant1",
+      "tenantId": "1",
+      "client": "abc",
+      "provider": "lucifer",
+      "orderId": "OR12345",
+      "firstName": "dummy1",
+      "middleName": "dummy1",
+      "lastName": "dummy1",
+      "patientId": "RH12345",
+      "createdBy": "Lucifier",
+      "orderTypeDto": {
+        "id": 1,
+        "name": "Stat Order"
+      },
+      "testTypeDto": {
+        "id": 1,
+        "name": "Panel"
+      },
+      "orderDate": "2023-07-03T09:00:00Z",
+      "tenantEmail": "dummy1@test.test",
+      "tenantPhoneNumber": "1111111111",
+      "patientAddress": "dummy address 1",
+      "orderMappedTenantDto": {
+        "id": "RH12345",
+        "name": "Walton Bre",
+        "logo": "s3 url 1"
+      },
+      "orderMappedClientDto": {
+        "id": "RH12345",
+        "name": "Walton Bre"
+      },
+      "orderMappedProviderDto": {
+        "id": "RH12345",
+        "name": "Walton Bre"
+      },
+      "testCount": "90",
+      "reports": [
+        {
+          "fileName": "report1",
+          "filePath": "s3 url 1"
+        }
+      ],
+      "orderStatusDto": {
+        "id": 1,
+        "name": "Completed"
+      }
+    },
+    {
+      "tenantName": "tenant1",
+      "tenantId": "1",
+      "client": "abc",
+      "provider": "lucifer",
+      "orderId": "OR56789",
+      "firstName": "dummy2",
+      "middleName": "dummy2",
+      "lastName": "dummy2",
+      "patientId": "RH12345",
+      "createdBy": "Lucifier",
+      "orderTypeDto": {
+        "id": 2,
+        "name": "Regular Order"
+      },
+      "testTypeDto": {
+        "id": 2,
+        "name": "Single Test"
+      },
+      "orderDate": "2023-07-03T10:00:00Z",
+      "tenantEmail": "dummy2@test.test",
+      "tenantPhoneNumber": "2222222222",
+      "patientAddress": "dummy address 2",
+      "orderMappedTenantDto": {
+        "id": "RH12345",
+        "name": "Walton Bre",
+        "logo": "s3 url 2"
+      },
+      "orderMappedClientDto": {
+        "id": "RH12345",
+        "name": "Walton Bre"
+      },
+      "orderMappedProviderDto": {
+        "id": "RH12345",
+        "name": "Walton Bre"
+      },
+      "testCount": "80",
+      "reports": [
+        {
+          "fileName": "report2",
+          "filePath": "s3 url 2"
+        }
+      ],
+      "orderStatusDto": {
+        "id": 2,
+        "name": "Pending"
+      }
+    },
+    {
+      "tenantName": "tenant1",
+      "tenantId": "1",
+      "client": "abc",
+      "provider": "lucifer",
+      "orderId": "OR101112",
+      "firstName": "dummy3",
+      "middleName": "dummy3",
+      "lastName": "dummy3",
+      "patientId": "RH12345",
+      "createdBy": "Lucifier",
+      "orderTypeDto": {
+        "id": 1,
+        "name": "Stat Order"
+      },
+      "testTypeDto": {
+        "id": 1,
+        "name": "Panel"
+      },
+      "orderDate": "2023-07-03T11:00:00Z",
+      "tenantEmail": "dummy3@test.test",
+      "tenantPhoneNumber": "3333333333",
+      "patientAddress": "dummy address 3",
+      "orderMappedTenantDto": {
+        "id": "RH12345",
+        "name": "Walton Bre",
+        "logo": "s3 url 3"
+      },
+      "orderMappedClientDto": {
+        "id": "RH12345",
+        "name": "Walton Bre"
+      },
+      "orderMappedProviderDto": {
+        "id": "RH12345",
+        "name": "Walton Bre"
+      },
+      "testCount": "70",
+      "reports": [
+        {
+          "fileName": "report3",
+          "filePath": "s3 url 3"
+        }
+      ],
+      "orderStatusDto": {
+        "id": 1,
+        "name": "Completed"
+      }
+    },
+    {
+      "tenantName": "tenant1",
+      "tenantId": "1",
+      "client": "abc",
+      "provider": "lucifer",
+      "orderId": "OR131415",
+      "firstName": "dummy4",
+      "middleName": "dummy4",
+      "lastName": "dummy4",
+      "patientId": "RH12345",
+      "createdBy": "Lucifier",
+      "orderTypeDto": {
+        "id": 2,
+        "name": "Regular Order"
+      },
+      "testTypeDto": {
+        "id": 2,
+        "name": "Single Test"
+      },
+      "orderDate": "2023-07-03T12:00:00Z",
+      "tenantEmail": "dummy4@test.test",
+      "tenantPhoneNumber": "4444444444",
+      "patientAddress": "dummy address 4",
+      "orderMappedTenantDto": {
+        "id": "RH12345",
+        "name": "Walton Bre",
+        "logo": "s3 url 4"
+      },
+      "orderMappedClientDto": {
+        "id": "RH12345",
+        "name": "Walton Bre"
+      },
+      "orderMappedProviderDto": {
+        "id": "RH12345",
+        "name": "Walton Bre"
+      },
+      "testCount": "60",
+      "reports": [
+        {
+          "fileName": "report4",
+          "filePath": "s3 url 4"
+        }
+      ],
+      "orderStatusDto": {
+        "id": 2,
+        "name": "Pending"
+      }
+    },
+    {
+      "tenantName": "tenant1",
+      "tenantId": "1",
+      "client": "abc",
+      "provider": "lucifer",
+      "orderId": "OR161718",
+      "firstName": "dummy5",
+      "middleName": "dummy5",
+      "lastName": "dummy5",
+      "patientId": "RH12345",
+      "createdBy": "Lucifier",
+      "orderTypeDto": {
+        "id": 1,
+        "name": "Stat Order"
+      },
+      "testTypeDto": {
+        "id": 1,
+        "name": "Panel"
+      },
+      "orderDate": "2023-07-03T13:00:00Z",
+      "tenantEmail": "dummy5@test.test",
+      "tenantPhoneNumber": "5555555555",
+      "patientAddress": "dummy address 5",
+      "orderMappedTenantDto": {
+        "id": "RH12345",
+        "name": "Walton Bre",
+        "logo": "s3 url 5"
+      },
+      "orderMappedClientDto": {
+        "id": "RH12345",
+        "name": "Walton Bre"
+      },
+      "orderMappedProviderDto": {
+        "id": "RH12345",
+        "name": "Walton Bre"
+      },
+      "testCount": "50",
+      "reports": [
+        {
+          "fileName": "report5",
+          "filePath": "s3 url 5"
+        }
+      ],
+      "orderStatusDto": {
+        "id": 1,
+        "name": "Completed"
+      }
+    },
+    {
+      "tenantName": "tenant1",
+      "tenantId": "1",
+      "client": "abc",
+      "provider": "lucifer",
+      "orderId": "OR192021",
+      "firstName": "dummy6",
+      "middleName": "dummy6",
+      "lastName": "dummy6",
+      "patientId": "RH12345",
+      "createdBy": "Lucifier",
+      "orderTypeDto": {
+        "id": 2,
+        "name": "Regular Order"
+      },
+      "testTypeDto": {
+        "id": 2,
+        "name": "Single Test"
+      },
+      "orderDate": "2023-07-03T14:00:00Z",
+      "tenantEmail": "dummy6@test.test",
+      "tenantPhoneNumber": "6666666666",
+      "patientAddress": "dummy address 6",
+      "orderMappedTenantDto": {
+        "id": "RH12345",
+        "name": "Walton Bre",
+        "logo": "s3 url 6"
+      },
+      "orderMappedClientDto": {
+        "id": "RH12345",
+        "name": "Walton Bre"
+      },
+      "orderMappedProviderDto": {
+        "id": "RH12345",
+        "name": "Walton Bre"
+      },
+      "testCount": "40",
+      "reports": [
+        {
+          "fileName": "report6",
+          "filePath": "s3 url 6"
+        }
+      ],
+      "orderStatusDto": {
+        "id": 2,
+        "name": "Pending"
+      }
+    },
+    {
+      "tenantName": "tenant1",
+      "tenantId": "1",
+      "client": "abc",
+      "provider": "lucifer",
+      "orderId": "OR222324",
+      "firstName": "dummy7",
+      "middleName": "dummy7",
+      "lastName": "dummy7",
+      "patientId": "RH12345",
+      "createdBy": "Lucifier",
+      "orderTypeDto": {
+        "id": 1,
+        "name": "Stat Order"
+      },
+      "testTypeDto": {
+        "id": 1,
+        "name": "Panel"
+      },
+      "orderDate": "2023-07-03T15:00:00Z",
+      "tenantEmail": "dummy7@test.test",
+      "tenantPhoneNumber": "7777777777",
+      "patientAddress": "dummy address 7",
+      "orderMappedTenantDto": {
+        "id": "RH12345",
+        "name": "Walton Bre",
+        "logo": "s3 url 7"
+      },
+      "orderMappedClientDto": {
+        "id": "RH12345",
+        "name": "Walton Bre"
+      },
+      "orderMappedProviderDto": {
+        "id": "RH12345",
+        "name": "Walton Bre"
+      },
+      "testCount": "30",
+      "reports": [
+        {
+          "fileName": "report7",
+          "filePath": "s3 url 7"
+        }
+      ],
+      "orderStatusDto": {
+        "id": 1,
+        "name": "Completed"
+      }
+    },
+    {
+      "tenantName": "tenant1",
+      "tenantId": "1",
+      "client": "abc",
+      "provider": "lucifer",
+      "orderId": "OR252627",
+      "firstName": "dummy8",
+      "middleName": "dummy8",
+      "lastName": "dummy8",
+      "patientId": "RH12345",
+      "createdBy": "Lucifier",
+      "orderTypeDto": {
+        "id": 2,
+        "name": "Regular Order"
+      },
+      "testTypeDto": {
+        "id": 2,
+        "name": "Single Test"
+      },
+      "orderDate": "2023-07-03T16:00:00Z",
+      "tenantEmail": "dummy8@test.test",
+      "tenantPhoneNumber": "8888888888",
+      "patientAddress": "dummy address 8",
+      "orderMappedTenantDto": {
+        "id": "RH12345",
+        "name": "Walton Bre",
+        "logo": "s3 url 8"
+      },
+      "orderMappedClientDto": {
+        "id": "RH12345",
+        "name": "Walton Bre"
+      },
+      "orderMappedProviderDto": {
+        "id": "RH12345",
+        "name": "Walton Bre"
+      },
+      "testCount": "20",
+      "reports": [
+        {
+          "fileName": "report8",
+          "filePath": "s3 url 8"
+        }
+      ],
+      "orderStatusDto": {
+        "id": 2,
+        "name": "Pending"
+      }
+    },
+    {
+      "tenantName": "tenant1",
+      "tenantId": "1",
+      "client": "abc",
+      "provider": "lucifer",
+      "orderId": "OR282930",
+      "firstName": "dummy9",
+      "middleName": "dummy9",
+      "lastName": "dummy9",
+      "patientId": "RH12345",
+      "createdBy": "Lucifier",
+      "orderTypeDto": {
+        "id": 1,
+        "name": "Stat Order"
+      },
+      "testTypeDto": {
+        "id": 1,
+        "name": "Panel"
+      },
+      "orderDate": "2023-07-03T17:00:00Z",
+      "tenantEmail": "dummy9@test.test",
+      "tenantPhoneNumber": "9999999999",
+      "patientAddress": "dummy address 9",
+      "orderMappedTenantDto": {
+        "id": "RH12345",
+        "name": "Walton Bre",
+        "logo": "s3 url 9"
+      },
+      "orderMappedClientDto": {
+        "id": "RH12345",
+        "name": "Walton Bre"
+      },
+      "orderMappedProviderDto": {
+        "id": "RH12345",
+        "name": "Walton Bre"
+      },
+      "testCount": "10",
+      "reports": [
+        {
+          "fileName": "report9",
+          "filePath": "s3 url 9"
+        }
+      ],
+      "orderStatusDto": {
+        "id": 1,
+        "name": "Completed"
+      }
+    },
+    {
+      "tenantName": "tenant1",
+      "tenantId": "1",
+      "client": "abc",
+      "provider": "lucifer",
+      "orderId": "OR313233",
+      "firstName": "dummy10",
+      "middleName": "dummy10",
+      "lastName": "dummy10",
+      "patientId": "RH12345",
+      "createdBy": "Lucifier",
+      "orderTypeDto": {
+        "id": 2,
+        "name": "Regular Order"
+      },
+      "testTypeDto": {
+        "id": 2,
+        "name": "Single Test"
+      },
+      "orderDate": "2023-07-03T18:00:00Z",
+      "tenantEmail": "dummy10@test.test",
+      "tenantPhoneNumber": "1010101010",
+      "patientAddress": "dummy address 10",
+      "orderMappedTenantDto": {
+        "id": "RH12345",
+        "name": "Walton Bre",
+        "logo": "s3 url 10"
+      },
+      "orderMappedClientDto": {
+        "id": "RH12345",
+        "name": "Walton Bre"
+      },
+      "orderMappedProviderDto": {
+        "id": "RH12345",
+        "name": "Walton Bre"
+      },
+      "testCount": "5",
+      "reports": [
+        {
+          "fileName": "report10",
+          "filePath": "s3 url 10"
+        }
+      ],
+      "orderStatusDto": {
+        "id": 2,
+        "name": "Pending"
+      }
+    }
+  ],
+  "orderConfigurationCreateTest": {
+    "TestPanel": "",
+    "Diagnosticcode": {
+      "id": 2,
+      "label": "COMP",
+      "Diagnosticcode": "R744, R94.5 , R63.5"
+    },
+    "TestPanelName": {
+      "id": 1,
+      "label": "UDRUG",
+      "Diagnosticcode": "R742, R94.5 , R63.5"
+    },
+    "Description": ""
+  },
+  "orderConfigurationDiagnositicCode": [
+    {
+      "id": 1,
+      "label": "UDRUG",
+      "Diagnosticcode": "R742, R94.5 , R63.5"
+    },
+    {
+      "id": 2,
+      "label": "COMP",
+      "Diagnosticcode": "R744, R94.5 , R63.5"
+    },
+    {
+      "id": 3,
+      "label": "CT_QCU",
+      "Diagnosticcode": "R743, R94.5 , R63.5"
+    },
+    {
+      "id": 4,
+      "label": "LIPP",
+      "Diagnosticcode": "R741, R94.5 , R63.5"
+    },
+    {
+      "id": 5,
+      "label": "IDP",
+      "Diagnosticcode": "R742, R94.5 , R63.5"
+    }
+  ],
+  "orderConfigurationPanelTest": [
+    {
+      "ids": 1,
+      "labels": "UDRUG"
+    },
+    {
+      "ids": 2,
+      "labels": "COMP"
+    },
+    {
+      "ids": 3,
+      "labels": "CT_QCU"
+    },
+    {
+      "ids": 4,
+      "labels": "LIPP"
+    },
+    {
+      "ids": 5,
+      "labels": "IDP"
+    }
+  ],
+  "orderConfigurationCreatePanel": {
+    "alignment": "left",
+    "TestPanel": "",
+    "selectedNames": []
+  },
+  "patientManagmentFormData": {
+    "orderTypeOption": "",
+    "orderTemplate": "",
+    "labs": "",
+    "PriorityCode": "",
+    "PatientId": "",
+    "recurring": "",
+    "recurringEventRepeats": "",
+    "recurringEventDate": "",
+    "recurringEventTime": "",
+    "RepeatEvery": {
+      "sunday": false,
+      "Monday": false,
+      "tuesday": false,
+      "wednesday": false,
+      "thursday": false,
+      "friday": false,
+      "saturday": false
+    }
+  },
+  "orderConfiguration": {
+    "panelTest": [
+      {
+        "id": 1,
+        "label": "UDRUG"
+      },
+      {
+        "id": 2,
+        "label": "COMP"
+      },
+      {
+        "id": 3,
+        "label": "CT_QCU"
+      },
+      {
+        "id": 4,
+        "label": "LIPP"
+      },
+      {
+        "id": 5,
+        "label": "IDP"
+      }
+    ],
+    "individualTest": [
+      {
+        "id": 1,
+        "label": "UDRUG"
+      },
+      {
+        "id": 2,
+        "label": "COMP"
+      },
+      {
+        "id": 3,
+        "label": "CT_QCU"
+      },
+      {
+        "id": 4,
+        "label": "LIPP"
+      },
+      {
+        "id": 5,
+        "label": "IDP"
+      }
+    ]
+  },
+  "orderConfigurationSubmitData": [[]],
+  "orderConfigurationpanelTest": [
+    {
+      "id": 1,
+      "label": "UDRUG",
+      "panel": "UDRUG1",
+      "description": "Lorem Ipsum 1",
+      "Diagnosticcode": "R742, R94.5 , R63.5"
+    },
+    {
+      "id": 2,
+      "label": "COMP",
+      "panel": "UDRUG2",
+      "description": "Lorem Ipsum 1",
+      "Diagnosticcode": "R742, R94.5 , R63.5"
+    },
+    {
+      "id": 3,
+      "label": "CT_QCU",
+      "panel": "UDRUG3",
+      "description": "Lorem Ipsum 1",
+      "Diagnosticcode": "R742, R94.5 , R63.5"
+    },
+    {
+      "id": 4,
+      "label": "LIPP",
+      "panel": "UDRUG4",
+      "description": "Lorem Ipsum 1",
+      "Diagnosticcode": "R742, R94.5 , R63.5"
+    },
+    {
+      "id": 5,
+      "label": "IDP",
+      "panel": "UDRUG5",
+      "description": "Lorem Ipsum 1",
+      "Diagnosticcode": "R742, R94.5 , R63.5"
+    }
+  ],
+  "orderConfigurationindividualTest": [
+    {
+      "id": 6,
+      "label": "UDRUG",
+      "panel": "UDRUG6",
+      "description": "Lorem Ipsum 1",
+      "Diagnosticcode": "R742, R94.5 , R63.5"
+    },
+    {
+      "id": 7,
+      "label": "COMP",
+      "panel": "UDRUG7",
+      "description": "Lorem Ipsum 1",
+      "Diagnosticcode": "R742, R94.5 , R63.5"
+    },
+    {
+      "id": 8,
+      "label": "CT_QCU",
+      "panel": "UDRUG8",
+      "description": "Lorem Ipsum 1",
+      "Diagnosticcode": "R742, R94.5 , R63.5"
+    },
+    {
+      "id": 9,
+      "label": "LIPP",
+      "panel": "UDRUG9",
+      "description": "Lorem Ipsum 1",
+      "Diagnosticcode": "R742, R94.5 , R63.5"
+    },
+    {
+      "id": 10,
+      "label": "IDP",
+      "panel": "UDRUG10",
+      "description": "Lorem Ipsum 1",
+      "Diagnosticcode": "R742, R94.5 , R63.5"
+    }
+  ],
+  "tableData": {
+    "selectedOption1": [],
+    "selectedOption2": []
+  },
+  "orderConfigurationSubmitdata": [[]],
+  "orderConfigurationTemplateName": {
+    "TemplateName": ""
+  },
+  "aboutUs": {
+    "aboutUsId": 1234,
+    "title": "about us",
+    "description": "<p>Rich text HTML as string updated&nbsp;fsdf sdf&nbsp;</p>"
+  },
+  "overviewLabDetails": [
+    {
+      "id": 1,
+      "labsName": "ABC Diagnostics",
+      "location": "New York",
+      "emailAddress": "abc@example.com",
+      "phoneNo": "123-456-7890",
+      "address": "123 Main St",
+      "service": "Diagnostic Imaging",
+      "status": "Inactive"
+    },
+    {
+      "id": 2,
+      "labsName": "XYZ Labs",
+      "location": "San Francisco",
+      "emailAddress": "xyz@example.com",
+      "phoneNo": "987-654-3210",
+      "address": "456 Oak Ave",
+      "service": "Blood Tests",
+      "status": "Active"
+    },
+    {
+      "id": 3,
+      "labsName": "Healthcare Diagnostics",
+      "location": "Chicago",
+      "emailAddress": "healthcare@example.com",
+      "phoneNo": "111-222-3333",
+      "address": "789 Elm Rd",
+      "service": "Radiology",
+      "status": "Inactive"
+    },
+    {
+      "id": 4,
+      "labsName": "Advanced Labs",
+      "location": "Los Angeles",
+      "emailAddress": "advanced@example.com",
+      "phoneNo": "444-555-6666",
+      "address": "1010 Maple Ave",
+      "service": "Genetic Testing",
+      "status": "Active"
+    },
+    {
+      "id": 5,
+      "labsName": "BioHealth Diagnostics",
+      "location": "Houston",
+      "emailAddress": "biohealth@example.com",
+      "phoneNo": "777-888-9999",
+      "address": "1313 Pine St",
+      "service": "Microbiology",
+      "status": "Active"
+    },
+    {
+      "id": 6,
+      "labsName": "MediLab",
+      "location": "Miami",
+      "emailAddress": "medilab@example.com",
+      "phoneNo": "222-333-4444",
+      "address": "1515 Cedar Rd",
+      "service": "Chemistry",
+      "status": "Inactive"
+    },
+    {
+      "id": 7,
+      "labsName": "Precision Diagnostics",
+      "location": "Dallas",
+      "emailAddress": "precision@example.com",
+      "phoneNo": "555-666-7777",
+      "address": "1717 Birch Ave",
+      "service": "Molecular Testing",
+      "status": "Active"
+    },
+    {
+      "id": 8,
+      "labsName": "Global Labs",
+      "location": "Seattle",
+      "emailAddress": "global@example.com",
+      "phoneNo": "888-999-0000",
+      "address": "1818 Willow St",
+      "service": "Immunology",
+      "status": "Active"
+    },
+    {
+      "id": 9,
+      "labsName": "MediScan",
+      "location": "Atlanta",
+      "emailAddress": "mediscan@example.com",
+      "phoneNo": "333-444-5555",
+      "address": "1919 Oak Rd",
+      "service": "Pathology",
+      "status": "Inactive"
+    },
+    {
+      "id": 10,
+      "labsName": "Wellness Diagnostics",
+      "location": "Boston",
+      "emailAddress": "wellness@example.com",
+      "phoneNo": "666-777-8888",
+      "address": "2020 Maple St",
+      "service": "Health Screenings",
+      "status": "Inactive"
+    }
+  ],
+  "cilentLabDetails": [
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "cilentid": "JD123",
+      "clientName": "John",
+      "providerName": "Rose",
+      "orderId": "OR101112",
+      "patientId": "RH12345",
+      "orderDate": "01-01-2023",
+      "orderType": "stat",
+      "createdBy": "Lucifier",
+      "labDto": {
+        "id": 1
+      },
+      "emailAddress": "john.doe@example.com",
+      "phoneNumber": "123-456-7890",
+      "address": "123 Main St",
+      "associatedWith": "Hospital A",
+      "facility": "Cardiology",
+      "date": "2023-07-26",
+      "testCount": "12",
+      "status": "Active"
+    },
+    {
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "cilentid": "JS456",
+      "clientName": "John",
+      "providerName": "Rose",
+      "orderId": "OR101112",
+      "patientId": "RH12345",
+      "orderDate": "01-01-2023",
+      "orderType": "stat",
+      "createdBy": "Lucifier",
+      "labDto": {
+        "id": 2
+      },
+      "emailAddress": "jane.smith@example.com",
+      "phoneNumber": "987-654-3210",
+      "address": "456 Oak Ave",
+      "associatedWith": "Clinic B",
+      "facility": "Pediatrics",
+      "date": "2023-07-27",
+      "testCount": "12",
+      "status": "Active"
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Johnson",
+      "cilentid": "MJ789",
+      "clientName": "John",
+      "providerName": "Rose",
+      "orderId": "OR101112",
+      "patientId": "RH12345",
+      "orderDate": "01-01-2023",
+      "orderType": "stat",
+      "createdBy": "Lucifier",
+      "labDto": {
+        "id": 3
+      },
+      "emailAddress": "michael.johnson@example.com",
+      "phoneNumber": "111-222-3333",
+      "address": "789 Elm Rd",
+      "associatedWith": "Lab C",
+      "facility": "Radiology",
+      "date": "2023-07-28",
+      "testCount": "12",
+      "status": "Inactive"
+    },
+    {
+      "firstName": "Emily",
+      "lastName": "Williams",
+      "cilentid": "EW101",
+      "clientName": "John",
+      "providerName": "Rose",
+      "orderId": "OR101112",
+      "patientId": "RH12345",
+      "orderDate": "01-01-2023",
+      "orderType": "stat",
+      "createdBy": "Lucifier",
+      "labDto": {
+        "id": 4
+      },
+      "emailAddress": "emily.williams@example.com",
+      "phoneNumber": "444-555-6666",
+      "address": "1010 Maple Ave",
+      "associatedWith": "Hospital D",
+      "facility": "Neurology",
+      "date": "2023-07-29",
+      "testCount": "12",
+      "status": "Active"
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Brown",
+      "cilentid": "DB202",
+      "clientName": "John",
+      "providerName": "Rose",
+      "orderId": "OR101112",
+      "patientId": "RH12345",
+      "orderDate": "01-01-2023",
+      "orderType": "stat",
+      "createdBy": "Lucifier",
+      "labDto": {
+        "id": 5
+      },
+      "emailAddress": "daniel.brown@example.com",
+      "phoneNumber": "777-888-9999",
+      "address": "1313 Pine St",
+      "associatedWith": "Clinic E",
+      "facility": "Oncology",
+      "date": "2023-07-30",
+      "testCount": "12",
+      "status": "Active"
+    },
+    {
+      "firstName": "Sophia",
+      "lastName": "Miller",
+      "cilentid": "SM303",
+      "clientName": "John",
+      "providerName": "Rose",
+      "orderId": "OR101112",
+      "patientId": "RH12345",
+      "orderDate": "01-01-2023",
+      "orderType": "stat",
+      "createdBy": "Lucifier",
+      "labDto": {
+        "id": 6
+      },
+      "emailAddress": "sophia.miller@example.com",
+      "phoneNumber": "222-333-4444",
+      "address": "1515 Cedar Rd",
+      "associatedWith": "Lab F",
+      "facility": "Dermatology",
+      "date": "2023-07-31",
+      "testCount": "12",
+      "status": "Inactive"
+    },
+    {
+      "firstName": "Matthew",
+      "lastName": "Davis",
+      "id": "MD404",
+      "clientName": "John",
+      "providerName": "Rose",
+      "orderId": "OR101112",
+      "patientId": "RH12345",
+      "orderDate": "01-01-2023",
+      "orderType": "stat",
+      "createdBy": "Lucifier",
+      "labDto": {
+        "id": 7
+      },
+      "emailAddress": "matthew.davis@example.com",
+      "phoneNumber": "555-666-7777",
+      "address": "1717 Birch Ave",
+      "associatedWith": "Hospital G",
+      "facility": "Orthopedics",
+      "date": "2023-08-01",
+      "testCount": "12",
+      "status": "Active"
+    },
+    {
+      "firstName": "Olivia",
+      "lastName": "Wilson",
+      "cilentid": "OW505",
+      "clientName": "John",
+      "providerName": "Rose",
+      "orderId": "OR101112",
+      "patientId": "RH12345",
+      "orderDate": "01-01-2023",
+      "orderType": "stat",
+      "createdBy": "Lucifier",
+      "labDto": {
+        "id": 8
+      },
+      "emailAddress": "olivia.wilson@example.com",
+      "phoneNumber": "888-999-0000",
+      "address": "1818 Willow St",
+      "associatedWith": "Clinic H",
+      "facility": "ENT",
+      "date": "2023-08-02",
+      "testCount": "12",
+      "status": "Active"
+    },
+    {
+      "firstName": "James",
+      "lastName": "Taylor",
+      "id": "JT606",
+      "clientName": "John",
+      "providerName": "Rose",
+      "orderId": "OR101112",
+      "patientId": "RH12345",
+      "orderDate": "01-01-2023",
+      "orderType": "stat",
+      "createdBy": "Lucifier",
+      "labDto": {
+        "id": 9
+      },
+      "emailAddress": "james.taylor@example.com",
+      "phoneNumber": "333-444-5555",
+      "address": "1919 Oak Rd",
+      "associatedWith": "Lab I",
+      "facility": "Gastroenterology",
+      "date": "2023-08-03",
+      "testCount": "12",
+      "status": "Inactive"
+    },
+    {
+      "firstName": "Ava",
+      "lastName": "Martinez",
+      "cilentid": "AM707",
+      "clientName": "John",
+      "providerName": "Rose",
+      "orderId": "OR101112",
+      "patientId": "RH12345",
+      "orderDate": "01-01-2023",
+      "orderType": "stat",
+      "createdBy": "Lucifier",
+      "labDto": {
+        "id": 10
+      },
+      "emailAddress": "ava.martinez@example.com",
+      "phoneNumber": "666-777-8888",
+      "address": "2020 Maple St",
+      "associatedWith": "Hospital J",
+      "facility": "Hematology",
+      "date": "2023-08-04",
+      "testCount": "12",
+      "status": "Active"
+    }
+  ],
+  "labDetails": [
+    {
+      "labName": "",
+      "regionLocation": "",
+      "tests": "",
+      "emailAddress": "",
+      "phoneNumber": "",
+      "address": "",
+      "clientadmin": "",
+      "id": 1
+    },
+    {
+      "labName": "",
+      "regionLocation": "",
+      "tests": "",
+      "emailAddress": "",
+      "phoneNumber": "",
+      "address": "",
+      "clientadmin": "",
+      "id": 2
+    },
+    {
+      "labName": "",
+      "regionLocation": "",
+      "tests": "",
+      "emailAddress": "",
+      "phoneNumber": "",
+      "address": "",
+      "clientadmin": "",
+      "id": 3
+    },
+    {
+      "labName": "",
+      "regionLocation": "",
+      "tests": "",
+      "emailAddress": "",
+      "phoneNumber": "",
+      "address": "",
+      "clientadmin": "",
+      "id": 4
+    },
+    {
+      "labName": "",
+      "regionLocation": "",
+      "tests": "",
+      "emailAddress": "",
+      "phoneNumber": "",
+      "address": "",
+      "clientadmin": "",
+      "id": 5
+    },
+    {
+      "labName": "",
+      "regionLocation": "",
+      "tests": "",
+      "emailAddress": "",
+      "phoneNumber": "",
+      "address": "",
+      "clientadmin": "",
+      "id": 6
+    },
+    {
+      "labName": "",
+      "regionLocation": "",
+      "tests": "",
+      "emailAddress": "",
+      "phoneNumber": "",
+      "address": "",
+      "clientadmin": "",
+      "id": 7
+    },
+    {
+      "labName": "",
+      "regionLocation": "",
+      "tests": "",
+      "emailAddress": "",
+      "phoneNumber": "",
+      "address": "",
+      "clientadmin": "",
+      "id": 8
+    },
+    {
+      "labName": "ji",
+      "regionLocation": "Group 1",
+      "tests": "Service 1",
+      "emailAddress": "ff",
+      "phoneNumber": "55",
+      "address": "ff",
+      "clientadmin": "",
+      "id": 9
+    },
+    {
+      "labName": "",
+      "regionLocation": "",
+      "tests": "",
+      "emailAddress": "",
+      "phoneNumber": "",
+      "address": "usA",
+      "clientadmin": "",
+      "id": 10
+    },
+    {
+      "labName": "",
+      "regionLocation": "",
+      "tests": "",
+      "emailAddress": "",
+      "phoneNumber": "wQ23",
+      "address": "WD3",
+      "clientadmin": "3D",
+      "id": 11
+    },
+    {
+      "labName": "",
+      "regionLocation": "",
+      "tests": "",
+      "emailAddress": "",
+      "phoneNumber": "",
+      "address": "",
+      "clientadmin": "",
+      "id": 12
+    }
+  ],
+  "createNewLab": {
+    "locations": ["Location A", "Location B", "Location C"],
+    "tests": ["Test X", "Test Y", "Test Z"]
+  },
+  "patientsByGroup": [
+    {
+      "id": 123,
+      "name": "Asian1"
+    },
+    {
+      "id": 124,
+      "name": "Black2"
+    },
+    {
+      "id": 125,
+      "name": "Asian3"
+    },
+    {
+      "id": 126,
+      "group": "Ethnic Group",
+      "name": ""
+    },
+    {
+      "id": 127,
+      "name": "Asian5"
+    },
+    {
+      "id": 128,
+      "name": "Black6"
+    },
+    {
+      "id": 129,
+      "name": "Asian7"
+    },
+    {
+      "id": 130,
+      "name": "Black8"
+    },
+    {
+      "group": "Race",
+      "name": "row",
+      "id": 131
+    },
+    {
+      "group": "Race",
+      "name": "karthik",
+      "id": 132
+    },
+    {
+      "group": "Race",
+      "name": "super",
+      "id": 133
+    },
+    {
+      "group": "Race",
+      "name": "right",
+      "id": 134
+    },
+    {
+      "group": "Race",
+      "name": "aaaa",
+      "id": 135
+    },
+    {
+      "group": "Race",
+      "name": "par",
+      "id": 136
+    }
+  ],
+  "overviewFacilitiesDetails": [
+    {
+      "id": 1,
+      "name": "ABC Hospital",
+      "managementGroup": "Healthcare Group",
+      "address": "123 Main Street",
+      "contactNo": "555-123-4567",
+      "email": "abc.hospital@example.com",
+      "facilityType": "Hospital",
+      "services": "Emergency, Surgery, Pediatrics",
+      "status": "Inactive"
+    },
+    {
+      "id": 2,
+      "name": "ABC Hospital",
+      "managementGroup": "Healthcare Group",
+      "address": "123 Main Street",
+      "contactNo": "555-123-4567",
+      "email": "abc.hospital@example.com",
+      "facilityType": "Hospital",
+      "services": "Emergency, Surgery, Pediatrics",
+      "status": "Active"
+    },
+    {
+      "id": 3,
+      "name": "XYZ Clinic",
+      "managementGroup": "Medical Services",
+      "address": "456 Oak Avenue",
+      "contactNo": "555-987-6543",
+      "email": "xyz.clinic@example.com",
+      "facilityType": "Clinic",
+      "services": "General Medicine, Dermatology",
+      "status": "Active"
+    },
+    {
+      "id": 4,
+      "name": "XYZ Clinic",
+      "managementGroup": "Medical Services",
+      "address": "456 Oak Avenue",
+      "contactNo": "555-987-6543",
+      "email": "xyz.clinic@example.com",
+      "facilityType": "Clinic",
+      "services": "General Medicine, Dermatology",
+      "status": "Active"
+    },
+    {
+      "id": 5,
+      "name": "Community Health Center",
+      "managementGroup": "Nonprofit Organization",
+      "address": "789 Elm Street",
+      "contactNo": "555-456-7890",
+      "email": "chc@example.com",
+      "facilityType": "Health Center",
+      "services": "Primary Care, Vaccinations",
+      "status": "Active"
+    },
+    {
+      "id": 6,
+      "name": "Community Health Center",
+      "managementGroup": "Nonprofit Organization",
+      "address": "789 Elm Street",
+      "contactNo": "555-456-7890",
+      "email": "chc@example.com",
+      "facilityType": "Health Center",
+      "services": "Primary Care, Vaccinations",
+      "status": "Active"
+    },
+    {
+      "id": 7,
+      "name": "Sunrise Nursing Home",
+      "managementGroup": "Senior Care Services",
+      "address": "101 Sunset Blvd",
+      "contactNo": "555-111-2222",
+      "email": "sunrise.nursinghome@example.com",
+      "facilityType": "Nursing Home",
+      "services": "Elderly Care, Rehabilitation",
+      "status": "Active"
+    },
+    {
+      "id": 8,
+      "name": "Sunrise Nursing Home",
+      "managementGroup": "Senior Care Services",
+      "address": "101 Sunset Blvd",
+      "contactNo": "555-111-2222",
+      "email": "sunrise.nursinghome@example.com",
+      "facilityType": "Nursing Home",
+      "services": "Elderly Care, Rehabilitation",
+      "status": "Active"
+    },
+    {
+      "id": 9,
+      "name": "City Dental Clinic",
+      "managementGroup": "Dental Services",
+      "address": "222 Maple Avenue",
+      "contactNo": "555-222-3333",
+      "email": "city.dental@example.com",
+      "facilityType": "Dental Clinic",
+      "services": "Dental Checkups, Orthodontics",
+      "status": "Active"
+    },
+    {
+      "id": 10,
+      "name": "City Dental Clinic",
+      "managementGroup": "Dental Services",
+      "address": "222 Maple Avenue",
+      "contactNo": "555-222-3333",
+      "email": "city.dental@example.com",
+      "facilityType": "Dental Clinic",
+      "services": "Dental Checkups, Orthodontics",
+      "status": "Active"
+    }
+  ],
+  "facilitiesDetails": [
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "id": "JD123",
+      "emailAddress": "john.doe@example.com",
+      "phoneNo": "555-123-4567",
+      "address": "123 Main Street",
+      "associatedWith": "ABC Hospital",
+      "date": "2023-07-31",
+      "status": "Active",
+      "facility": "Facility 1",
+      "testCount": 5,
+      "facilitiesDto": {
+        "id": 1
+      },
+      "cilentName": "Client A",
+      "providerName": "Provider X",
+      "orderId": "ORD123",
+      "patientId": "PAT456",
+      "orderDate": "2023-07-29",
+      "orderType": "Urgent",
+      "createdBy": "Admin"
+    },
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "id": "JD123",
+      "emailAddress": "john.doe@example.com",
+      "phoneNo": "555-123-4567",
+      "address": "123 Main Street",
+      "associatedWith": "ABC Hospital",
+      "date": "2023-07-31",
+      "status": "Active",
+      "testCount": 5,
+      "facility": "Facility 1",
+      "facilitiesDto": {
+        "id": 2
+      },
+      "cilentName": "Client A",
+      "providerName": "Provider X",
+      "orderId": "ORD123",
+      "patientId": "PAT456",
+      "orderDate": "2023-07-29",
+      "orderType": "Urgent",
+      "createdBy": "Admin"
+    },
+    {
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "id": "JS987",
+      "emailAddress": "jane.smith@example.com",
+      "phoneNo": "555-987-6543",
+      "address": "456 Oak Avenue",
+      "associatedWith": "XYZ Clinic",
+      "date": "2023-07-31",
+      "status": "Active",
+      "testCount": 3,
+      "facility": "Facility 1",
+      "facilitiesDto": {
+        "id": 3
+      },
+      "cilentName": "Client B",
+      "providerName": "Provider Y",
+      "orderId": "ORD987",
+      "patientId": "PAT789",
+      "orderDate": "2023-07-30",
+      "orderType": "Routine",
+      "createdBy": "Admin"
+    },
+    {
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "id": "JS987",
+      "emailAddress": "jane.smith@example.com",
+      "phoneNo": "555-987-6543",
+      "address": "456 Oak Avenue",
+      "associatedWith": "XYZ Clinic",
+      "date": "2023-07-31",
+      "status": "Active",
+      "testCount": 3,
+      "facility": "Facility 1",
+      "facilitiesDto": {
+        "id": 4
+      },
+      "cilentName": "Client B",
+      "providerName": "Provider Y",
+      "orderId": "ORD987",
+      "patientId": "PAT789",
+      "orderDate": "2023-07-30",
+      "orderType": "Routine",
+      "createdBy": "Admin"
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Johnson",
+      "id": "MJ567",
+      "emailAddress": "michael.johnson@example.com",
+      "phoneNo": "555-567-8901",
+      "address": "789 Elm Street",
+      "associatedWith": "Community Health Center",
+      "date": "2023-07-31",
+      "status": "Active",
+      "testCount": 7,
+      "facility": "Facility 1",
+      "facilitiesDto": {
+        "id": 5
+      },
+      "cilentName": "Client C",
+      "providerName": "Provider Z",
+      "orderId": "ORD567",
+      "patientId": "PAT123",
+      "orderDate": "2023-07-28",
+      "orderType": "Urgent",
+      "createdBy": "Admin"
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Johnson",
+      "id": "MJ567",
+      "emailAddress": "michael.johnson@example.com",
+      "phoneNo": "555-567-8901",
+      "address": "789 Elm Street",
+      "associatedWith": "Community Health Center",
+      "date": "2023-07-31",
+      "status": "Active",
+      "testCount": 7,
+      "facility": "Facility 1",
+      "facilitiesDto": {
+        "id": 6
+      },
+      "cilentName": "Client C",
+      "providerName": "Provider Z",
+      "orderId": "ORD567",
+      "patientId": "PAT123",
+      "orderDate": "2023-07-28",
+      "orderType": "Urgent",
+      "createdBy": "Admin"
+    },
+    {
+      "firstName": "Emily",
+      "lastName": "Wilson",
+      "id": "EW234",
+      "emailAddress": "emily.wilson@example.com",
+      "phoneNo": "555-234-5678",
+      "address": "101 Sunset Blvd",
+      "associatedWith": "Sunrise Nursing Home",
+      "date": "2023-07-31",
+      "status": "Active",
+      "testCount": 4,
+      "facility": "Facility 1",
+      "facilitiesDto": {
+        "id": 7
+      },
+      "cilentName": "Client D",
+      "providerName": "Provider A",
+      "orderId": "ORD234",
+      "patientId": "PAT456",
+      "orderDate": "2023-07-27",
+      "orderType": "Routine",
+      "createdBy": "Admin"
+    },
+    {
+      "firstName": "Emily",
+      "lastName": "Wilson",
+      "id": "EW234",
+      "emailAddress": "emily.wilson@example.com",
+      "phoneNo": "555-234-5678",
+      "address": "101 Sunset Blvd",
+      "associatedWith": "Sunrise Nursing Home",
+      "date": "2023-07-31",
+      "status": "Active",
+      "testCount": 4,
+      "facility": "Facility 1",
+      "facilitiesDto": {
+        "id": 8
+      },
+      "cilentName": "Client D",
+      "providerName": "Provider A",
+      "orderId": "ORD234",
+      "patientId": "PAT456",
+      "orderDate": "2023-07-27",
+      "orderType": "Routine",
+      "createdBy": "Admin"
+    },
+    {
+      "firstName": "Sarah",
+      "lastName": "Lee",
+      "id": "SL789",
+      "emailAddress": "sarah.lee@example.com",
+      "phoneNo": "555-789-0123",
+      "address": "222 Maple Avenue",
+      "associatedWith": "City Dental Clinic",
+      "date": "2023-07-31",
+      "status": "Active",
+      "testCount": 2,
+      "facility": "Facility 1",
+      "facilitiesDto": {
+        "id": 9
+      },
+      "cilentName": "Client E",
+      "providerName": "Provider B",
+      "orderId": "ORD789",
+      "patientId": "PAT567",
+      "orderDate": "2023-07-26",
+      "orderType": "Urgent",
+      "createdBy": "Admin"
+    },
+    {
+      "firstName": "Sarah",
+      "lastName": "Lee",
+      "id": "SL789",
+      "emailAddress": "sarah.lee@example.com",
+      "phoneNo": "555-789-0123",
+      "address": "222 Maple Avenue",
+      "associatedWith": "City Dental Clinic",
+      "date": "2023-07-31",
+      "status": "Active",
+      "testCount": 2,
+      "facility": "Facility 1",
+      "facilitiesDto": {
+        "id": 10
+      },
+      "cilentName": "Client E",
+      "providerName": "Provider B",
+      "orderId": "ORD789",
+      "patientId": "PAT567",
+      "orderDate": "2023-07-26",
+      "orderType": "Urgent",
+      "createdBy": "Admin"
+    }
+  ],
+  "facilitiedDetails": [
+    {
+      "facilityName": "",
+      "managementGroup": "",
+      "services": "",
+      "facilityType": "",
+      "labDays": "",
+      "address": "",
+      "phoneNumber": "",
+      "clientadmin": "",
+      "id": ""
+    }
+  ],
+  "createNewFacilities": {
+    "managementGroup": ["Location A", "Location B", "Location C"],
+    "services": ["Test X", "Test Y", "Test Z"],
+    "facilityType": ["type1", "type2"],
+    "labDays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Firday", "Saturaday", "sunday"]
+  },
+  "compendiumTable": [
+    {
+      "InsuranceName": "Test1",
+      "Mnemonic": "HCS-1",
+      "Code": "code1",
+      "Address": "Code1",
+      "AlternativeAddress": "type1",
+      "City": "City 1",
+      "ZipCode": "23456789",
+      "Country": "India",
+      "Medical Necessity": "Med 2",
+      "State": "Andhra",
+      "Deny Panel": "Lab Testing",
+      "Default Lab": " Lab 1",
+      "Actions": "Edit"
+    },
+    {
+      "InsuranceName": "Test1",
+      "Mnemonic": "HCS-1",
+      "Code": "code1",
+      "Address": "Code1",
+      "AlternativeAddress": "type1",
+      "City": "City 1",
+      "ZipCode": "23456789",
+      "Country": "India",
+      "Medical Necessity": "Med 2",
+      "State": "Andhra",
+      "Deny Panel": "Lab Testing",
+      "Default Lab": " Lab 1",
+      "Actions": "Edit"
+    },
+    {
+      "InsuranceName": "Test1",
+      "Mnemonic": "HCS-1",
+      "Code": "code1",
+      "Address": "Code1",
+      "AlternativeAddress": "type1",
+      "City": "City 1",
+      "ZipCode": "23456789",
+      "Country": "India",
+      "Medical Necessity": "Med 2",
+      "State": "Andhra",
+      "Deny Panel": "Lab Testing",
+      "Default Lab": " Lab 1",
+      "Actions": "Edit"
+    },
+    {
+      "InsuranceName": "Test1",
+      "Mnemonic": "HCS-1",
+      "Code": "code1",
+      "Address": "Code1",
+      "AlternativeAddress": "type1",
+      "City": "City 1",
+      "ZipCode": "23456789",
+      "Country": "India",
+      "Medical Necessity": "Med 2",
+      "State": "Andhra",
+      "Deny Panel": "Lab Testing",
+      "Default Lab": " Lab 1",
+      "Actions": "Edit"
+    },
+    {
+      "InsuranceName": "Test1",
+      "Mnemonic": "HCS-1",
+      "Code": "code1",
+      "Address": "Code1",
+      "AlternativeAddress": "type1",
+      "City": "City 1",
+      "ZipCode": "23456789",
+      "Country": "India",
+      "Medical Necessity": "Med 2",
+      "State": "Andhra",
+      "Deny Panel": "Lab Testing",
+      "Default Lab": " Lab 1",
+      "Actions": "Edit"
+    },
+    {
+      "InsuranceName": "Test1",
+      "Mnemonic": "HCS-1",
+      "Code": "code1",
+      "Address": "Code1",
+      "AlternativeAddress": "type1",
+      "City": "City 1",
+      "ZipCode": "23456789",
+      "Country": "India",
+      "Medical Necessity": "Med 2",
+      "State": "Andhra",
+      "Deny Panel": "Lab Testing",
+      "Default Lab": " Lab 1",
+      "Actions": "Edit"
+    },
+    {
+      "InsuranceName": "Test1",
+      "Mnemonic": "HCS-1",
+      "Code": "code1",
+      "Address": "Code1",
+      "AlternativeAddress": "type1",
+      "City": "City 1",
+      "ZipCode": "23456789",
+      "Country": "India",
+      "Medical Necessity": "Med 2",
+      "State": "Andhra",
+      "Deny Panel": "Lab Testing",
+      "Default Lab": " Lab 1",
+      "Actions": "Edit"
+    },
+    {
+      "InsuranceName": "Test1",
+      "Mnemonic": "HCS-1",
+      "Code": "code1",
+      "Address": "Code1",
+      "AlternativeAddress": "type1",
+      "City": "City 1",
+      "ZipCode": "23456789",
+      "Country": "India",
+      "Medical Necessity": "Med 2",
+      "State": "Andhra",
+      "Deny Panel": "Lab Testing",
+      "Default Lab": " Lab 1",
+      "Actions": "Edit"
+    },
+    {
+      "InsuranceName": "Test1",
+      "Mnemonic": "HCS-1",
+      "Code": "code1",
+      "Address": "Code1",
+      "AlternativeAddress": "type1",
+      "City": "City 1",
+      "ZipCode": "23456789",
+      "Country": "India",
+      "Medical Necessity": "Med 2",
+      "State": "Andhra",
+      "Deny Panel": "Lab Testing",
+      "Default Lab": " Lab 1",
+      "Actions": "Edit"
+    },
+    {
+      "InsuranceName": "Test1",
+      "Mnemonic": "HCS-1",
+      "Code": "code1",
+      "Address": "Code1",
+      "AlternativeAddress": "type1",
+      "City": "City 1",
+      "ZipCode": "23456789",
+      "Country": "India",
+      "Medical Necessity": "Med 2",
+      "State": "Andhra",
+      "Deny Panel": "Lab Testing",
+      "Default Lab": " Lab 1",
+      "Actions": "Edit"
+    },
+    {
+      "InsuranceName": "Test1",
+      "Mnemonic": "HCS-1",
+      "Code": "code1",
+      "Address": "Code1",
+      "AlternativeAddress": "type1",
+      "City": "City 1",
+      "ZipCode": "23456789",
+      "Country": "India",
+      "Medical Necessity": "Med 2",
+      "State": "Andhra",
+      "Deny Panel": "Lab Testing",
+      "Default Lab": " Lab 1",
+      "Actions": "Edit"
+    },
+    {
+      "InsuranceName": "Test1",
+      "Mnemonic": "HCS-1",
+      "Code": "code1",
+      "Address": "Code1",
+      "AlternativeAddress": "type1",
+      "City": "City 1",
+      "ZipCode": "23456789",
+      "Country": "India",
+      "Medical Necessity": "Med 2",
+      "State": "Andhra",
+      "Deny Panel": "Lab Testing",
+      "Default Lab": " Lab 1",
+      "Actions": "Edit"
+    },
+    {
+      "InsuranceName": "Test1",
+      "Mnemonic": "HCS-1",
+      "Code": "code1",
+      "Address": "Code1",
+      "AlternativeAddress": "type1",
+      "City": "City 1",
+      "ZipCode": "23456789",
+      "Country": "India",
+      "Medical Necessity": "Med 2",
+      "State": "Andhra",
+      "Deny Panel": "Lab Testing",
+      "Default Lab": " Lab 1",
+      "Actions": "Edit"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+.order_config_selection_checkbox {
+  max-width: 482px;
+
+  .autoCompleteTest {
+    .MuiAutocomplete-inputRoot {
+      height: auto;
+      min-height: 48px;
+
+      .MuiInputBase-root {
+        max-height: 48px;
+      }
+
+      .MuiChip-filled {
+        border: 1px solid $text-4;
+        border-radius: 4px;
+        background-color: unset;
+        margin: 2px;
+      }
+    }
+  }
+}
+
+.common_checkbox_selection {
+  .permissions--tag {
+    width: 100%;
+    max-width: 36vw;
+
+    .MuiFormControl-root {
+      .MuiInputBase-root {
+        padding-top: 2px;
+        padding-bottom: 3px;
+        padding-left: 5px;
+        padding-right: 58px !important;
+        min-height: 38px;
+        .MuiAutocomplete-input {
+          padding: 0 !important;
+        }
+      }
+    }
+
+    .MuiChip-root {
+      height: 30px;
+
+      .MuiSvgIcon-root {
+        opacity: 0;
+      }
+
+      background-image: url("@assets/images/svg/crossbtn.svg");
+      background-repeat: no-repeat;
+      background-position: 98% center;
+      background-size: 16px;
+      border-radius: 4px;
+      background-color: transparent;
+      border: 1px solid $text-op;
+    }
+  }
+}
+.createBroadcastModal {
+  .MuiMenu-paper {
+    @include primary-overflow-scroll;
+  }
+}
+.tenantList {
+  &__dropdown {
+    position: absolute !important;
+    width: 200px;
+    right: 0px;
+  }
+}

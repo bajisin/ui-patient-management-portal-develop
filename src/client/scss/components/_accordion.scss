@@ -1,0 +1,94 @@
+.accordion {
+  &__wrapper {
+    width: 100%;
+    margin-top: 8px;
+    .MuiAccordion-root {
+      box-shadow: none;
+      border-bottom-color: $text-op;
+      margin: 0 !important;
+      .MuiAccordionSummary-root {
+        padding: 0 !important;
+        min-height: auto;
+        .MuiAccordionSummary-content {
+          .MuiTypography-root {
+            @include basic-font($fs-12, $fw-bold, $primary);
+          }
+          margin-bottom: 12px;
+        }
+        &.Mui-expanded {
+          min-height: auto;
+        }
+      }
+      .MuiAccordionDetails-root {
+        &.basic__drawer--header {
+          padding: 0;
+        }
+      }
+    }
+    .test-performed {
+      padding: 8px 16px;
+      background-color: $table-header-odd;
+      margin-bottom: 16px;
+      h4{
+        font-weight: bold !important;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+.parent {
+  &--accordion {
+    > .MuiAccordion-root {
+      box-shadow: 0px 2px 10px 0px $dark-op-10;
+    }
+    .MuiAccordion-root {
+      padding: 16px;
+      .MuiAccordionSummary-root {
+        min-height: auto;
+        .MuiAccordionSummary-content {
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+.stepper {
+  &__accordion {
+    background-color: $light-bg !important;
+    border-radius: 4px !important;
+    border: 0 !important;
+    box-shadow: unset !important;
+    .MuiAccordionSummary-root {
+      .MuiAccordionSummary-content {
+        .MuiTypography-root {
+          @include basic-font($fs-16, $fw-bold, $secondary);
+          &.defaultText {
+            @include basic-font($fs-12, $fw-light, $secondary);
+          }
+        }
+      }
+    }
+    &--testDetails {
+      &::before {
+        content: unset !important;
+      }
+    }
+  }
+}
+.createOrder {
+  &__wrapper {
+    .stepper {
+      &__accordion {
+        .MuiAccordionSummary-root {
+          min-height: 54px;
+          .MuiAccordionSummary-content {
+            margin: 6px 0;
+            align-items: center;
+            justify-content: space-between;
+          }
+        }
+      }
+    }
+  }
+}
